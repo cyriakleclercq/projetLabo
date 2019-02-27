@@ -1,0 +1,43 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background: beige;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    padding-top: 2%;
+}
+
+#partie1 {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: darkgreen;
+}
+
+input {
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+}
+
+#partie2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#welcome {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
