@@ -11,16 +11,29 @@ h1 {
     padding-top: 2%;
 }
 
-#partie1 {
+#start {
+    margin-top: 150px;
+    height: 200px;
+
+}
+
+#quest {
+    margin-top: 150px;
+    height: 650px;
+    color: ghostwhite;
+
+}
+
+.macro {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 150px;
-    height: 200px;
+    margin-top: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
     background: darkgreen;
 }
 
@@ -29,15 +42,32 @@ input {
     padding: 5px 5px 5px 5px;
 }
 
-#partie2 {
+#map {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+    }
 
 #welcome {
     margin-top: 50px;
     padding-bottom: 50px;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+#corps {
+    background-image: url("../image/test_map.png");
+    height: 704px;
+    width: 1024px;
+}
+
+#icone0 {
+    position: relative;
+    left: 400px;
+    width: 50px;
+    height: 50px;
+    background-image: url("../image/icone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }

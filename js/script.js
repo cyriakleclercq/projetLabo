@@ -1,11 +1,23 @@
 
-$('#partie2').hide();
+$('#start').hide();
+$('#quest').hide();
 
-$('#btStart').click(function () {
+$('#btStart').click(function ()
+{
 
-        $('#partie2').show();
-        $('#partie1').hide();
+        $('#quest').show();
+        $('#start').hide();
 
 });
+
+for ($i=0; $i<=4; $i++)
+{
+
+        $("#quest"+[$i]).click(function ()
+        {
+                $('#quest').hide();
+                $('#map').show();
+        })
+}
 
 
