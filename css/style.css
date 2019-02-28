@@ -66,32 +66,47 @@ input {
 .icone {
     position: relative;
     width: 50px;
-    height: 50px;
-    background-size: contain;
+    height: 60px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../image/icone.png");
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count : infinite;
+
+}
+
+@keyframes rotation {
+    from {
+        transform-origin: 50%;
+        transform: rotateY(0deg);
+    }
+    to {
+        transform-origin: 50%;
+        transform: rotateY(360deg);
+    }
 }
 
 #icone0 {
-    left: 540px;
+    left: 530px;
 }
 
 #icone1 {
-    left: 180px;
-    top: 110px;
+    left: 175px;
+    top: 90px;
 }
 
 #icone2 {
-    left: 522px;
-    top: 210px;
+    left: 514px;
+    top: 180px;
 }
 
 #icone3 {
-    left: 655px;
-    top: 235px;
+    left: 650px;
+    top: 200px;
 }
 
 #icone4 {
-    left: 48px;
-    top: 165px;
+    left: 41px;
+    top: 120px;
 }
