@@ -36,11 +36,11 @@
 
 #bann4{
     position: relative;
-    top: -260px;
-    left: 470px;
+    top: -340px;
+    left: 107px;
     width: 500px;
     height: 80px;
-    background-image: url("../image/");
+    background-image: url("../image/banniere Eco-musée.png");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -48,11 +48,11 @@
 
 #bann5{
     position: relative;
-    top: -260px;
-    left: 470px;
+    top: -215px;
+    left:-20px;
     width: 500px;
     height: 80px;
-    background-image: url("../image/");
+    background-image: url("../image/banniere maison de l'europe.png");
     background-size: contain;
     background-repeat: no-repeat;
 
