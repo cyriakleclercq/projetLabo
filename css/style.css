@@ -65,9 +65,9 @@ input {
 
 .icone {
     position: relative;
-    width: 50px;
-    height: 60px;
-    background-size: cover;
+    width: 30px;
+    height: 50px;
+    background-size: contain;
     background-repeat: no-repeat;
     background-image: url("../image/icone.png");
     animation-name: rotation;
@@ -88,16 +88,17 @@ input {
 }
 
 #icone0 {
-    left: 530px;
+    left: 56.5%;
+    top: 13%;
 }
 
 #icone1 {
-    left: 175px;
-    top: 90px;
+    left: 19.5%;
+    top: 24%;
 }
 
 #icone2 {
-    left: 514px;
+    left: 55.5%;
     top: 180px;
 }
 
