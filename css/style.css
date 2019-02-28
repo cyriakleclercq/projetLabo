@@ -77,17 +77,21 @@ input {
 }
 
 #icone1 {
-    left: 200px;
+    left: 180px;
+    top: 110px;
 }
 
 #icone2 {
-    left: 400px;
+    left: 522px;
+    top: 210px;
 }
 
 #icone3 {
-    left: 400px;
+    left: 655px;
+    top: 235px;
 }
 
 #icone4 {
-    left: 400px;
+    left: 48px;
+    top: 165px;
 }
