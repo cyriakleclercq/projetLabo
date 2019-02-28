@@ -60,6 +60,7 @@ input {
     height: 704px;
     width: 1024px;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #icone0 {
