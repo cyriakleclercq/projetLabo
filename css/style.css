@@ -111,3 +111,33 @@ input {
     left: 5.5%;
     top: 32%;
 }
+
+#quest0:hover{
+    background-color: ghostwhite;
+    color : darkgreen;
+    cursor: pointer;
+}
+
+#quest1:hover{
+    background-color: ghostwhite;
+    color : darkgreen;
+    cursor: pointer;
+}
+
+#quest2:hover{
+    background-color: ghostwhite;
+    color : darkgreen;
+    cursor: pointer;
+}
+
+#quest3:hover{
+    background-color: ghostwhite;
+    color : darkgreen;
+    cursor: pointer;
+}
+
+#quest4:hover{
+    background-color: ghostwhite;
+    color : darkgreen;
+    cursor: pointer;
+}
