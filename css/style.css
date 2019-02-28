@@ -63,13 +63,31 @@ input {
     background-size: contain;
 }
 
-#icone0 {
+.icone {
     position: relative;
-    left: 400px;
     width: 50px;
     height: 50px;
-    background-image: url("../image/icone.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-image: url("../image/icone.png");
+}
 
+#icone0 {
+    left: 540px;
+}
+
+#icone1 {
+    left: 200px;
+}
+
+#icone2 {
+    left: 400px;
+}
+
+#icone3 {
+    left: 400px;
+}
+
+#icone4 {
+    left: 400px;
 }
