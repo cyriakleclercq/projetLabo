@@ -1,0 +1,11 @@
+#bann1 {
+    position: relative;
+    top: -260px;
+    left: 470px;
+    width: 500px;
+    height: 80px;
+    background-image: url("../image/banniere mairie.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
