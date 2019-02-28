@@ -59,6 +59,7 @@ input {
     background-image: url("../image/test_map.png");
     height: 704px;
     width: 1024px;
+    background-repeat: no-repeat;
 }
 
 #icone0 {
