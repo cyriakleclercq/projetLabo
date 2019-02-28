@@ -1,10 +1,58 @@
 #bann1 {
     position: relative;
+    top: -240px;
+    left: 475px;
+    width: 500px;
+    height: 80px;
+    background-image: url("../image/banniere mairie.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#bann2{
+    position: relative;
+    top: -30px;
+    left: 453px;
+    width: 500px;
+    height: 80px;
+    background-image: url("../image/banniere labo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#bann3{
+    position: relative;
+    top: -33px;
+    left: 585px;
+    width: 500px;
+    height: 80px;
+    background-image: url("../image/banniere médiatheque.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#bann4{
+    position: relative;
     top: -260px;
     left: 470px;
     width: 500px;
     height: 80px;
-    background-image: url("../image/banniere mairie.png");
+    background-image: url("../image/");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#bann5{
+    position: relative;
+    top: -260px;
+    left: 470px;
+    width: 500px;
+    height: 80px;
+    background-image: url("../image/");
     background-size: contain;
     background-repeat: no-repeat;
 
