@@ -57,3 +57,198 @@
     background-repeat: no-repeat;
 
 }
+
+#global{
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url("../image/Interieur-de-la-Mairie-d-Avignon-p.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 704px;
+}
+
+#avatar1 {
+    position: relative;
+    background-image: url("../image/Avatar_girl_face.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    top: 402px;
+    animation-duration: 3s;
+    animation-name: moveavat;
+    animation-fill-mode: both;
+}
+
+@keyframes moveavat {
+    from {
+        margin-left: 0%;
+
+    }
+
+    to {
+        margin-left: 70%;
+
+
+    }
+}
+
+#dial1{
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 500px;
+    height: 100px;
+    top: 402px;
+    animation-duration: 4s;
+    animation-name: dialogue1;
+    animation-fill-mode: both;
+
+
+}
+
+@keyframes dialogue1 {
+    from {
+        margin-left: 0%;
+
+    }
+
+    to {
+        margin-left: 20%;
+
+
+    }
+}
+
+#dial1 blockquote {
+    position: absolute;
+    opacity: 0;
+    animation: textdefile 24s ease-in 0s infinite;
+    overflow: hidden;
+
+
+}
+
+
+#dial1 blockquote:nth-child(2) {
+    animation-delay: 6s;
+}
+
+#dial1 blockquote:nth-child(3) {
+    animation-delay: 12s;
+}
+
+#dial1 blockquote:nth-child(4) {
+    animation-delay: 18s;
+
+}
+
+@keyframes textdefile {
+    0%   { opacity: 0; }
+    4%   { opacity: 1; }
+    21%  { opacity: 1; }
+    25%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+#global2{
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url("../image/ecoMusée.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 704px;
+}
+
+#avatar2 {
+    position: relative;
+    background-image: url("../image/Avatar_girl_face.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    top: 402px;
+    animation-duration: 3s;
+    animation-name: moveavat2;
+    animation-fill-mode: both;
+}
+
+@keyframes moveavat2 {
+    from {
+        margin-left: 0%;
+
+    }
+
+    to {
+        margin-left: 70%;
+
+
+    }
+}
+
+#dial2{
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 500px;
+    height: 100px;
+    top: 402px;
+    animation-duration: 4s;
+    animation-name: dialogue2;
+    animation-fill-mode: both;
+
+
+}
+
+@keyframes dialogue2 {
+    from {
+        margin-left: 0%;
+
+    }
+
+    to {
+        margin-left: 20%;
+
+
+    }
+}
+
+#dial2 blockquote {
+    position: absolute;
+    opacity: 0;
+    animation: textdefile2 24s ease-in 0s infinite;
+    overflow: hidden;
+
+
+}
+
+
+#dial2 blockquote:nth-child(2) {
+    animation-delay: 6s;
+}
+
+#dial2 blockquote:nth-child(3) {
+    animation-delay: 12s;
+}
+
+#dial2 blockquote:nth-child(4) {
+    animation-delay: 18s;
+
+}
+
+@keyframes textdefile2 {
+    0%   { opacity: 0; }
+    4%   { opacity: 1; }
+    21%  { opacity: 1; }
+    25%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+

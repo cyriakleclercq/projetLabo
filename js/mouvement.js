@@ -1,4 +1,4 @@
-var perso = document.querySelector('"perso');
+var perso = document.querySelector('perso');
 var posInitial = {x:0, y:0};
 var pos = posInitial;
 var posFinal = {x:200, y:100};
