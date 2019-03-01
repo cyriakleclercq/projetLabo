@@ -142,3 +142,9 @@ input {
     color : darkgreen;
     cursor: pointer;
 }
+
+#cadre0 {
+    border: solid;
+    left: 10%;
+    width: 10%;
+}

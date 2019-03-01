@@ -1,7 +1,7 @@
 
-//$('#start').hide();
+$('#start').hide();
 $('#quest').hide();
-$('.map').hide();
+//$('.map').hide();
 
 $('#btStart').click(function ()
 {
