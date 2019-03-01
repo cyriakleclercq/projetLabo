@@ -7,11 +7,23 @@ function ajaxRequest()
 
         if (this.readyState == 4 && this.status == 200) {
 
+            console.log(this.responseText);
             var objQuete = this.responseText;
 
         }
 
-        var quetes = JSON.parse(objQuete);
+        let quetes = JSON.parse(objQuete);
 
-    }
+
+        document.getElementById('').innerHTML = quetes;
+
+
+    };
+
+
 }
+
+document.getElementById('btn').addEventListener("click", ajaxRequest);
+
+
+

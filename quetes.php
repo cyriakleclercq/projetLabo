@@ -85,6 +85,21 @@ while($row = $connexion-> fetch_assoc()) {
 
      . $row['id_titre'] . '</td><td>' . $row['titre'] . '</td>' ;
 }
+
+$arr = array();
+$result = $con->query($R_sql);
+
+
+while($data = $result->fetch_assoc())
+{
+
+    $arr[] = $data;
+
+}
+
+echo json_encode($arr);
+
+
 ?>
 
 </table>
