@@ -89,13 +89,15 @@ input {
 }
 
 #perso {
-    position: relative;
+    position: absolute;
     background-image: url("../image/chevalier.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 70px;
     height: 70px;
     z-index: 2;
+    left: 47em;
+    top: 22em;
 }
 
 @keyframes rotation {
