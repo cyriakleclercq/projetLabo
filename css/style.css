@@ -74,7 +74,23 @@ input {
     animation-name: rotation;
     animation-duration: 2s;
     animation-iteration-count : infinite;
+    z-index: auto;
 
+}
+
+.banniere {
+    position: relative;
+    z-index: 1;
+}
+
+.cadre {
+    position: relative;
+    z-index: 1;
+}
+
+#perso {
+    position: relative;
+    z-index: 2;
 }
 
 @keyframes rotation {
@@ -147,4 +163,5 @@ input {
     border: solid;
     left: 10%;
     width: 10%;
+    height: 10%;
 }
