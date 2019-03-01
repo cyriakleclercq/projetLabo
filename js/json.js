@@ -1,3 +1,6 @@
+var RequestURL = "../quetes.php" ;
+
+
 function ajaxRequest()
 {
 
@@ -7,23 +10,19 @@ function ajaxRequest()
 
         if (this.readyState == 4 && this.status == 200) {
 
-            console.log(this.responseText);
             var objQuete = this.responseText;
 
         }
 
         let quetes = JSON.parse(objQuete);
-
-
-        document.getElementById('').innerHTML = quetes;
+        console.log(quetes);
 
 
     };
 
+    xhttp.open('GET', RequestURL) ;
 
+    xhttp.responseType = 'json';
+    xhttp.send();
 }
-
-document.getElementById('btn').addEventListener("click", ajaxRequest);
-
-
 

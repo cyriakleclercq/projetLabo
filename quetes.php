@@ -100,6 +100,8 @@ while($data = $result->fetch_assoc())
 echo json_encode($arr);
 
 
+
+
 ?>
 
 </table>
