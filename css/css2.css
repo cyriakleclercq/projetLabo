@@ -252,3 +252,304 @@
     100% { opacity: 0; }
 }
 
+#global3{
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url("../image/mediatheque fourmies.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 704px;
+}
+
+#avatar3 {
+    position: relative;
+    background-image: url("../image/Avatar_girl_face.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    top: 402px;
+    animation-duration: 3s;
+    animation-name: moveavat3;
+    animation-fill-mode: both;
+}
+
+@keyframes moveavat3 {
+    from {
+        margin-left: 0%;
+
+    }
+
+    to {
+        margin-left: 70%;
+
+
+    }
+}
+
+#dial3{
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 500px;
+    height: 100px;
+    top: 402px;
+    animation-duration: 4s;
+    animation-name: dialogue3;
+    animation-fill-mode: both;
+
+
+}
+
+@keyframes dialogue3 {
+    from {
+        margin-left: 0%;
+
+    }
+
+    to {
+        margin-left: 20%;
+
+
+    }
+}
+
+#dial3 blockquote {
+    position: absolute;
+    opacity: 0;
+    animation: textdefile3 24s ease-in 0s infinite;
+    overflow: hidden;
+
+
+}
+
+
+#dial3 blockquote:nth-child(2) {
+    animation-delay: 6s;
+}
+
+#dial3 blockquote:nth-child(3) {
+    animation-delay: 12s;
+}
+
+#dial3 blockquote:nth-child(4) {
+    animation-delay: 18s;
+
+}
+
+@keyframes textdefile3 {
+    0%   { opacity: 0; }
+    4%   { opacity: 1; }
+    21%  { opacity: 1; }
+    25%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+#global4{
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url("../image/mediatheque fourmies.JPG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 704px;
+}
+
+#avatar4 {
+    position: relative;
+    background-image: url("../image/Avatar_girl_face.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    top: 402px;
+    animation-duration: 3s;
+    animation-name: moveavat4;
+    animation-fill-mode: both;
+}
+
+@keyframes moveavat4 {
+    from {
+        margin-left: 0%;
+
+    }
+
+    to {
+        margin-left: 70%;
+
+
+    }
+}
+
+#dial4{
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 500px;
+    height: 100px;
+    top: 402px;
+    animation-duration: 4s;
+    animation-name: dialogue4;
+    animation-fill-mode: both;
+
+
+}
+
+@keyframes dialogue4 {
+    from {
+        margin-left: 0%;
+
+    }
+
+    to {
+        margin-left: 20%;
+
+
+    }
+}
+
+#dial4 blockquote {
+    position: absolute;
+    opacity: 0;
+    animation: textdefile4 24s ease-in 0s infinite;
+    overflow: hidden;
+
+
+}
+
+
+#dial4 blockquote:nth-child(2) {
+    animation-delay: 6s;
+}
+
+#dial4 blockquote:nth-child(3) {
+    animation-delay: 12s;
+}
+
+#dial4 blockquote:nth-child(4) {
+    animation-delay: 18s;
+
+}
+
+@keyframes textdefile4 {
+    0%   { opacity: 0; }
+    4%   { opacity: 1; }
+    21%  { opacity: 1; }
+    25%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+#global5{
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url("../image/labo_fr3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 704px;
+}
+
+#avatar5 {
+    position: relative;
+    background-image: url("../image/Avatar_girl_face.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    top: 402px;
+    animation-duration: 3s;
+    animation-name: moveavat5;
+    animation-fill-mode: both;
+}
+
+@keyframes moveavat5 {
+    from {
+        margin-left: 0%;
+
+    }
+
+    to {
+        margin-left: 70%;
+
+
+    }
+}
+
+#dial5{
+    background-color: black;
+    color: white;
+    position: relative;
+    width: 500px;
+    height: 100px;
+    top: 402px;
+    animation-duration: 4s;
+    animation-name: dialogue5;
+    animation-fill-mode: both;
+
+
+}
+
+@keyframes dialogue5 {
+    from {
+        margin-left: 0%;
+
+    }
+
+    to {
+        margin-left: 20%;
+
+
+    }
+}
+
+#dial5 blockquote {
+    position: absolute;
+    opacity: 0;
+    animation: textdefile5 24s ease-in 0s infinite;
+    overflow: hidden;
+
+
+}
+
+
+#dial5 blockquote:nth-child(2) {
+    animation-delay: 6s;
+}
+
+#dial5 blockquote:nth-child(3) {
+    animation-delay: 12s;
+}
+
+#dial5 blockquote:nth-child(4) {
+    animation-delay: 18s;
+
+}
+
+@keyframes textdefile5 {
+    0%   { opacity: 0; }
+    4%   { opacity: 1; }
+    21%  { opacity: 1; }
+    25%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
