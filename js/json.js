@@ -36,9 +36,9 @@ function ajaxRequest()
             $glo_quetes.appendChild($ul);
 
 
-            $desc_quetes0 = document.createElement('li');
-            $ul.appendChild($desc_quetes0);
-            $desc_quetes0.innerHTML = quetes[$i].descriptif;
+            $desc_quete = document.createElement('li');
+            $ul.appendChild($desc_quete);
+            $desc_quete.innerHTML = quetes[$i].descriptif;
 
         }
 

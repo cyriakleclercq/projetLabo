@@ -1,5 +1,5 @@
 var RequestURL = "../quetes.php" ;
-$quest = document.getElementById('quest');
+
 
 function ajaxRequest()
 {
@@ -17,119 +17,39 @@ function ajaxRequest()
         let quetes = JSON.parse(objQuete);
         console.log(quetes);
 
-        if (i == 1){
+     for(let $i = 0; $i <= 4 ; $i++) {
 
-            $glo_quetes = document.createElement('div');
-            $quest.appendChild($glo_quetes);
-            $glo_quetes.className = 'glo_quetes';
+         //while ($i<=4) {
 
 
-            $titre = document.createElement('h2');
-            $glo_quetes.appendChild($titre);
-            $titre.id = $i[1] ;
-            $titre.innerHTML = quetes[$i[1]].titre;
+         $resume = document.getElementById('resume' + $i);
 
-
-            $ul = document.createElement('ul');
-            $glo_quetes.appendChild($ul);
-
-            $desc_quetes0 = document.createElement('li');
-            $ul.appendChild($desc_quetes0);
-            $desc_quetes0.innerHTML = quetes[$i[1]].descriptif;
-
-        }
-
-        if (i == 2){
-
-            $glo_quetes = document.createElement('div');
-            $quest.appendChild($glo_quetes);
-            $glo_quetes.className = 'glo_quetes';
-
-
-            $titre = document.createElement('h2');
-            $glo_quetes.appendChild($titre);
-            $titre.id = $i[2] ;
-            $titre.innerHTML = quetes[$i[2]].titre;
-
-
-            $ul = document.createElement('ul');
-            $glo_quetes.appendChild($ul);
-
-            $desc_quetes0 = document.createElement('li');
-            $ul.appendChild($desc_quetes0);
-            $desc_quetes0.innerHTML = quetes[$i[2]].descriptif;
-
-        }
-
-        if (i == 3){
-
-            $glo_quetes = document.createElement('div');
-            $quest.appendChild($glo_quetes);
-            $glo_quetes.className = 'glo_quetes';
-
-
-            $titre = document.createElement('h2');
-            $glo_quetes.appendChild($titre);
-            $titre.id = $i[3] ;
-            $titre.innerHTML = quetes[$i[3]].titre;
-
-
-            $ul = document.createElement('ul');
-            $glo_quetes.appendChild($ul);
-
-            $desc_quetes0 = document.createElement('li');
-            $ul.appendChild($desc_quetes0);
-            $desc_quetes0.innerHTML = quetes[$i[3]].descriptif;
-
-        }
-
-        if (i == 4){
-
-            $glo_quetes = document.createElement('div');
-            $quest.appendChild($glo_quetes);
-            $glo_quetes.className = 'glo_quetes';
-
-
-            $titre = document.createElement('h2');
-            $glo_quetes.appendChild($titre);
-            $titre.id = $i[4] ;
-            $titre.innerHTML = quetes[$i[4]].titre;
-
-
-            $ul = document.createElement('ul');
-            $glo_quetes.appendChild($ul);
-
-            $desc_quetes0 = document.createElement('li');
-            $ul.appendChild($desc_quetes0);
-            $desc_quetes0.innerHTML = quetes[$i[4]].descriptif;
-
-        }
-
-        if (i == 5){
-
-            $glo_quetes = document.createElement('div');
-            $quest.appendChild($glo_quetes);
-            $glo_quetes.className = 'glo_quetes';
-
-
-            $titre = document.createElement('h2');
-            $glo_quetes.appendChild($titre);
-            $titre.id = $i[5] ;
-            $titre.innerHTML = quetes[$i[5]].titre;
-
-
-            $ul = document.createElement('ul');
-            $glo_quetes.appendChild($ul);
-
-            $desc_quetes0 = document.createElement('li');
-            $ul.appendChild($desc_quetes0);
-            $desc_quetes0.innerHTML = quetes[$i[5]].descriptif;
-
-        }
+         $titre_map = document.createElement('h2');
+         $resume.appendChild($titre_map);
+         $titre_map.innerHTML = quetes[$i].titre ;
 
 
 
 
+
+         $list = document.createElement('ul');
+         $titre_map.appendChild($list);
+
+
+         $titre_quete = document.createElement('li');
+         $list.appendChild($titre_quete);
+         $titre_quete.id = 'test';
+         $titre_quete.innerHTML = quetes[$i].nom;
+
+
+
+         $desc_quetes = document.createElement('p');
+         $titre_quete.appendChild($desc_quetes);
+         $desc_quetes.innerHTML = quetes[$i].descriptif ;
+
+         }
+
+        random();
     };
         xhttp.open('GET', RequestURL) ;
 
