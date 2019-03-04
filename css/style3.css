@@ -11,23 +11,23 @@
 }
 
 #cadre1 {
-    left: 30%;
-    top: 45%;
+    left: 49.3%;
+    top: 77.5%;
 }
 
 #cadre2 {
-    left: 51.5%;
-    top: 65%;
+    left: 59.5%;
+    top: 90%;
 }
 
 #cadre3 {
-    left: 60%;
-    top: 75%;
+    left: 23%;
+    top: 54%;
 }
 
 #cadre4 {
-    left: 21.5%;
-    top: 73%;
+    left: 12.5%;
+    top: 87%;
 }
 
 .icone {
@@ -46,27 +46,27 @@
 
 #icone0 {
     left: 65%;
-    top: 13%;
+    top: 90px;
 }
 
 #icone1 {
-    left: 19.5%;
-    top: 24%;
+    left: 64%;
+    top: 380px;
 }
 
 #icone2 {
-    left: 55.5%;
-    top: 38%;
+    left: 80%;
+    top: 410px;
 }
 
 #icone3 {
-    left: 69.5%;
-    top: 42%;
+    left: 23%;
+    top: 100px;
 }
 
 #icone4 {
-    left: 5.5%;
-    top: 32%;
+    left: 6.5%;
+    top: 300px;
 }
 
 .banniere {
@@ -79,36 +79,36 @@
 }
 
 #bann0 {
-    top: -240px;
-    left: 475px;
+    top: -220px;
+    left: 580px;
     background-image: url("../image/banniere mairie.png");
 
 }
 
 #bann1{
-    top: -30px;
-    left: 453px;
+    top: 35px;
+    left: 575px;
     background-image: url("../image/banniere labo.png");
 
 }
 
 #bann2{
-    top: -33px;
-    left: 585px;
+    top: 50px;
+    left: 735px;
     background-image: url("../image/banniere médiatheque.png");
 
 }
 
 #bann3{
-    top: -340px;
-    left: 107px;
+    top: -300px;
+    left: 155px;
     background-image: url("../image/banniere Eco-musée.png");
 
 }
 
 #bann4{
-    top: -215px;
-    left:-20px;
+    top: -130px;
+    left:-4px;
     background-image: url("../image/banniere maison de l'europe.png");
 
 }
