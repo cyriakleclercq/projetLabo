@@ -1,38 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Quetes</title>
-    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"></head>
-<style>
-    body {
-        font-family: 'Acme', sans-serif;
-    }
-     tr , td , th {
-        border : 3px solid black ;
-        text-align: center;
-        background-color:  darkgreen;
-        margin : 1px ;
-        height: 4em;
-        width: 99em
-    }
-
-     table {
-         background-color: darkgreen;
-     }
-
-    h1 {
-        text-align:  center;
-        border: 1px outset black;
-        background-color: white;
-    }
-
-
-</style>
-<body>
-<h1>Liste des quetes</h1>
-<table>
-
 <?php
 /**
  * Created by PhpStorm.
@@ -73,19 +38,6 @@ $R_sql = "SELECT *
 $connexion = $con -> query($R_sql) ;
 
 
-echo '<tr><th>Num:</th><th>Nom :</th><th>Descriptif :</th><th>id_titre</th><th>id_titre</th><th>titre:</th></tr>' ;
-
-while($row = $connexion-> fetch_assoc()) {
-
-
-  echo '<tr><td>' .
-
-      $row['id'] . '</td><td>' .$row['nom'] .'</td><td>' . $row['descriptif'] . '</td><td>'. $row['id_titre'] . '</td><td>'
-
-
-     . $row['id_titre'] . '</td><td>' . $row['titre'] . '</td>' ;
-}
-
 $arr = array();
 $result = $con->query($R_sql);
 
@@ -102,8 +54,4 @@ echo json_encode($arr);
 
 
 
-?>
 
-</table>
-</body>
-</html>
