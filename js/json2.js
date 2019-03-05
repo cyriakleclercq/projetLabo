@@ -19,35 +19,76 @@ function ajaxRequest()
 
      for(let $i = 0; $i <= 4 ; $i++) {
 
-         //while ($i<=4) {
+         $ ("#quest" + [$i]).click (function () {
+
+             if($i === 0) {
+
+                 resume0()
+             }
+
+             if($i === 1) {
+
+                 resume1();
+             }
+
+             })}
 
 
-         $resume = document.getElementById('resume' + $i);
-
-         $titre_map = document.createElement('h2');
-         $resume.appendChild($titre_map);
-         $titre_map.innerHTML = quetes[$i].titre ;
+        function resume0() {
 
 
+            $resume = document.getElementById ('resume0');
+            $titre_map = document.createElement ('h2');
+            $resume.appendChild ($titre_map);
+            $titre_map.innerHTML = quetes[0].titre;
+
+
+            $list = document.createElement ('ul');
+            $titre_map.appendChild ($list);
+
+
+            $titre_quete = document.createElement ('li');
+            $list.appendChild ($titre_quete);
+            $titre_quete.id = 'test';
+            $titre_quete.innerHTML = quetes[0].nom;
+
+
+            $desc_quetes = document.createElement ('p');
+            $titre_quete.appendChild ($desc_quetes);
+            $desc_quetes.innerHTML = quetes[0].descriptif;
+
+
+        }
 
 
 
-         $list = document.createElement('ul');
-         $titre_map.appendChild($list);
+            function resume1() {
+                $resume = document.getElementById ('resume1');
+
+                $titre_map = document.createElement ('h2');
+                $resume.appendChild ($titre_map);
+                $titre_map.innerHTML = quetes[1].titre;
 
 
-         $titre_quete = document.createElement('li');
-         $list.appendChild($titre_quete);
-         $titre_quete.id = 'test';
-         $titre_quete.innerHTML = quetes[$i].nom;
+                $list = document.createElement ('ul');
+                $titre_map.appendChild ($list);
+
+
+                $titre_quete = document.createElement ('li');
+                $list.appendChild ($titre_quete);
+                $titre_quete.id = 'test';
+                $titre_quete.innerHTML = quetes[1].nom;
+
+
+                $desc_quetes = document.createElement ('p');
+                $titre_quete.appendChild ($desc_quetes);
+                $desc_quetes.innerHTML = quetes[1].descriptif;
+
+
+            }
 
 
 
-         $desc_quetes = document.createElement('p');
-         $titre_quete.appendChild($desc_quetes);
-         $desc_quetes.innerHTML = quetes[$i].descriptif ;
-
-         }
 
         random();
     };
@@ -55,6 +96,6 @@ function ajaxRequest()
 
         xhttp.responseType = 'text';
         xhttp.send();
-    }
+};
 
     ajaxRequest();

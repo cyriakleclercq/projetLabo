@@ -23,10 +23,7 @@ function random () {
 
                                 document.location.href = '../html/quête_mairie.html';
                                 $ ('#super_glo').show ();
-                                $('#resume1').hide();
-                                $('#resume2').hide();
-                                $('#resume3').hide();
-                                $('#resume4').hide();
+
 
 
 
@@ -36,21 +33,12 @@ function random () {
                         if ($i == 1) {
                                 document.location.href = '../html/quête_labo.html';
                                 $ ('#super_glo').show ();
-                                $('#resume0').hide();
-                                $('#resume2').hide();
-                                $('#resume3').hide();
-                                $('#resume4').hide();
-
 
                         }
 
                         if ($i == 2) {
                                 document.location.href = '../html/quête_mediatheque.html';
                                 $ ('#super_glo').show ();
-                                $('#resume0').hide();
-                                $('#resume1').hide();
-                                $('#resume3').hide();
-                                $('#resume4').hide();
 
 
                         }
@@ -58,10 +46,6 @@ function random () {
                         if ($i == 3) {
                                 document.location.href = '../html/ecomusee_quete.html';
                                 $ ('#super_glo').show ();
-                                $('#resume0').hide();
-                                $('#resume1').hide();
-                                $('#resume2').hide();
-                                $('#resume4').hide();
 
 
                         }
@@ -69,10 +53,7 @@ function random () {
                         if ($i == 4) {
                                 document.location.href = '../html/maison-europe_quete.html';
                                 $ ('#super_glo').show ();
-                                $('#resume0').hide();
-                                $('#resume1').hide();
-                                $('#resume2').hide();
-                                $('#resume3').hide();
+
 
 
                         }
