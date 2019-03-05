@@ -1,14 +1,36 @@
-var perso = document.querySelector('perso');
-var posInitial = {x:0, y:0};
-var pos = posInitial;
-var posFinal = {x:200, y:100};
+window.addEventListener(onclick,false);
 
-var dx = (posFinal.x - posInitial.x) / (posFinal.y - posInitial.y);
-var dy = (posFinal.y - posInitial.y) / (posFinal.x - posInitial.x);
+function onclick() {
 
-var interval = setInterval(function(){
-    if(pos.x > posFinal.x || pos.y > posFinal.y)clearInterval(interval);
-    pos.x+=dx; pos.y+=dy;
-    perso.style.left = pos.x +'px';
-    perso.style.top = pos.y + 'px';
-}, 5);
+    var t = parseInt(document.getElementById('perso').style.top);
+    if (t < 620) {
+        t = t + 10;
+        document.getElementById('perso').style.top = t + 'px';
+    }
+
+    else if (t)
+    {
+        var t = parseInt(document.getElementById('perso').style.top);
+        if (t>5) {
+            t = t - 10;
+            document.getElementById('perso').style.top = t + 'px';
+        }
+    }
+
+    else if (t) {
+        var t = parseInt(document.getElementById('perso').style.left);
+        if (t > 0) {
+            t = t - 10;
+            document.getElementById('perso').style.left = t + 'px';
+        }
+
+        else if (t) {
+            var t = parseInt(document.getElementById('perso').style.left);
+            if (t < 872) {
+                t = t + 10;
+                document.getElementById('perso1').style.left = t + 'px';
+            }
+        }
+
+    }
+}
