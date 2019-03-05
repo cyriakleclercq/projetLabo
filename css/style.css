@@ -127,4 +127,13 @@ input {
 .resume {
     width: 20%;
     background: grey;
+    color: ghostwhite;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    font-size: 18px;
 }
