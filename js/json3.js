@@ -19,10 +19,10 @@ function ajaxRequest()
 
 
 
-        $resume = document.getElementById ('resume2');
+        $resume = document.getElementById ('resume3');
         $titre_map = document.createElement ('h2');
         $resume.appendChild ($titre_map);
-        $titre_map.innerHTML = quetes[2].titre;
+        $titre_map.innerHTML = quetes[3].titre;
 
 
         $list = document.createElement ('ul');
@@ -32,12 +32,12 @@ function ajaxRequest()
         $titre_quete = document.createElement ('li');
         $list.appendChild ($titre_quete);
         $titre_quete.id = 'test';
-        $titre_quete.innerHTML = quetes[2].nom;
+        $titre_quete.innerHTML = quetes[3].nom;
 
 
         $desc_quetes = document.createElement ('p');
         $titre_quete.appendChild ($desc_quetes);
-        $desc_quetes.innerHTML = quetes[2].descriptif;
+        $desc_quetes.innerHTML = quetes[3].descriptif;
 
 
 
