@@ -12,8 +12,6 @@ window.onload = function() {
             e = window.event;
         }
 
-        // sous IE e.srcElement définira l'élément cible alors que pour Firefox ce sera e.target
-        // Ces deux propriétés renvoient l'élément HTML pour lequel s'est produit l'événement.
 
         var sender = (typeof (window.event) != "undefined") ? e.srcElement : e.target;
 
