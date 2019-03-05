@@ -29,9 +29,8 @@ if($con -> connect_error) {
 }
 
 
-$R_sql = "SELECT * 
-          FROM `liste_quetes` , `titres_quetes`
-          WHERE liste_quetes.id_titre = titres_quetes.id_titre 
+$R_sql = "SELECT *
+          FROM `liste_quetes` , `titres_quetes` WHERE liste_quetes.id_titre = titres_quetes.id_titre 
            ";
 
 
