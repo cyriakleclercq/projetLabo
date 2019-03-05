@@ -25,9 +25,6 @@ function random () {
                                 $ ('#super_glo').show ();
 
 
-
-
-
                         }
 
                         if ($i == 1) {

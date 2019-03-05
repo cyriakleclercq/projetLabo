@@ -10,7 +10,7 @@
 $servername = 'localhost' ;
 $username = "root" ;
 $password = '';
-$dbname = "quetes";
+$dbname = "labo";
 
 
 // créer une nouvelle connexion :
