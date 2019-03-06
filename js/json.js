@@ -18,7 +18,7 @@ function ajaxRequest()
         console.log(quetes);
 
 
-        for(let $i = 0;$i < quetes.length; $i++)
+        for(let $i = 0;$i < 5; $i++)
         {
 
             $glo_quetes = document.createElement('div');
@@ -31,16 +31,8 @@ function ajaxRequest()
             $titre.id = 'quest'+ $i ;
             $titre.innerHTML = quetes[$i].titre;
 
-
-            $ul = document.createElement('ul');
-            $glo_quetes.appendChild($ul);
-
-
-            $desc_quete = document.createElement('li');
-            $ul.appendChild($desc_quete);
-            $desc_quete.innerHTML = quetes[$i].descriptif;
-
         }
+
 
         random();
 
