@@ -34,3 +34,44 @@ function onclick() {
 
     }
 }
+
+/*
+window.onload = function() {
+
+    batiment1 = document.getElementById("cadre0");
+    movMeId = document.getElementById("perso");
+    movMeId.style.top = "135px";
+    movMeId.style.left = "200px";
+
+    document.onclick = coordinates;
+
+
+    function coordinates(e) {
+        if (e == null) {
+            e = window.event;
+        }
+
+        var sender = (typeof (window.event) != "undefined") ? e.srcElement : e.target;
+
+        if (sender.id == "perso") {
+            pleft = parseInt(movMeId.style.left);
+            ptop = parseInt(movMeId.style.top);
+            xcoor = e.clientX;
+            ycoor = e.clientY;
+            document.onclick = moveImage;
+            return false;
+        }
+        return false;
+    }
+
+    function moveImage(e) {
+        if (e == null) {
+            e = window.event;
+        }
+        movMeId.style.left = pleft + batiment1;
+        movMeId.style.top = ptop + batiment1;
+        return false;
+    }
+
+};
+*/
