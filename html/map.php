@@ -21,6 +21,37 @@
 
             <div id="perso"> </div>
 
+            <div id="#checkM1"></div>
+            <div id="#checkM2"></div>
+
+            <div id="#checkME2"></div>
+            <div id="#checkME3"></div>
+            <div id="#checkME4"></div>
+            <div id="#checkME5"></div>
+            <div id="#checkME6"></div>
+            <div id="#checkME7"></div>
+
+            <div id="#checkL2"></div>
+            <div id="#checkL3"></div>
+            <div id="#checkL4"></div>
+            <div id="#checkL5"></div>
+            <div id="#checkL6"></div>
+            <div id="#checkL7"></div>
+
+            <div id="#checkMDE2"></div>
+            <div id="#checkMDE3"></div>
+            <div id="#checkMDE4"></div>
+            <div id="#checkMDE5"></div>
+            <div id="#checkMDE6"></div>
+            <div id="#checkMDE7"></div>
+            <div id="#checkMDE8"></div>
+            <div id="#checkMDE9"></div>
+
+            <div id="#checkEM2"></div>
+            <div id="#checkEM3"></div>
+            <div id="#checkEM4"></div>
+            <div id="#checkEM5"></div>
+
             <div class="cadre" id="cadre0"> </div>
             <div class="cadre" id="cadre1"> </div>
             <div class="cadre" id="cadre2"> </div>
