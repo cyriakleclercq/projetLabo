@@ -1,8 +1,8 @@
 window.onload = function() {
 
     movMeId = document.getElementById("perso");
-    movMeId.style.top = "80px";
-    movMeId.style.left = "80px";
+    movMeId.style.top = "135px";
+    movMeId.style.left = "200px";
 
     document.onmousedown = coordinates;
     document.onmouseup = mouseup;
@@ -11,7 +11,6 @@ window.onload = function() {
         if (e == null) {
             e = window.event;
         }
-
 
         var sender = (typeof (window.event) != "undefined") ? e.srcElement : e.target;
 
