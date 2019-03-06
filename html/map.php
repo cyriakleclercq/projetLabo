@@ -21,36 +21,36 @@
 
             <div id="perso"> </div>
 
-            <div class="check" id="#checkM1"></div>
-            <div class="check" id="#checkM2"></div>
+            <div class="check" id="checkM1"></div>
+            <div class="check" id="checkM2"></div>
 
-            <div class="check" id="#checkME2"></div>
-            <div class="check" id="#checkME3"></div>
-            <div class="check" id="#checkME4"></div>
-            <div class="check" id="#checkME5"></div>
-            <div class="check" id="#checkME6"></div>
-            <div class="check" id="#checkME7"></div>
+            <div class="check" id="checkME2"></div>
+            <div class="check" id="checkME3"></div>
+            <div class="check" id="checkME4"></div>
+            <div class="check" id="checkME5"></div>
+            <div class="check" id="checkME6"></div>
+            <div class="check" id="checkME7"></div>
 
-            <div class="check" id="#checkL2"></div>
-            <div class="check" id="#checkL3"></div>
-            <div class="check" id="#checkL4"></div>
-            <div class="check" id="#checkL5"></div>
-            <div class="check" id="#checkL6"></div>
-            <div class="check" id="#checkL7"></div>
+            <div class="check" id="checkL2"></div>
+            <div class="check" id="checkL3"></div>
+            <div class="check" id="checkL4"></div>
+            <div class="check" id="checkL5"></div>
+            <div class="check" id="checkL6"></div>
+            <div class="check" id="checkL7"></div>
 
-            <div class="check" id="#checkMDE2"></div>
-            <div class="check" id="#checkMDE3"></div>
-            <div class="check" id="#checkMDE4"></div>
-            <div class="check" id="#checkMDE5"></div>
-            <div class="check" id="#checkMDE6"></div>
-            <div class="check" id="#checkMDE7"></div>
-            <div class="check" id="#checkMDE8"></div>
-            <div class="check" id="#checkMDE9"></div>
+            <div class="check" id="checkMDE2"></div>
+            <div class="check" id="checkMDE3"></div>
+            <div class="check" id="checkMDE4"></div>
+            <div class="check" id="checkMDE5"></div>
+            <div class="check" id="checkMDE6"></div>
+            <div class="check" id="checkMDE7"></div>
+            <div class="check" id="checkMDE8"></div>
+            <div class="check" id="checkMDE9"></div>
 
-            <div class="check" id="#checkEM2"></div>
-            <div class="check" id="#checkEM3"></div>
-            <div class="check" id="#checkEM4"></div>
-            <div class="check" id="#checkEM5"></div>
+            <div class="check" id="checkEM2"></div>
+            <div class="check" id="checkEM3"></div>
+            <div class="check" id="checkEM4"></div>
+            <div class="check" id="checkEM5"></div>
 
             <div class="cadre" id="cadre0"> </div>
             <div class="cadre" id="cadre1"> </div>
