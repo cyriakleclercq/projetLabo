@@ -43,12 +43,13 @@
 
         <div class="resume" id="resume0"> </div>
 
-
+        <span id="id_bat" style="display:none"> <?= $_GET['id_bat'] ?>  </span>
 
 
     </div>
 </div>
 
+<script src="../js/script.js"></script>
 <script src="../js/json0.js"></script>
 <script src="../js/mouvement.js"></script>
 

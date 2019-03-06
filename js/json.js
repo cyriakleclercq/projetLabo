@@ -17,8 +17,9 @@ function ajaxRequest()
         let quetes = JSON.parse(objQuete);
         console.log(quetes);
 
+        $quest = document.getElementById('quest');
 
-        for(let $i = 0;$i < 5; $i++)
+        for(let $i = 0;$i < quetes.length; $i=$i+3)
         {
 
             $glo_quetes = document.createElement('div');
@@ -31,7 +32,33 @@ function ajaxRequest()
             $titre.id = 'quest'+ $i ;
             $titre.innerHTML = quetes[$i].titre;
 
+                $ul = document.createElement('ul');
+                $ul.id = 'ul'+$i;
+                $glo_quetes.appendChild($ul);
+
+                for(let $j= $i; $j< $i+3; $j++) {
+                    $li = document.createElement('li');
+                    $ul.appendChild($li);
+                    $li.innerHTML= quetes[$j].nom;
+                }
+
         }
+
+        /*
+        for (let $j = 0; $j <= 3; $j++) {
+
+            $li = document.createElement('li');
+            $li.id='li'+$j;
+            ($ul+$j).appendChild($li);
+        }
+
+        for (let $k=0; $k < quetes.length; $k=$k+3) {
+
+            for(let $l=0; $l<3; $l++) {
+                $li[0].innerHTML = quetes[$l].nom;
+            }
+        }
+*/
 
 
         random();

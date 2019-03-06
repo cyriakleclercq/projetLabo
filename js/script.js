@@ -13,45 +13,37 @@ $('#btStart').click(function ()
 function random () {
 
 
-        for (let $i = 0; $i <= 4; $i++) {
+        for (let $i = 0; $i < 15; $i=$i+3) {
 
 
                 $ ("#quest" + [$i]).click (function () {
 
+                        alert($i);
+
 
                         if ($i == 0) {
 
-                                document.location.href = '../html/quête_mairie.html';
-                                $ ('#super_glo').show ();
-
-
-                        }
-
-                        if ($i == 1) {
-                                document.location.href = '../html/quête_labo.html';
-                                $ ('#super_glo').show ();
-
-                        }
-
-                        if ($i == 2) {
-                                document.location.href = '../html/quête_mediatheque.html';
-                                $ ('#super_glo').show ();
-
+                                document.location.href = '../html/map.php?id_bat=1';
 
                         }
 
                         if ($i == 3) {
-                                document.location.href = '../html/ecomusee_quete.html';
-                                $ ('#super_glo').show ();
-
+                                document.location.href = '../html/map.php?id_bat=2';
 
                         }
 
-                        if ($i == 4) {
-                                document.location.href = '../html/maison-europe_quete.html';
-                                $ ('#super_glo').show ();
+                        if ($i == 6) {
+                                document.location.href = '../html/map.php?id_bat=3';
 
+                        }
 
+                        if ($i == 9) {
+                                document.location.href = '../html/map.php?id_bat=4';
+
+                        }
+
+                        if ($i == 12) {
+                                document.location.href = '../html/map.php?id_bat=5';
 
                         }
                 })

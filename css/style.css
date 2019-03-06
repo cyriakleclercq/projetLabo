@@ -19,7 +19,7 @@ h1 {
 
 #quest {
     margin-top: 150px;
-    height: 650px;
+    height: 800px;
     color: ghostwhite;
 
 }
@@ -87,25 +87,25 @@ input {
     cursor: pointer;
 }
 
-#quest1:hover{
-    background-color: ghostwhite;
-    color : darkgreen;
-    cursor: pointer;
-}
-
-#quest2:hover{
-    background-color: ghostwhite;
-    color : darkgreen;
-    cursor: pointer;
-}
-
 #quest3:hover{
     background-color: ghostwhite;
     color : darkgreen;
     cursor: pointer;
 }
 
-#quest4:hover{
+#quest6:hover{
+    background-color: ghostwhite;
+    color : darkgreen;
+    cursor: pointer;
+}
+
+#quest9:hover{
+    background-color: ghostwhite;
+    color : darkgreen;
+    cursor: pointer;
+}
+
+#quest12:hover{
     background-color: ghostwhite;
     color : darkgreen;
     cursor: pointer;

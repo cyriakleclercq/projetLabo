@@ -10,7 +10,7 @@
 $servername = 'localhost' ;
 $username = "root" ;
 $password = '';
-$dbname = "quetes";
+$dbname = "labo";
 
 
 // créer une nouvelle connexion :
@@ -29,9 +29,23 @@ if($con -> connect_error) {
 }
 
 
-$R_sql = "SELECT *
-          FROM `liste_quetes` , `titres_quetes` WHERE liste_quetes.id_titre = titres_quetes.id_titre 
-           ";
+if(isset($_GET['id_batiment'])) {
+    $id_batiment = $_GET['id_batiment'];
+}
+
+if(isset($id_batiment))
+{
+    $R_sql = "SELECT *
+          FROM `liste_quetes` as a , `titres_quetes` as b WHERE a.id_titre = b.id_titre 
+           and a.id_titre = $id_batiment";
+}
+else{
+    $R_sql = "SELECT nom,titre FROM `liste_quetes` as a ,`titres_quetes` as b WHERE a.id_titre = b.id_titre ORDER BY a.id_titre ";
+}
+
+
+
+
 
 
 $connexion = $con -> query($R_sql) ;
