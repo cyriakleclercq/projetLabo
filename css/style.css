@@ -66,12 +66,9 @@ input {
     width: 70px;
     height: 70px;
     z-index: 2;
-    left: 47em;
-    top: 22em;
     transition-property: all;
     left: 50.7%;
     top: 42.5%;
-    transition-property: top;
     transition-duration: 4s;
     transition-timing-function: linear;
 }
