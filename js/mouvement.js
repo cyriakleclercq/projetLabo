@@ -1,5 +1,7 @@
 window.onload = function() {
 
+
+
     movMeId = document.getElementById("perso");
     movMeId.style.top = "135px";
     movMeId.style.left = "200px";
