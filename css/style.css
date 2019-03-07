@@ -71,6 +71,7 @@ input {
     transition-property: all;
     left: 50.7%;
     top: 42.5%;
+    transition-property: top;
     transition-duration: 4s;
     transition-timing-function: linear;
 }
