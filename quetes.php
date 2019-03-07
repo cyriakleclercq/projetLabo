@@ -36,11 +36,11 @@ if(isset($_GET['id_batiment'])) {
 if(isset($id_batiment))
 {
     $R_sql = "SELECT *
-          FROM `liste_quetes` as a , `titres_quetes` as b WHERE a.id_titre = b.id_titre 
-           and a.id_titre = $id_batiment";
+          FROM `quetes` as a , `batiments` as b WHERE a.id_batiments = b.id_batiments 
+           and a.id_batiments = $id_batiment";
 }
 else{
-    $R_sql = "SELECT nom,titre FROM `liste_quetes` as a ,`titres_quetes` as b WHERE a.id_titre = b.id_titre ORDER BY a.id_titre ";
+    $R_sql = "SELECT nom,batiments FROM `quetes` as a ,`batiments` as b WHERE a.id_batiments = b.id_batiments ORDER BY a.id_batiments ";
 }
 
 
