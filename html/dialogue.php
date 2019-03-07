@@ -16,10 +16,10 @@
 
 </div>
 
-<span id="id_bat" style="display:none"> <?= $_GET['id_bat'] ?>  </span>
+<span id="id_interaction" style="display:none"> <?= $_GET['id_interaction'] ?>  </span>
 
 
-<script src="../js/test.js"></script>
+<script src="../js/interaction.js"></script>
 <script src="../js/json1.js"></script>
 
 </body>

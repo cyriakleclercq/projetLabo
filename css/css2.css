@@ -37,7 +37,7 @@
     }
 }
 
-#dial{
+#dialogue{
     background-color: black;
     color: white;
     position: relative;
@@ -45,7 +45,7 @@
     height: 100px;
     top: 402px;
     animation-duration: 4s;
-    animation-name: dialogue1;
+    animation-name: dialogue;
     animation-fill-mode: both;
 
 
@@ -62,29 +62,6 @@
 
 
     }
-}
-
-#dial blockquote {
-    position: absolute;
-    opacity: 0;
-    animation: textdefile 24s ease-in 0s infinite;
-    overflow: hidden;
-
-
-}
-
-
-#dial blockquote:nth-child(2) {
-    animation-delay: 6s;
-}
-
-#dial blockquote:nth-child(3) {
-    animation-delay: 12s;
-}
-
-#dial blockquote:nth-child(4) {
-    animation-delay: 18s;
-
 }
 
 .check {

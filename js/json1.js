@@ -5,7 +5,7 @@ function ajaxRequest()
 {
 
 
-    RequestURL+="?id_interaction="+document.getElementById('id_bat').innerHTML;
+    RequestURL+="?id_interaction="+document.getElementById('id_interaction').innerHTML;
 
     var xhttp = new XMLHttpRequest();
 
@@ -20,30 +20,11 @@ function ajaxRequest()
         let quetes = JSON.parse(objQuete);
         console.log(quetes);
 
-        $resume = document.getElementById ('resume0');
+       document.getElementById('dialogue').innerHTML = quetes.dialogues;
 
+       document.getElementById('avatar').src = quetes.skin;
 
-        $titre_map = document.createElement ('h2');
-        $resume.appendChild ($titre_map);
-        $titre_map.innerHTML = quetes[0].batiments;
-
-
-        $list = document.createElement ('ul');
-        $resume.appendChild ($list);
-
-        for (let $i = 0; $i < quetes.length; $i++) {
-
-            $titre_quete = document.createElement ('li');
-            $list.appendChild ($titre_quete);
-            $titre_quete.id = 'test';
-            $titre_quete.innerHTML = quetes[$i].nom;
-
-
-            $desc_quetes = document.createElement ('p');
-            $titre_quete.appendChild ($desc_quetes);
-            $desc_quetes.innerHTML = quetes[$i].descriptif;
-
-        }
+       document.getElementById('global').src = quetes.background;
 
     };
     xhttp.open('GET', RequestURL) ;

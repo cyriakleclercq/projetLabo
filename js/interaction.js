@@ -47,7 +47,7 @@ for(let $i =0; $i<=4; $i++) {
 }
 function move_mairie() {
 
-    document.location.href = '../html/dialogue.php?id_bat=1';
+    document.location.href = '../html/dialogue.php?id_interaction=1';
 
 }
 setTimeout(move_mairie, 2000);
@@ -58,7 +58,7 @@ setTimeout(move_mairie, 2000);
 
 function move_labo() {
 
-    document.location.href = '../html/dialogue.php?id_bat=2';
+    document.location.href = '../html/dialogue.php?id_interaction=2';
 
 
 }
@@ -70,7 +70,7 @@ setTimeout(move_labo,10000);
 
 function move_media() {
 
-    document.location.href = '../html/dialogue.php?id_bat=3';
+    document.location.href = '../html/dialogue.php?id_interaction=3';
 
 
 }
@@ -84,7 +84,7 @@ setTimeout(move_media,10000);
 
 function move_ecomusee() {
 
-    document.location.href = '../html/dialogue.php?id_bat=4';
+    document.location.href = '../html/dialogue.php?id_interaction=4';
 
 
 }
@@ -97,7 +97,7 @@ setTimeout(move_ecomusee,10000);
 
 function move_MDE() {
 
-    document.location.href = '../html/dialogue.php?id_bat=5';
+    document.location.href = '../html/dialogue.php?id_interaction=5';
 
 
 }

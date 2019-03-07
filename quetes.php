@@ -47,7 +47,7 @@ if(isset($id_batiment))
 else if(isset($id_interaction))
 {
     $R_sql = "SELECT *
-          FROM `presentations` as a , `dialogues` as b WHERE a.id_batiments = b.id_batiments 
+          FROM `presentations` as a , `dialogues` as b, `images` as c  WHERE a.id_batiments = b.id_batiments AND  b.id_batiments = c.id_batiments 
            and a.id_batiments = $id_interaction";
 
 }
