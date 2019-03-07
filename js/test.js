@@ -2,6 +2,12 @@ $perso = document.getElementById("perso");
 $perso.style.top = "47.6%";
 $perso.style.left = "52%";
 
+$mairie = document.getElementById('global0');
+$labo = document.getElementById('global1');
+$mediatheque = document.getElementById('global2');
+$ecomusee = document.getElementById('global3');
+$maison_europe = document.getElementById('global4');
+
 
 
 
@@ -41,7 +47,16 @@ for(let $i =0; $i<=4; $i++) {
 }
 
 
+function move_labo() {
 
+    document.location.href = '../html/dialogue.php';
+    $mairie.visibility = hidden ();
+    $mediatheque.visibility = hidden ();
+    $ecomusee.visibility = hidden ();
+    $maison_europe.visibility = hidden ();
+
+}
+setTimeout(move_labo,10000);
 
 
 

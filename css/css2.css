@@ -1,4 +1,4 @@
-#global1{
+#global0{
     position: relative;
     margin-top: 50px;
     padding-bottom: 50px;
@@ -95,7 +95,7 @@
     100% { opacity: 0; }
 }
 
-#global2{
+#global1{
     position: relative;
     margin-top: 50px;
     padding-bottom: 50px;
@@ -192,7 +192,7 @@
     100% { opacity: 0; }
 }
 
-#global3{
+#global2{
     position: relative;
     margin-top: 50px;
     padding-bottom: 50px;
@@ -289,7 +289,7 @@
     100% { opacity: 0; }
 }
 
-#global4{
+#global3{
     position: relative;
     margin-top: 50px;
     padding-bottom: 50px;
@@ -386,7 +386,7 @@
     100% { opacity: 0; }
 }
 
-#global5{
+#global4{
     position: relative;
     margin-top: 50px;
     padding-bottom: 50px;
@@ -664,7 +664,7 @@ top: 37.5%;
 }*/
 
 
-/*anim L@BO
+/*anim L@BO */
 
 @keyframes movepersoL {
     0% {
@@ -702,7 +702,7 @@ top: 37.5%;
         top: 77.8%;
     }
 
-}*/
+}
 
 
 /*mouvement Maison de l'europe
