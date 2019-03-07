@@ -624,28 +624,51 @@
     animation-name: movepersoM;
     animation-fill-mode: both;*/
 
+/*anim L@BO
+animation-duration: 10s;
+animation-name: movepersoL;
+animation-fill-mode: both;*/
+
+/*anim maison de l'europe
+animation-duration: 10s;
+animation-name: movepersoMDE;
+animation-fill-mode: both;
+*/
+
+    /*anim mediatheque
     animation-duration: 10s;
+    animation-name: movepersoME;
+    animation-fill-mode: both;*/
+
+    /*anim Eco musée
+     animation-duration: 10s;
     animation-name: movepersoEM;
-    animation-fill-mode: both;
+    animation-fill-mode: both; */
+
+
 
 
 
 }
 
 /*anim mairie
-@keyframes movepersoM {
-   0% {
-       left: 50.7%;
-       top: 42.5%;
-   }
 
-   100% {
-       left: 50.7%;
-       top: 37.5%;
-   }
+@keyframes movepersoM {
+0% {
+left: 50.7%;
+top: 42.5%;
+}
+
+100% {
+left: 50.7%;
+top: 37.5%;
+}
 }*/
 
-@keyframes movepersoEM {
+
+/*anim L@BO
+
+@keyframes movepersoL {
     0% {
         left: 50.7%;
         top: 42.5%;
@@ -681,7 +704,130 @@
         top: 77.8%;
     }
 
+}*/
+
+
+/*mouvement Maison de l'europe
+
+@keyframes movepersoMDE {
+    0% {
+        left: 50.7%;
+        top: 42.5%;
+    }
+
+    10% {
+        left: 36.5%;
+        top: 42.5%;
+    }
+
+    20% {
+        left: 36.5%;
+        top: 66.5%;
+    }
+
+    30% {
+        left: 45.5%;
+        top: 66.5%;
+    }
+
+    40% {
+        left: 45.5%;
+        top: 83.8%;
+    }
+
+    50% {
+        left: 17.5%;
+        top: 83.8%;
+    }
+
+    60% {
+        left: 17.5%;
+        top: 90.2%;
+    }
+
+    80% {
+        left: 13.2%;
+        top: 90.2%;
+    }
+
+    100% {
+        left: 13.2%;
+        top: 86.2%;
+    }
+}*/
+
+
+/*mouvement médiatheque
+
+@keyframes movepersoME {
+    0% {
+        left: 50.7%;
+        top: 42.5%;
+    }
+
+    15%{
+        left: 64.5%;
+        top: 42.5%;
+    }
+
+    30%{
+        left: 64.5%;
+        top: 80.6%;
+    }
+
+    45%{
+        left: 67.4%;
+        top: 80.6%;
+    }
+
+    60%{
+        left: 67.4%;
+        top: 93%;
+    }
+
+    75%{
+        left: 60.1%;
+        top: 93%;
+    }
+
+    100%{
+        left: 60.1%;
+        top: 89.5%;
+    }
+}*/
+
+/*anim Eco musée
+
+
+@keyframes movepersoEM {
+    0% {
+        left: 50.7%;
+        top: 42.5%;
+    }
+
+    20% {
+        left: 36.5%;
+        top: 42.5%;
+    }
+
+    40% {
+        left: 36.5%;
+        top: 57.5%;
+    }
+
+    60%{
+        left: 23.5%;
+        top: 57.5%;
+    }
+
+    100%{
+        left: 23.5%;
+        top: 54%;
+    }
+
 }
+*/
+
 
 
 
