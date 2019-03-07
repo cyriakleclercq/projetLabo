@@ -614,9 +614,35 @@
 }
 
 
+/*#perso{
 
+    animation-duration: 4s;
+    animation-name: moveperso;
+    animation-fill-mode: both;
 
+}
 
+@keyframes moveperso {
+    0% {
+        left: 49%;
+        top: 80%;
+    }
+
+    25% {
+        left: 49%;
+        top: 70%;
+    }
+
+    50%{
+        left: 20%;
+        top: 80%;
+    }
+
+    100%{
+        left: 20%;
+        top: 50%;
+    }
+}
 
 
 
