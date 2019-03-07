@@ -26,7 +26,7 @@ function ajaxRequest()
 
             $titre_map = document.createElement ('h2');
             $resume.appendChild ($titre_map);
-            $titre_map.innerHTML = quetes[0].titre;
+            $titre_map.innerHTML = quetes[0].batiments;
 
 
             $list = document.createElement ('ul');

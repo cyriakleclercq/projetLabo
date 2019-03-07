@@ -66,8 +66,6 @@
 
         </div>
 
-        <input type="button" id="bouton" value="press   ">
-
         <div class="resume" id="resume0"> </div>
 
         <span id="id_bat" style="display:none"> <?= $_GET['id_bat'] ?>  </span>

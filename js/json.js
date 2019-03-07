@@ -30,7 +30,7 @@ function ajaxRequest()
             $titre = document.createElement('h2');
             $glo_quetes.appendChild($titre);
             $titre.id = 'quest'+ $i ;
-            $titre.innerHTML = quetes[$i].titre;
+            $titre.innerHTML = quetes[$i].batiments;
 
                 $ul = document.createElement('ul');
                 $ul.id = 'ul'+$i;
@@ -43,22 +43,6 @@ function ajaxRequest()
                 }
 
         }
-
-        /*
-        for (let $j = 0; $j <= 3; $j++) {
-
-            $li = document.createElement('li');
-            $li.id='li'+$j;
-            ($ul+$j).appendChild($li);
-        }
-
-        for (let $k=0; $k < quetes.length; $k=$k+3) {
-
-            for(let $l=0; $l<3; $l++) {
-                $li[0].innerHTML = quetes[$l].nom;
-            }
-        }
-*/
 
 
         random();
