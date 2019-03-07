@@ -4,7 +4,6 @@
     padding-bottom: 50px;
     margin-left: 20%;
     margin-right: 20%;
-    background-image: url("../image/Interieur-de-la-Mairie-d-Avignon-p.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 1024px;
@@ -13,7 +12,6 @@
 
 #avatar {
     position: relative;
-    background-image: url("../image/Avatar_girl_face.png");
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100px;

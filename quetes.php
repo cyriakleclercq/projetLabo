@@ -28,7 +28,6 @@ if($con -> connect_error) {
 
 }
 
-
 if(isset($_GET['id_batiment'])) {
     $id_batiment = $_GET['id_batiment'];
 }
@@ -36,6 +35,7 @@ if(isset($_GET['id_batiment'])) {
 if(isset($_GET['id_interaction'])) {
     $id_interaction = $_GET['id_interaction'];
 }
+
 
 if(isset($id_batiment))
 {
@@ -47,7 +47,7 @@ if(isset($id_batiment))
 else if(isset($id_interaction))
 {
     $R_sql = "SELECT *
-          FROM `presentations` as a , `dialogues` as b, `images` as c  WHERE a.id_batiments = b.id_batiments AND  b.id_batiments = c.id_batiments 
+          FROM `presentations` as a , `dialogues` as b,`images` as c WHERE a.id_batiments = b.id_batiments AND b.id_batiments = c.id_batiments 
            and a.id_batiments = $id_interaction";
 
 }

@@ -1,7 +1,7 @@
 var RequestURL = "../quetes.php" ;
 
 
-function ajaxRequest()
+function ajaxRequest0()
 {
 
     //mairie
@@ -53,4 +53,4 @@ function ajaxRequest()
         xhttp.send();
 };
 
-    ajaxRequest();
+    ajaxRequest0();

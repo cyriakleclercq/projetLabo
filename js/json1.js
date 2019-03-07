@@ -1,7 +1,7 @@
 var RequestURL = "../quetes.php" ;
 
 
-function ajaxRequest()
+function ajaxRequest1()
 {
 
 
@@ -19,13 +19,14 @@ function ajaxRequest()
 
         let quetes = JSON.parse(objQuete);
         console.log(quetes);
+        alert(quetes);
 
        document.getElementById('dialogue').innerHTML = quetes.dialogues;
 
-       document.getElementById('avatar').src = quetes.skin;
+    /*    document.getElementById('avatar').style.backgroundImage = "url('"+quetes.skin+"')";
 
-       document.getElementById('global').src = quetes.background;
-
+        document.getElementById('global').style.backgroundImage = "url('"+quetes.background+"')";
+*/
     };
     xhttp.open('GET', RequestURL) ;
 
@@ -33,4 +34,4 @@ function ajaxRequest()
     xhttp.send();
 };
 
-ajaxRequest();
+ajaxRequest1();
