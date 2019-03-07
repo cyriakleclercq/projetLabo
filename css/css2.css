@@ -614,42 +614,40 @@
 
 }
 
+    .mairie{
+        animation-duration: 2s;
+        animation-name: movepersoM;
+        animation-fill-mode: both;
+    }
 
 
+.labo{
+    animation-duration: 10s;
+    animation-name: movepersoL;
+    animation-fill-mode: both;
+}
 
-#perso{
 
-    /*anim mairie
-    animation-duration: 2s;
-    animation-name: movepersoM;
-    animation-fill-mode: both;*/
+.MDE{
+    animation-duration: 10s;
+    animation-name: movepersoMDE;
+    animation-fill-mode: both;
+}
 
-/*anim L@BO
-animation-duration: 10s;
-animation-name: movepersoL;
-animation-fill-mode: both;*/
 
-/*anim maison de l'europe
-animation-duration: 10s;
-animation-name: movepersoMDE;
-animation-fill-mode: both;
-*/
-
-    /*anim mediatheque
+.mediatheque{
     animation-duration: 10s;
     animation-name: movepersoME;
-    animation-fill-mode: both;*/
-
-    /*anim Eco musée
-     animation-duration: 10s;
-    animation-name: movepersoEM;
-    animation-fill-mode: both; */
-
-
-
-
-
+    animation-fill-mode: both;
 }
+
+
+.Ecomusée{
+    animation-duration: 10s;
+    animation-name: movepersoEM;
+    animation-fill-mode: both;
+}
+
 
 /*anim mairie
 
