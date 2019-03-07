@@ -18,8 +18,6 @@ function random () {
 
                 $ ("#quest" + [$i]).click (function () {
 
-                        alert($i);
-
 
                         if ($i == 0) {
 

@@ -68,6 +68,9 @@ input {
     z-index: 2;
     left: 47em;
     top: 22em;
+    transition-property: top;
+    transition-duration: 4s;
+    transition-timing-function: linear;
 }
 
 @keyframes rotation {
@@ -137,3 +140,5 @@ h2 {
 li {
     font-size: 18px;
 }
+
+
