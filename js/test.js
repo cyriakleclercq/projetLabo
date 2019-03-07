@@ -2,11 +2,11 @@ $perso = document.getElementById("perso");
 $perso.style.top = "47.6%";
 $perso.style.left = "52%";
 
-$mairie = document.getElementById('global0');
-$labo = document.getElementById('global1');
-$mediatheque = document.getElementById('global2');
-$ecomusee = document.getElementById('global3');
-$maison_europe = document.getElementById('global4');
+$mairie = document.getElementById('global1');
+$labo = document.getElementById('global2');
+$mediatheque = document.getElementById('global3');
+$ecomusee = document.getElementById('global4');
+$maison_europe = document.getElementById('global5');
 
 
 
@@ -45,18 +45,61 @@ for(let $i =0; $i<=4; $i++) {
     })
 
 }
+function move_mairie() {
+
+    document.location.href = '../html/dialogue.php?id_bat=1';
+
+}
+setTimeout(move_mairie, 2000);
+
+
+//////////////////////////////
 
 
 function move_labo() {
 
-    document.location.href = '../html/dialogue.php';
-    $mairie.visibility = hidden ();
-    $mediatheque.visibility = hidden ();
-    $ecomusee.visibility = hidden ();
-    $maison_europe.visibility = hidden ();
+    document.location.href = '../html/dialogue.php?id_bat=2';
+
 
 }
 setTimeout(move_labo,10000);
 
 
+/////////////////////////////////
+
+
+function move_media() {
+
+    document.location.href = '../html/dialogue.php?id_bat=3';
+
+
+}
+setTimeout(move_media,10000);
+
+
+
+/////////////////////////////
+
+
+
+function move_ecomusee() {
+
+    document.location.href = '../html/dialogue.php?id_bat=4';
+
+
+}
+setTimeout(move_ecomusee,10000);
+
+
+/////////////////////////////
+
+
+
+function move_MDE() {
+
+    document.location.href = '../html/dialogue.php?id_bat=5';
+
+
+}
+setTimeout(move_MDE,10000);
 
