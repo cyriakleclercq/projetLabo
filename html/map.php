@@ -78,8 +78,6 @@
 
 <script src="../js/script.js"></script>
 <script src="../js/json0.js"></script>
-<script src="../js/test.js"></script>
-<script src="../js/mouvement.js"></script>
 
 
 </body>

@@ -68,9 +68,9 @@ input {
     z-index: 2;
     left: 50.7%;
     top: 42.5%;
-    transition-property: top;
+    /*transition-property: top;
     transition-duration: 4s;
-    transition-timing-function: linear;
+    transition-timing-function: linear;*/
 }
 
 @keyframes rotation {

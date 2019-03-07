@@ -1,4 +1,4 @@
-#global{
+#global1{
     position: relative;
     margin-top: 50px;
     padding-bottom: 50px;
@@ -614,35 +614,74 @@
 }
 
 
-/*#perso{
+#perso{
 
-    animation-duration: 4s;
-    animation-name: moveperso;
+    /*anim mairie
+    animation-duration: 2s;
+    animation-name: movepersoM;
+    animation-fill-mode: both;*/
+
+    animation-duration: 10s;
+    animation-name: movepersoEM;
     animation-fill-mode: both;
+
+
 
 }
 
-@keyframes moveperso {
+/*anim mairie
+@keyframes movepersoM {
+   0% {
+       left: 50.7%;
+       top: 42.5%;
+   }
+
+   100% {
+       left: 50.7%;
+       top: 37.5%;
+   }
+}*/
+
+@keyframes movepersoEM {
     0% {
-        left: 49%;
-        top: 80%;
+        left: 50.7%;
+        top: 42.5%;
     }
 
-    25% {
-        left: 49%;
-        top: 70%;
+    15%{
+        left: 36.5%;
+        top: 42.5%;
     }
 
-    50%{
-        left: 20%;
-        top: 80%;
+    30%{
+        left: 36.5%;
+        top: 66.5%;
+    }
+
+    45%{
+        left: 45.5%;
+        top: 66.5%;
+    }
+
+    60%{
+        left: 45.5%;
+        top: 83.8%;
+    }
+
+    75%{
+        left: 50%;
+        top: 83.8%;
     }
 
     100%{
-        left: 20%;
-        top: 50%;
+        left: 50%;
+        top: 77.8%;
     }
+
 }
+
+
+
 
 
 
