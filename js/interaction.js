@@ -16,22 +16,32 @@ console.log(beta);
 
 for(let $i =0; $i<=4; $i++) {
 
-    $('#check'+$i).click(function () {
+    $('#cadre'+$i).click(function () {
+
+        alert($i);
 
         if(alpha.top == 159 && alpha.left== 803 && $i==0) {
 
-           // $('#perso').removeClass("perso_init");
-            $('#perso').addClass("mairie");
+            if ($("#perso").hasClass("perso_init"))
+            {
 
-            setTimeout(move_mairie, 2000);
+                $('#perso').removeClass("perso_init");
+                $('#perso').addClass("mairie");
+                setTimeout(move_mairie, 2000);
+
+            }
 
         }
+
+
         if(alpha.top == 159 && alpha.left== 803 && $i == 1) {
 
-           // $('#perso').removeClass("perso_init");
-            $('#perso').addClass("labo");
+            if ($("#perso").hasClass("perso_init")) {
 
-            setTimeout(move_labo,10000);
+                $('#perso').removeClass("perso_init");
+                $('#perso').addClass("labo");
+                setTimeout(move_labo, 10000);
+            }
 
         }
 
