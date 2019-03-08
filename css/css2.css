@@ -193,42 +193,45 @@
 
 }
 
-    .mairie{
+/*départ to all*/
+
+    .dep_mairie{
         animation-duration: 2s;
         animation-name: movepersoM;
         animation-fill-mode: both;
     }
 
 
-.labo{
+.dep_labo{
     animation-duration: 10s;
     animation-name: movepersoL;
     animation-fill-mode: both;
 }
 
 
-.MDE{
+.dep_MDE{
     animation-duration: 10s;
     animation-name: movepersoMDE;
     animation-fill-mode: both;
 }
 
 
-.mediatheque{
+.dep_mediatheque{
     animation-duration: 10s;
     animation-name: movepersoME;
     animation-fill-mode: both;
 }
 
 
-.Ecomusée{
+.dep_Ecomusée{
     animation-duration: 10s;
     animation-name: movepersoEM;
     animation-fill-mode: both;
 }
 
 
-/* anim mairie */
+
+/* anim mairie
 @keyframes movepersoM {
     0% {
     left: 50.7%;
@@ -239,10 +242,10 @@
     left: 50.7%;
     top: 37.5%;
     }
-}
+}*/
 
 
-/*anim L@BO */
+/*anim L@BO
 
 @keyframes movepersoL {
     0% {
@@ -281,6 +284,7 @@
     }
 
 }
+*/
 
 
 /*mouvement Maison de l'europe
