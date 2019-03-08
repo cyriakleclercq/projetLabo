@@ -6,6 +6,9 @@ function ajaxRequest1()
 
 
     RequestURL+="?id_interaction="+document.getElementById('id_interaction').innerHTML;
+    $id_bat = $('#id_bat').html();
+    $id_interaction = $('#id_interaction').html();
+
 
     var xhttp = new XMLHttpRequest();
 
@@ -18,15 +21,26 @@ function ajaxRequest1()
         }
 
         let quetes = JSON.parse(objQuete);
+
         console.log(quetes);
-        alert(quetes);
+        console.log($id_bat);
+        console.log($id_interaction);
 
-       document.getElementById('dialogue').innerHTML = quetes.dialogues;
 
-    /*    document.getElementById('avatar').style.backgroundImage = "url('"+quetes.skin+"')";
 
-        document.getElementById('global').style.backgroundImage = "url('"+quetes.background+"')";
-*/
+        if($id_bat != $id_interaction) {
+
+            document.getElementById('dialogue').innerHTML = quetes[0].presentations;
+        } else {
+            document.getElementById('dialogue').innerHTML = quetes[0].dialogues;
+        }
+
+
+
+       document.getElementById('avatar').style.backgroundImage = "url('../image/"+quetes[0].skin+"')";
+
+       document.getElementById('global').style.backgroundImage = "url('../image/"+quetes[0].background+"')";
+
     };
     xhttp.open('GET', RequestURL) ;
 

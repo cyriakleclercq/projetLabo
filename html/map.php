@@ -19,7 +19,7 @@
 
         <div id="corps">
 
-            <div id="perso"> </div>
+            <div class="perso_init" id="perso"> </div>
 
             <div class="check" id="checkM1"></div>
             <div class="check" id="check0"></div>
@@ -76,6 +76,8 @@
 
 <script src="../js/script.js"></script>
 <script src="../js/json0.js"></script>
+<script src="../js/interaction.js"></script>
+
 
 
 </body>

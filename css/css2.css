@@ -228,19 +228,18 @@
 }
 
 
-/*anim mairie
-
+/* anim mairie */
 @keyframes movepersoM {
-0% {
-left: 50.7%;
-top: 42.5%;
-}
+    0% {
+    left: 50.7%;
+    top: 42.5%;
+    }
 
-100% {
-left: 50.7%;
-top: 37.5%;
+    100% {
+    left: 50.7%;
+    top: 37.5%;
+    }
 }
-}*/
 
 
 /*anim L@BO */

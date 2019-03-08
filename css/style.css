@@ -67,10 +67,14 @@ input {
     height: 70px;
     z-index: 2;
     transition-property: all;
-    left: 50.7%;
-    top: 42.5%;
+
     transition-duration: 4s;
     transition-timing-function: linear;
+}
+
+.perso_init {
+    left: 50.7%;
+    top: 42.5%;
 }
 
 @keyframes rotation {
