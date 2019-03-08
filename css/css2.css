@@ -410,6 +410,227 @@
 
 
 
+/* classe anim Ecomusée to Maison de l'europe*/
+
+.EcoToMDE {
+    animation-duration: 10s;
+    animation-name: movepersoEtoMDE;
+    animation-fill-mode: both;
+}
+
+/*classe anim Ecomusée to Mairie*/
+
+.EcoToM {
+    animation-duration: 10s;
+    animation-name: movepersoEtoM;
+    animation-fill-mode: both;
+}
+
+/*classe anim Ecomusée to Labo*/
+
+.EcoToL {
+    animation-duration: 10s;
+    animation-name: movepersoEtoL;
+    animation-fill-mode: both;
+}
+
+
+/*classe anim Ecomusée to Mediatheque*/
+
+ EcoToME {
+     animation-duration: 10s;
+     animation-name: movepersoEtoME;
+     animation-fill-mode: both;
+ }
+
+
+
+/*anim Ecomusée to Maison de l'europe
+@keyframes movepersoEtoMDE {
+0% {
+left: 23.5%;
+top: 54%;
+}
+
+10% {
+left: 23.5%;
+top: 57.5%;
+}
+
+20% {
+left: 36.5%;
+top: 57.5%;
+}
+
+30% {
+left: 36.5%;
+top: 66.5%;
+}
+
+40% {
+left: 45.5%;
+top: 66.5%;
+}
+
+50% {
+left: 45.5%;
+top: 83.9%;
+}
+
+60% {
+left: 17.5%;
+top: 83.9%;
+}
+
+70% {
+left: 17.5%;
+top: 90%;
+}
+
+80% {
+left: 13.2%;
+top: 90%;
+}
+
+100% {
+left: 13.2%;
+top: 86%;
+}
+}*/
+
+/*anim Ecomusée to Mairie
+@keyframes movepersoEtoM {
+    0% {
+        left: 23.5%;
+        top: 54%;
+    }
+
+    20% {
+        left: 23.5%;
+        top: 57.5%;
+    }
+
+    40% {
+        left: 36.5%;
+        top: 57.5%;
+    }
+
+    60% {
+        left: 36.5%;
+        top: 42.5%;
+    }
+
+    80% {
+        left: 50.6%;
+        top: 42.5%;
+    }
+
+    100% {
+        left: 50.6%;
+        top: 35.5%;
+    }
+}*/
+
+/*anim Ecomusée to Labo
+@keyframes movepersoEtoL {
+    0% {
+        left: 23.5%;
+        top: 54%;
+    }
+
+    15% {
+        left: 23.5%;
+        top: 57.5%;
+    }
+
+    30% {
+        left: 36.5%;
+        top: 57.5%;
+    }
+
+    45% {
+        left: 36.5%;
+        top: 66.2%;
+    }
+    60% {
+        left: 45.4%;
+        top: 66.2%;
+    }
+
+    75%{
+        left: 45.4%;
+        top: 84%;
+    }
+
+    90%{
+        left: 50%;
+        top: 84%;
+    }
+
+    100%{
+        left: 50%;
+        top: 78.1%;
+    }
+}*/
+
+/*anim Ecomusée to Mediatheque
+@keyframes movepersoEtoME {
+    0% {
+        left: 23.5%;
+        top: 54%;
+    }
+
+    10% {
+        left: 23.5%;
+        top: 57.5%;
+    }
+
+    20% {
+        left: 36.5%;
+        top: 57.5%;
+    }
+
+    30% {
+        left: 36.5%;
+        top: 66.5%;
+    }
+
+    40% {
+        left: 64.5%;
+        top: 66.5%;
+    }
+
+    50% {
+        left: 64.5%;
+        top: 81.5%;
+    }
+
+    60% {
+        left: 67.5%;
+        top: 81.5%;
+    }
+
+    70% {
+        left: 67.5%;
+        top: 93.3%;
+    }
+
+    80% {
+        left: 60.1%;
+        top: 93.3%;
+    }
+    100% {
+        left: 60.1%;
+        top: 88.3%;
+    }
+}*/
+
+
+
+
+
+
+
 
 
 
