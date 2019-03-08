@@ -14,107 +14,119 @@ console.log(alpha);
 console.log(beta);
 
 
-for(let $i =0; $i<=4; $i++) {
+/*
+let time = document.getElementById('perso');
+let timeStyle = window.getComputedStyle(time);
+timeStyle.getPropertyValue('animation-duration');
+*/
 
-    $('#cadre'+$i).click(function () {
+function onload() {
 
-        alert($i);
 
-        if(alpha.top == 159 && alpha.left== 803 && $i==0) {
+    for (let $i = 0; $i <= 4; $i++) {
 
-            if ($("#perso").hasClass("perso_init"))
-            {
+        $('#cadre' + $i).click(function () {
 
-                $('#perso').removeClass("perso_init");
-                $('#perso').addClass("mairie");
-                setTimeout(move_mairie, 2000);
+            alert($i);
+
+            if (alpha.top == 159 && alpha.left == 803 && $i == 0) {
+
+
+                if ($("#perso").hasClass("perso_init")) {
+
+                    $('#perso').removeClass("perso_init");
+                    $('#perso').addClass("mairie");
+                    setTimeout(move_mairie, 2000);
+
+                }
+
 
             }
 
-        }
+
+            if (alpha > 330 || alpha < 340 && beta > 800 || beta < 805 && $i == 1) {
 
 
-        if(alpha.top == 159 && alpha.left== 803 && $i == 1) {
+                if ($("#perso").hasClass("perso_init")) {
 
-            if ($("#perso").hasClass("perso_init")) {
+                    $('#perso').removeClass("perso_init");
+                    $('#perso').addClass("dep_labo");
+                    setTimeout(move_labo, 10000);
+                }
 
-                $('#perso').removeClass("perso_init");
-                $('#perso').addClass("labo");
-                setTimeout(move_labo, 10000);
+
             }
 
-        }
+            if ($i == 2) {
+                setTimeout(move_media, 10000);
 
-        if($i == 2) {
-            setTimeout(move_media,10000);
+            }
 
-        }
+            if ($i == 3) {
+                setTimeout(move_ecomusee, 10000);
 
-        if($i == 3) {
-            setTimeout(move_ecomusee,10000);
+            }
 
-        }
+            if ($i == 4) {
+                setTimeout(move_MDE, 10000);
 
-        if($i == 4) {
-            setTimeout(move_MDE,10000);
-
-        }
+            }
 
 
+        })
 
-    })
+    }
 
-}
-function move_mairie() {
+    function move_mairie() {
 
-    document.location.href = '../html/dialogue.php?id_interaction=1';
+        document.location.href = '../html/dialogue.php?id_interaction=1';
 
-}
+    }
 
 
 //////////////////////////////
 
 
-function move_labo() {
+    function move_labo() {
 
-    document.location.href = '../html/dialogue.php?id_interaction=2';
+        document.location.href = '../html/dialogue.php?id_interaction=2';
 
 
-}
+    }
 
 
 /////////////////////////////////
 
 
-function move_media() {
+    function move_media() {
 
-    document.location.href = '../html/dialogue.php?id_interaction=3';
-
-
-}
+        document.location.href = '../html/dialogue.php?id_interaction=3';
 
 
-
-/////////////////////////////
-
-
-
-function move_ecomusee() {
-
-    document.location.href = '../html/dialogue.php?id_interaction=4';
-
-
-}
+    }
 
 
 /////////////////////////////
 
 
+    function move_ecomusee() {
 
-function move_MDE() {
-
-    document.location.href = '../html/dialogue.php?id_interaction=5';
+        document.location.href = '../html/dialogue.php?id_interaction=4';
 
 
+    }
+
+
+/////////////////////////////
+
+
+    function move_MDE() {
+
+        document.location.href = '../html/dialogue.php?id_interaction=5';
+
+
+    }
 }
+
+$(document).ready(onload());
 
