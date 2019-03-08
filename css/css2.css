@@ -231,7 +231,7 @@
 
 
 
-/* anim mairie
+/* anim mairie*/
 @keyframes movepersoM {
     0% {
     left: 50.7%;
@@ -242,10 +242,10 @@
     left: 50.7%;
     top: 37.5%;
     }
-}*/
+}
 
 
-/*anim L@BO
+/*anim L@BO*/
 
 @keyframes movepersoL {
     0% {
@@ -284,11 +284,10 @@
     }
 
 }
-*/
 
 
-/*mouvement Maison de l'europe
 
+/*mouvement Maison de l'europe*/
 @keyframes movepersoMDE {
     0% {
         left: 50.7%;
@@ -334,11 +333,10 @@
         left: 13.2%;
         top: 86.2%;
     }
-}*/
+}
 
 
-/*mouvement médiatheque
-
+/*mouvement médiatheque*/
 @keyframes movepersoME {
     0% {
         left: 50.7%;
@@ -374,11 +372,9 @@
         left: 60.1%;
         top: 89.5%;
     }
-}*/
+}
 
-/*anim Eco musée
-
-
+/*anim Eco musée*/
 @keyframes movepersoEM {
     0% {
         left: 50.7%;
@@ -406,7 +402,7 @@
     }
 
 }
-*/
+
 
 
 
@@ -445,7 +441,7 @@
 
 
 
-/*anim Ecomusée to Maison de l'europe
+/*anim Ecomusée to Maison de l'europe*/
 @keyframes movepersoEtoMDE {
 0% {
 left: 23.5%;
@@ -496,9 +492,9 @@ top: 90%;
 left: 13.2%;
 top: 86%;
 }
-}*/
+}
 
-/*anim Ecomusée to Mairie
+/*anim Ecomusée to Mairie*/
 @keyframes movepersoEtoM {
     0% {
         left: 23.5%;
@@ -529,9 +525,9 @@ top: 86%;
         left: 50.6%;
         top: 35.5%;
     }
-}*/
+}
 
-/*anim Ecomusée to Labo
+/*anim Ecomusée to Labo*/
 @keyframes movepersoEtoL {
     0% {
         left: 23.5%;
@@ -571,9 +567,9 @@ top: 86%;
         left: 50%;
         top: 78.1%;
     }
-}*/
+}
 
-/*anim Ecomusée to Mediatheque
+/*anim Ecomusée to Mediatheque*/
 @keyframes movepersoEtoME {
     0% {
         left: 23.5%;
@@ -623,10 +619,48 @@ top: 86%;
         left: 60.1%;
         top: 88.3%;
     }
-}*/
+}
+
+/*
+#perso{
+    animation-duration: 10s;
+    animation-name: movepersoMDEtoL;
+    animation-fill-mode: both;
+}
 
 
+@keyframes movepersoMDEtoL {
+    0% {
+        left: 13.2%;
+        top: 86%;
+    }
 
+    20% {
+        left: 13.2%;
+        top: 90%;
+    }
+
+    40% {
+        left: 17.5%;
+        top: 90%;
+    }
+
+    60% {
+        left: 17.5%;
+        top: 83.9%;
+    }
+
+    80% {
+        left: 49.9%;
+        top: 83.9%;
+    }
+
+    100% {
+        left: 49.9%;
+        top: 78%;
+    }
+
+}
 
 
 
