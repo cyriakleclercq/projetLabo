@@ -18,7 +18,7 @@
 </div>
 
 <span id="id_interaction" style="display:none"> <?= $_GET['id_interaction'] ?>  </span>
-<span id="id_bat" style="display:none"> 1  </span>
+<span id="id_bat" style="display:none"><?= $_GET['id_bat'] ?>  </span>
 
 
 

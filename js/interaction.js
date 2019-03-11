@@ -1,11 +1,7 @@
 $perso = document.getElementById("perso");
+$id_bat = document.getElementById('id_bat').innerHTML;
 
 
-$mairie = document.getElementById('global1');
-$labo = document.getElementById('global2');
-$mediatheque = document.getElementById('global3');
-$ecomusee = document.getElementById('global4');
-$maison_europe = document.getElementById('global5');
 
 var alpha = Math.round($perso.getBoundingClientRect().top);
 var beta = Math.round($perso.getBoundingClientRect().left);
@@ -20,8 +16,8 @@ let timeStyle = window.getComputedStyle(time);
 timeStyle.getPropertyValue('animation-duration');
 */
 
-function onload() {
 
+// 'For' mouvements perso
 
     for (let $i = 0; $i <= 4; $i++) {
 
@@ -29,13 +25,13 @@ function onload() {
 
             alert($i);
 
-            if (alpha.top == 159 && alpha.left == 803 && $i == 0) {
+            if ($i == 0) {
 
 
                 if ($("#perso").hasClass("perso_init")) {
 
                     $('#perso').removeClass("perso_init");
-                    $('#perso').addClass("mairie");
+                    $('#perso').addClass("dep_mairie");
                     setTimeout(move_mairie, 2000);
 
                 }
@@ -44,7 +40,7 @@ function onload() {
             }
 
 
-            if (alpha > 330 || alpha < 340 && beta > 800 || beta < 805 && $i == 1) {
+            if ($i == 1) {
 
 
                 if ($("#perso").hasClass("perso_init")) {
@@ -58,75 +54,94 @@ function onload() {
             }
 
             if ($i == 2) {
-                setTimeout(move_media, 10000);
+
+                if ($("#perso").hasClass("perso_init")) {
+
+                    $('#perso').removeClass("perso_init");
+                    $('#perso').addClass("dep_mediatheque");
+                    setTimeout(move_media, 10000);
+
+                }
+
 
             }
 
             if ($i == 3) {
-                setTimeout(move_ecomusee, 10000);
 
+                if ($ ("#perso").hasClass ("perso_init")) {
+
+                    $ ('#perso').removeClass ("perso_init");
+                    $ ('#perso').addClass ("dep_Ecomusée");
+                    setTimeout (move_ecomusee, 10000);
+
+                }
             }
 
             if ($i == 4) {
-                setTimeout(move_MDE, 10000);
+                if ($ ("#perso").hasClass ("perso_init")) {
 
+                    $ ('#perso').removeClass ("perso_init");
+                    $ ('#perso').addClass ("dep_MDE");
+                    setTimeout (move_MDE, 10000);
+
+                }
             }
-
 
         })
 
     }
 
+// Redirection du personnage vers batiment :
+
     function move_mairie() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=1';
+        document.location.href = '../html/dialogue.php?id_interaction=1&id_bat='+$id_bat;
 
     }
 
 
-//////////////////////////////
+
 
 
     function move_labo() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=2';
+        document.location.href = '../html/dialogue.php?id_interaction=2&id_bat='+$id_bat;
 
 
     }
 
 
-/////////////////////////////////
+
 
 
     function move_media() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=3';
+        document.location.href = '../html/dialogue.php?id_interaction=3&id_bat='+$id_bat;
 
 
     }
 
 
-/////////////////////////////
+
 
 
     function move_ecomusee() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=4';
+        document.location.href = '../html/dialogue.php?id_interaction=4&id_bat='+$id_bat;
 
 
     }
 
 
-/////////////////////////////
+
 
 
     function move_MDE() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=5';
+        document.location.href = '../html/dialogue.php?id_interaction=5&id_bat='+$id_bat;
 
 
-    }
+
 }
 
-$(document).ready(onload());
 
