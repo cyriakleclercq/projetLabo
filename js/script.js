@@ -20,7 +20,6 @@ function random () {
 
 
                         if ($i == 0) {
-                                //document.location = '../html/dialogue.php?id_bat=1';
                                 document.location.href = '../html/map.php?id_bat=1';
 
                         }

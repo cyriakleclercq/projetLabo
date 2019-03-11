@@ -68,7 +68,7 @@
 
         <div class="resume" id="resume0"> </div>
 
-        <span id="id_bat" style="display:none"> <?= $_GET['id_bat'] ?>  </span>
+        <span id="id_bat" style="display:none"><?= $_GET['id_bat'] ?></span>
 
 
     </div>
