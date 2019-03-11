@@ -31,7 +31,9 @@ function ajaxRequest1()
         if($id_bat != $id_interaction) {
 
             document.getElementById('dialogue').innerHTML = quetes[0].presentations;
+
         } else {
+
             document.getElementById('dialogue').innerHTML = quetes[0].dialogues;
         }
 
