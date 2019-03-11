@@ -190,7 +190,13 @@
 
 }
 
-/*départ to all*/
+
+
+/*partie départ to all*/
+
+
+
+
 
     .dep_mairie{
         animation-duration: 2s;
@@ -399,6 +405,10 @@
     }
 
 }
+
+
+/* partie Ecomusée to all */
+
 
 
 
@@ -618,6 +628,14 @@ top: 86%;
     }
 }
 
+
+
+
+/*partie Maison de l'europe to all*/
+
+
+
+
     /*anim Maison de l'europe to Labo*/
 
     .MDEToL {
@@ -833,7 +851,414 @@ top: 78%;
     }
 }
 
+/*partie labo to all*/
 
+
+/*class anim Labo to Mediatheque*/
+.LToME {
+    animation-duration: 10s;
+    animation-name: movepersoLtoME;
+    animation-fill-mode: both;
+}
+
+/*class anim Labo to Maison de l'europe*/
+.LToMDE{
+    animation-duration: 10s;
+    animation-name: movepersoLtoMDE;
+    animation-fill-mode: both;
+}
+
+/*class anim Labo to Ecomusée*/
+.LToEM {
+    animation-duration: 10s;
+    animation-name: movepersoLtoEM;
+    animation-fill-mode: both;
+}
+
+/*class anim Labo to Mairie*/
+.LToM{
+    animation-duration: 10s;
+    animation-name: movepersoLtoM;
+    animation-fill-mode: both;
+}
+
+
+/*anim Labo to Mediatheque*/
+@keyframes movepersoLtoME {
+    0% {
+        left: 49.9%;
+        top: 78%;
+
+    }
+
+    25% {
+        left: 49.9%;
+        top: 84%;
+
+    }
+
+    50% {
+        left: 55.5%;
+        top: 92.5%;
+
+    }
+
+    75% {
+        left: 60%;
+        top: 92.5%;
+    }
+
+    100% {
+        left: 60%;
+        top: 87%;
+    }
+}
+
+
+/*anim Labo to Maison de l'europe*/
+@keyframes movepersoLtoMDE {
+    0% {
+        left: 49.9%;
+        top: 78%;
+
+    }
+
+    20% {
+        left: 49.9%;
+        top: 84%;
+
+    }
+
+    40% {
+        left: 17.6%;
+        top: 84%;
+
+    }
+
+    60% {
+        left: 17.6%;
+        top: 89.5%;
+    }
+
+    80% {
+        left: 13.2%;
+        top: 89.5%;
+    }
+
+    100% {
+        left: 13.2%;
+        top: 86%;
+    }
+}
+
+/*anim Labo to Ecomusée*/
+@keyframes movepersoLtoEM {
+    0% {
+        left: 49.9%;
+        top: 78%;
+
+    }
+
+    10% {
+        left: 49.9%;
+        top: 84%;
+
+    }
+
+    25% {
+        left: 45.3%;
+        top: 84%;
+
+    }
+
+    35% {
+        left: 45.3%;
+        top: 66.8%;
+    }
+
+    60% {
+        left: 36.6%;
+        top: 66.8%;
+    }
+
+    70% {
+        left: 36.6%;
+        top: 57.5%;
+    }
+
+    80% {
+        left: 23.5%;
+        top: 57.5%;
+    }
+
+    90% {
+        left: 23.5%;
+        top: 57.5%;
+    }
+
+    100% {
+        left: 23.5%;
+        top: 53.5%;
+    }
+}
+
+/*anim Labo to Mairie*/
+@keyframes movepersoLtoM {
+    0% {
+        left: 49.9%;
+        top: 78%;
+
+    }
+
+    15% {
+        left: 49.9%;
+        top: 84%;
+
+    }
+
+    30% {
+        left: 45.3%;
+        top: 84%;
+
+    }
+
+    45% {
+        left: 45.3%;
+        top: 66.8%;
+    }
+
+    60% {
+        left: 36.6%;
+        top: 66.8%;
+    }
+
+    75% {
+        left: 36.6%;
+        top: 43.5%;
+    }
+
+    90% {
+        left: 50.8%;
+        top: 43.5%;
+    }
+
+    100% {
+        left: 50.8%;
+        top: 38%;
+    }
+
+}
+
+
+
+
+/*Médiathèque to all*/
+
+
+
+
+/*class anim Médiathèque to Labo*/
+.METoL{
+    animation-duration: 10s;
+    animation-name: movepersoMEtoL;
+    animation-fill-mode: both;
+}
+
+/*class anim Médiathèque to Mairie*/
+.METoM{
+    animation-duration: 10s;
+    animation-name: movepersoMEtoM;
+    animation-fill-mode: both;
+}
+
+/*class anim Médiathèque to Maison de l'europe*/
+.METoMDE{
+    animation-duration: 10s;
+    animation-name: movepersoMEtoMDE;
+    animation-fill-mode: both;
+}
+
+/*class anim Médiathèque to Ecomusée*/
+.METoEM{
+    animation-duration: 10s;
+    animation-name: movepersoMEtoEM;
+    animation-fill-mode: both;
+}
+
+
+/*anim Médiathèque to Labo*/
+@keyframes movepersoMEtoL {
+    0% {
+        left: 60%;
+        top: 89%;
+
+    }
+
+    25% {
+        left: 60%;
+        top: 92.5%;
+
+    }
+
+    50% {
+        left: 55%;
+        top: 92.5%;
+
+    }
+
+    75% {
+        left: 50%;
+        top:  82.5%;
+    }
+
+    100% {
+        left: 50%;
+        top: 78%;
+    }
+}
+
+
+/*anim Médiathèque to Mairie*/
+@keyframes movepersoMEtoM {
+    0% {
+        left: 60%;
+        top: 89%;
+
+    }
+
+    15% {
+        left: 60%;
+        top: 92.5%;
+
+    }
+
+    30% {
+        left: 67.4%;
+        top: 92.5%;
+
+    }
+
+    45% {
+        left: 67.4%;
+        top: 81.5%;
+    }
+
+    60% {
+        left: 64.5%;
+        top: 81.5%;
+    }
+
+    75% {
+        left: 64.5%;
+        top: 42.8%;
+    }
+    90% {
+        left: 50.5%;
+        top: 42.8%;
+    }
+    100% {
+        left: 50.5%;
+        top: 37%;
+    }
+}
+
+
+/*anim Médiathèque to Maison de l'europe*/
+@keyframes movepersoMEtoMDE {
+    0% {
+        left: 60%;
+        top: 89%;
+
+    }
+
+    15% {
+        left: 60%;
+        top: 92.5%;
+
+    }
+
+    30% {
+        left: 55%;
+        top: 92.5%;
+    }
+
+    45% {
+        left: 50%;
+        top:  84.5%;
+    }
+
+    60% {
+        left: 17.5%;
+        top:  84.5%;
+    }
+
+    75% {
+        left: 17.5%;
+        top:  89.5%;
+    }
+    90% {
+        left: 13.3%;
+        top:  89.5%;
+    }
+    100% {
+        left: 13.3%;
+        top:  86%;
+    }
+}
+
+/*anim Médiathèque to Ecomusée*/
+@keyframes movepersoMEtoEM {
+    0% {
+        left: 60%;
+        top: 89%;
+
+    }
+
+    10% {
+        left: 60%;
+        top: 92.5%;
+
+    }
+
+    20% {
+        left: 55%;
+        top: 92.5%;
+    }
+
+    30% {
+        left: 50%;
+        top:  84.5%;
+    }
+
+    40% {
+        left: 45.5%;
+        top:  84.5%;
+    }
+
+    50% {
+        left: 45.5%;
+        top:  67%;
+    }
+    60% {
+        left: 36.5%;
+        top:  67%;
+    }
+
+    70% {
+        left: 36.5%;
+        top:  57.5%;
+    }
+
+    80% {
+        left: 23.6%;
+        top:  57.5%;
+    }
+
+    100% {
+        left: 23.6%;
+        top:  53.5%;
+    }
+}
 
 
 
