@@ -3,18 +3,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
 
 
-var alpha = Math.round($perso.getBoundingClientRect().top);
-var beta = Math.round($perso.getBoundingClientRect().left);
 
-console.log(alpha);
-console.log(beta);
-
-
-/*
-let time = document.getElementById('perso');
-let timeStyle = window.getComputedStyle(time);
-timeStyle.getPropertyValue('animation-duration');
-*/
 
 
 // 'For' mouvements perso
@@ -95,7 +84,13 @@ timeStyle.getPropertyValue('animation-duration');
 
     function move_mairie() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=1&id_bat='+$id_bat;
+        $('#super_glo').hide();
+        $('#global').show();
+
+      // document.getElementById('super_glo').style.display = 'none';
+        //document.getElementById('global').style.display = 'block';
+
+        ajaxRequest0({'id_interaction' : 1} );
 
     }
 
@@ -105,8 +100,13 @@ timeStyle.getPropertyValue('animation-duration');
 
     function move_labo() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=2&id_bat='+$id_bat;
+        $('#super_glo').hide();
+        $('#global').show();
 
+       // document.getElementById('super_glo').style.display = 'none';
+       // document.getElementById('global').style.display = 'block';
+
+        ajaxRequest0({'id_interaction' : 2} );
 
     }
 
@@ -116,8 +116,13 @@ timeStyle.getPropertyValue('animation-duration');
 
     function move_media() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=3&id_bat='+$id_bat;
+        $('#super_glo').hide();
+        $('#global').show();
 
+      //  document.getElementById('super_glo').style.display = 'none';
+      //  document.getElementById('global').style.display = 'block';
+
+        ajaxRequest0({'id_interaction' : 3} );
 
     }
 
@@ -127,8 +132,13 @@ timeStyle.getPropertyValue('animation-duration');
 
     function move_ecomusee() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=4&id_bat='+$id_bat;
+        $('#super_glo').hide();
+        $('#global').show();
 
+      //  document.getElementById('super_glo').style.display = 'none';
+      //  document.getElementById('global').style.display = 'block';
+
+        ajaxRequest0({'id_interaction' : 4} );
 
     }
 
@@ -138,8 +148,12 @@ timeStyle.getPropertyValue('animation-duration');
 
     function move_MDE() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=5&id_bat='+$id_bat;
+        $('#super_glo').hide();
+        $('#global').show();
+      //  document.getElementById('super_glo').style.display = 'none';
+      //  document.getElementById('global').style.display = 'block';
 
+        ajaxRequest0({'id_interaction' : 5} );
 
 
 }

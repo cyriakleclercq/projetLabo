@@ -13,7 +13,18 @@
 
 <h1> VIDEO GAME </h1>
 
-<div id="welcome">
+<div id="display_map">
+
+
+    <div id="global" style="display: none">
+
+        <div id="avatar"></div>
+
+        <div id="dialogue">
+
+        </div>
+
+    </div>
 
     <div id="super_glo">
 
@@ -69,6 +80,7 @@
         <div class="resume" id="resume0"> </div>
 
         <span id="id_bat" style="display:none"><?= $_GET['id_bat'] ?></span>
+       <span id="id_interaction" style="display:none;"></span>
 
 
     </div>
