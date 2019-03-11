@@ -29,13 +29,13 @@ function onload() {
 
             alert($i);
 
-            if (alpha.top == 159 && alpha.left == 803 && $i == 0) {
+            if ($i == 0) {
 
 
                 if ($("#perso").hasClass("perso_init")) {
 
                     $('#perso').removeClass("perso_init");
-                    $('#perso').addClass("mairie");
+                    $('#perso').addClass("dep_mairie");
                     setTimeout(move_mairie, 2000);
 
                 }
@@ -44,7 +44,7 @@ function onload() {
             }
 
 
-            if (alpha > 330 || alpha < 340 && beta > 800 || beta < 805 && $i == 1) {
+            if ($i == 1) {
 
 
                 if ($("#perso").hasClass("perso_init")) {
@@ -58,20 +58,38 @@ function onload() {
             }
 
             if ($i == 2) {
-                setTimeout(move_media, 10000);
+
+                if ($("#perso").hasClass("perso_init")) {
+
+                    $('#perso').removeClass("perso_init");
+                    $('#perso').addClass("dep_mediatheque");
+                    setTimeout(move_media, 10000);
+
+                }
+
 
             }
 
             if ($i == 3) {
-                setTimeout(move_ecomusee, 10000);
 
+                if ($ ("#perso").hasClass ("perso_init")) {
+
+                    $ ('#perso').removeClass ("perso_init");
+                    $ ('#perso').addClass ("dep_Ecomusée");
+                    setTimeout (move_ecomusee, 10000);
+
+                }
             }
 
             if ($i == 4) {
-                setTimeout(move_MDE, 10000);
+                if ($ ("#perso").hasClass ("perso_init")) {
 
+                    $ ('#perso').removeClass ("perso_init");
+                    $ ('#perso').addClass ("dep_MDE");
+                    setTimeout (move_MDE, 10000);
+
+                }
             }
-
 
         })
 
