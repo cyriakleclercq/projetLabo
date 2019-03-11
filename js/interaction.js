@@ -1,11 +1,7 @@
 $perso = document.getElementById("perso");
+$id_bat = document.getElementById('id_bat').innerHTML;
 
 
-$mairie = document.getElementById('global1');
-$labo = document.getElementById('global2');
-$mediatheque = document.getElementById('global3');
-$ecomusee = document.getElementById('global4');
-$maison_europe = document.getElementById('global5');
 
 var alpha = Math.round($perso.getBoundingClientRect().top);
 var beta = Math.round($perso.getBoundingClientRect().left);
@@ -20,8 +16,8 @@ let timeStyle = window.getComputedStyle(time);
 timeStyle.getPropertyValue('animation-duration');
 */
 
-function onload() {
 
+// 'For' mouvements perso
 
     for (let $i = 0; $i <= 4; $i++) {
 
@@ -95,56 +91,57 @@ function onload() {
 
     }
 
+// Redirection du personnage vers batiment :
+
     function move_mairie() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=1';
+        document.location.href = '../html/dialogue.php?id_interaction=1&id_bat='+$id_bat;
 
     }
 
 
-//////////////////////////////
+
 
 
     function move_labo() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=2';
+        document.location.href = '../html/dialogue.php?id_interaction=2&id_bat='+$id_bat;
 
 
     }
 
 
-/////////////////////////////////
+
 
 
     function move_media() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=3';
+        document.location.href = '../html/dialogue.php?id_interaction=3&id_bat='+$id_bat;
 
 
     }
 
 
-/////////////////////////////
+
 
 
     function move_ecomusee() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=4';
+        document.location.href = '../html/dialogue.php?id_interaction=4&id_bat='+$id_bat;
 
 
     }
 
 
-/////////////////////////////
+
 
 
     function move_MDE() {
 
-        document.location.href = '../html/dialogue.php?id_interaction=5';
+        document.location.href = '../html/dialogue.php?id_interaction=5&id_bat='+$id_bat;
 
 
-    }
+
 }
 
-$(document).ready(onload());
 
