@@ -2,10 +2,6 @@ $perso = document.getElementById("perso");
 $id_bat = document.getElementById('id_bat').innerHTML;
 
 
-
-
-
-
 // 'For' mouvements perso
 
     for (let $i = 0; $i <= 4; $i++) {
@@ -34,6 +30,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("labo_init");
                     $('#perso').addClass("LToM");
+                    setTimeout(move_mairie, 10000);
+
 
                 }
 
@@ -43,6 +41,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mediatheque_init");
                     $('#perso').addClass("METoM");
+                    setTimeout(move_mairie, 10000);
+
                 }
 
                 //depart ecomusee
@@ -51,6 +51,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("ecomusee_init");
                     $('#perso').addClass("EMToM");
+                    setTimeout(move_mairie, 10000);
+
                 }
 
                 //depart maison de l'europe
@@ -59,6 +61,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mde_init");
                     $('#perso').addClass("MDEToM");
+                    setTimeout(move_mairie, 10000);
+
                 }
 
             }
@@ -76,6 +80,46 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                     setTimeout(move_labo, 10000);
                 }
 
+                //depart mairie
+
+                else if ($("#perso").hasClass("mairie_init")) {
+
+                    $('#perso').removeClass("mairie_init");
+                    $('#perso').addClass("MToL");
+                    setTimeout(move_labo, 10000);
+
+
+                }
+
+                //depart mediatheque
+
+                else if ($("#perso").hasClass("mediatheque_init")) {
+
+                    $('#perso').removeClass("mediatheque_init");
+                    $('#perso').addClass("METoL");
+                    setTimeout(move_labo, 10000);
+
+                }
+
+                //depart ecomusee
+
+                else if ($("#perso").hasClass("ecomusee_init")) {
+
+                    $('#perso').removeClass("ecomusee_init");
+                    $('#perso').addClass("EMToL");
+                    setTimeout(move_labo, 10000);
+
+                }
+
+                //depart maison de l'europe
+
+                else if ($("#perso").hasClass("mde_init")) {
+
+                    $('#perso').removeClass("mde_init");
+                    $('#perso').addClass("MDEToL");
+                    setTimeout(move_labo, 10000);
+
+                }
 
             }
 
@@ -93,6 +137,45 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                 }
 
+                //depart mairie
+
+                else if ($("#perso").hasClass("mairie_init")) {
+
+                    $('#perso').removeClass("mairie_init");
+                    $('#perso').addClass("MToME");
+                    setTimeout(move_media, 10000);
+
+                }
+
+                //depart labo
+
+                else if ($("#perso").hasClass("labo_init")) {
+
+                    $('#perso').removeClass("labo_init");
+                    $('#perso').addClass("LToME");
+                    setTimeout(move_media, 10000);
+
+                }
+
+                //depart ecomusee
+
+                else if ($("#perso").hasClass("ecomusee_init")) {
+
+                    $('#perso').removeClass("ecomusee_init");
+                    $('#perso').addClass("EMToME");
+                    setTimeout(move_media, 10000);
+
+                }
+
+                //depart maison de l'europe
+
+                else if ($("#perso").hasClass("mde_init")) {
+
+                    $('#perso').removeClass("mde_init");
+                    $('#perso').addClass("MDEToME");
+                    setTimeout(move_media, 10000);
+
+                }
 
             }
 
@@ -109,6 +192,47 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                     setTimeout (move_ecomusee, 10000);
 
                 }
+
+                //depart mairie
+
+                else if ($("#perso").hasClass("mairie_init")) {
+
+                    $('#perso').removeClass("mairie_init");
+                    $('#perso').addClass("MToEM");
+                    setTimeout (move_ecomusee, 10000);
+
+                }
+
+                //depart labo
+
+                else if ($("#perso").hasClass("labo_init")) {
+
+                    $('#perso').removeClass("labo_init");
+                    $('#perso').addClass("LToEM");
+                    setTimeout (move_ecomusee, 10000);
+
+                }
+
+                //depart mediatheque
+
+                else if ($("#perso").hasClass("mediatheque_init")) {
+
+                    $('#perso').removeClass("mediatheque_init");
+                    $('#perso').addClass("METoEM");
+                    setTimeout (move_ecomusee, 10000);
+
+                }
+
+                //depart maison de l'europe
+
+                else if ($("#perso").hasClass("mde_init")) {
+
+                    $('#perso').removeClass("mde_init");
+                    $('#perso').addClass("MDEToEM");
+                    setTimeout (move_ecomusee, 10000);
+
+                }
+
             }
 
             //maison de l'europe
@@ -124,6 +248,47 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                     setTimeout (move_MDE, 10000);
 
                 }
+
+                //depart mairie
+
+                else if ($("#perso").hasClass("mairie_init")) {
+
+                    $('#perso').removeClass("mairie_init");
+                    $('#perso').addClass("MToMDE");
+                    setTimeout (move_MDE, 10000);
+
+                }
+
+                //depart labo
+
+                else if ($("#perso").hasClass("labo_init")) {
+
+                    $('#perso').removeClass("labo_init");
+                    $('#perso').addClass("LToMDE");
+                    setTimeout (move_MDE, 10000);
+
+                }
+
+                //depart mediatheque
+
+                else if ($("#perso").hasClass("mediatheque_init")) {
+
+                    $('#perso').removeClass("mediatheque_init");
+                    $('#perso').addClass("METoMDE");
+                    setTimeout (move_MDE, 10000);
+
+                }
+
+                //depart ecomusee
+
+                else if ($("#perso").hasClass("ecomusee_init")) {
+
+                    $('#perso').removeClass("ecomusee_init");
+                    $('#perso').addClass("EMToMDE");
+                    setTimeout (move_MDE, 10000);
+
+                }
+
             }
 
         })
@@ -137,8 +302,12 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#super_glo').hide();
         $('#global').show();
 
-      // document.getElementById('super_glo').style.display = 'none';
-        //document.getElementById('global').style.display = 'block';
+        $('#perso').removeClass("LToM");
+        $('#perso').removeClass("METoM");
+        $('#perso').removeClass("EMToM");
+        $('#perso').removeClass("MDEToM");
+
+        $('#perso').addClass("mairie_init");
 
         ajaxRequest0({'id_interaction' : 1} );
 
@@ -153,8 +322,13 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#super_glo').hide();
         $('#global').show();
 
-       // document.getElementById('super_glo').style.display = 'none';
-       // document.getElementById('global').style.display = 'block';
+        $('#perso').removeClass("MToL");
+        $('#perso').removeClass("METoL");
+        $('#perso').removeClass("EMToL");
+        $('#perso').removeClass("MDEToL");
+
+        $('#perso').addClass("labo_init");
+
 
         ajaxRequest0({'id_interaction' : 2} );
 
@@ -169,8 +343,12 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#super_glo').hide();
         $('#global').show();
 
-      //  document.getElementById('super_glo').style.display = 'none';
-      //  document.getElementById('global').style.display = 'block';
+        $('#perso').removeClass("MToME");
+        $('#perso').removeClass("LToME");
+        $('#perso').removeClass("EMToME");
+        $('#perso').removeClass("MDEToME");
+
+        $('#perso').addClass("mediatheque_init");
 
         ajaxRequest0({'id_interaction' : 3} );
 
@@ -185,8 +363,12 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#super_glo').hide();
         $('#global').show();
 
-      //  document.getElementById('super_glo').style.display = 'none';
-      //  document.getElementById('global').style.display = 'block';
+        $('#perso').removeClass("MToEM");
+        $('#perso').removeClass("LToEM");
+        $('#perso').removeClass("METoEM");
+        $('#perso').removeClass("MDEToEM");
+
+        $('#perso').addClass("ecomusee_init");
 
         ajaxRequest0({'id_interaction' : 4} );
 
@@ -200,8 +382,13 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
         $('#super_glo').hide();
         $('#global').show();
-      //  document.getElementById('super_glo').style.display = 'none';
-      //  document.getElementById('global').style.display = 'block';
+
+        $('#perso').removeClass("MToMDE");
+        $('#perso').removeClass("LToMDE");
+        $('#perso').removeClass("METoMDE");
+        $('#perso').removeClass("EMToMDE");
+
+        $('#perso').addClass("labo_init");
 
         ajaxRequest0({'id_interaction' : 5} );
 
