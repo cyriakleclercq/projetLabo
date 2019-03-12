@@ -7,7 +7,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
     for (let $i = 0; $i <= 4; $i++) {
 
         $('#cadre' + $i).click(function () {
-            
+
             //mairie
 
             if ($i == 0) {
@@ -304,6 +304,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#perso').removeClass("MEtoM");
         $('#perso').removeClass("EMtoM");
         $('#perso').removeClass("MDEtoM");
+        $('#perso').removeClass("dep_mairie");
+
 
         $('#perso').addClass("mairie_init");
 
@@ -324,6 +326,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#perso').removeClass("MEtoL");
         $('#perso').removeClass("EMtoL");
         $('#perso').removeClass("MDEtoL");
+        $('#perso').removeClass("dep_labo");
 
         $('#perso').addClass("labo_init");
 
@@ -345,6 +348,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#perso').removeClass("LtoME");
         $('#perso').removeClass("EMtoME");
         $('#perso').removeClass("MDEtoME");
+        $('#perso').removeClass("dep_mediatheque");
+
 
         $('#perso').addClass("mediatheque_init");
 
@@ -365,6 +370,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#perso').removeClass("LtoEM");
         $('#perso').removeClass("MEtoEM");
         $('#perso').removeClass("MDEtoEM");
+        $('#perso').removeClass("dep_Ecomusée");
+
 
         $('#perso').addClass("ecomusee_init");
 
@@ -385,6 +392,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#perso').removeClass("LtoMDE");
         $('#perso').removeClass("MEtoMDE");
         $('#perso').removeClass("EMtoMDE");
+        $('#perso').removeClass("dep_MDE");
+
 
         $('#perso').addClass("labo_init");
 
