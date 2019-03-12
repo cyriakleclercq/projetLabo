@@ -20,11 +20,17 @@
 
         <div id="avatar"></div>
 
-        <div id="dialogue">
+        <div id="dialogue"> </div>
+        <div id="bouton_dialogue">
 
+            <input type="button"  value="suivant">
         </div>
 
+
     </div>
+
+
+
 
     <div id="super_glo">
 
