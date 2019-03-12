@@ -77,6 +77,26 @@ input {
     top: 42.5%;
 }
 
+.labo_init {
+    left: 49.9%;
+    top: 78%;
+}
+
+.ecomusee_init{
+    left: 23.5%;
+    top: 54%;
+}
+
+.mde_init{
+    left: 13.2%;
+    top: 86%;
+}
+
+.mediatheque_init{
+    left: 60%;
+    top: 89%;
+}
+
 @keyframes rotation {
     from {
         transform-origin: 50%;
