@@ -27,7 +27,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("labo_init")) {
 
                     $('#perso').removeClass("labo_init");
-                    $('#perso').addClass("LtoM");
+                    $('#perso').addClass("LToM");
                     setTimeout(move_mairie, 10000);
 
 
@@ -38,7 +38,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mediatheque_init")) {
 
                     $('#perso').removeClass("mediatheque_init");
-                    $('#perso').addClass("MEtoM");
+                    $('#perso').addClass("METoM");
                     setTimeout(move_mairie, 10000);
 
                 }
@@ -48,7 +48,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("ecomusee_init")) {
 
                     $('#perso').removeClass("ecomusee_init");
-                    $('#perso').addClass("EMtoM");
+                    $('#perso').addClass("EMToM");
                     setTimeout(move_mairie, 10000);
 
                 }
@@ -58,7 +58,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mde_init")) {
 
                     $('#perso').removeClass("mde_init");
-                    $('#perso').addClass("MDEtoM");
+                    $('#perso').addClass("MDEToM");
                     setTimeout(move_mairie, 10000);
 
                 }
@@ -83,7 +83,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mairie_init")) {
 
                     $('#perso').removeClass("mairie_init");
-                    $('#perso').addClass("MtoL");
+                    $('#perso').addClass("MToL");
                     setTimeout(move_labo, 10000);
 
 
@@ -94,7 +94,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mediatheque_init")) {
 
                     $('#perso').removeClass("mediatheque_init");
-                    $('#perso').addClass("MEtoL");
+                    $('#perso').addClass("METoL");
                     setTimeout(move_labo, 10000);
 
                 }
@@ -104,7 +104,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("ecomusee_init")) {
 
                     $('#perso').removeClass("ecomusee_init");
-                    $('#perso').addClass("EMtoL");
+                    $('#perso').addClass("EMToL");
                     setTimeout(move_labo, 10000);
 
                 }
@@ -114,7 +114,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mde_init")) {
 
                     $('#perso').removeClass("mde_init");
-                    $('#perso').addClass("MDEtoL");
+                    $('#perso').addClass("MDEToL");
                     setTimeout(move_labo, 10000);
 
                 }
@@ -140,7 +140,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mairie_init")) {
 
                     $('#perso').removeClass("mairie_init");
-                    $('#perso').addClass("MtoME");
+                    $('#perso').addClass("MToME");
                     setTimeout(move_media, 10000);
 
                 }
@@ -150,7 +150,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("labo_init")) {
 
                     $('#perso').removeClass("labo_init");
-                    $('#perso').addClass("LtoME");
+                    $('#perso').addClass("LToME");
                     setTimeout(move_media, 10000);
 
                 }
@@ -160,7 +160,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("ecomusee_init")) {
 
                     $('#perso').removeClass("ecomusee_init");
-                    $('#perso').addClass("EMtoME");
+                    $('#perso').addClass("EMToME");
                     setTimeout(move_media, 10000);
 
                 }
@@ -170,7 +170,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mde_init")) {
 
                     $('#perso').removeClass("mde_init");
-                    $('#perso').addClass("MDEtoME");
+                    $('#perso').addClass("MDEToME");
                     setTimeout(move_media, 10000);
 
                 }
@@ -196,7 +196,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mairie_init")) {
 
                     $('#perso').removeClass("mairie_init");
-                    $('#perso').addClass("MtoEM");
+                    $('#perso').addClass("MToEM");
                     setTimeout (move_ecomusee, 10000);
 
                 }
@@ -206,7 +206,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("labo_init")) {
 
                     $('#perso').removeClass("labo_init");
-                    $('#perso').addClass("LtoEM");
+                    $('#perso').addClass("LToEM");
                     setTimeout (move_ecomusee, 10000);
 
                 }
@@ -216,7 +216,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mediatheque_init")) {
 
                     $('#perso').removeClass("mediatheque_init");
-                    $('#perso').addClass("MEtoEM");
+                    $('#perso').addClass("METoEM");
                     setTimeout (move_ecomusee, 10000);
 
                 }
@@ -226,7 +226,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mde_init")) {
 
                     $('#perso').removeClass("mde_init");
-                    $('#perso').addClass("MDEtoEM");
+                    $('#perso').addClass("MDEToEM");
                     setTimeout (move_ecomusee, 10000);
 
                 }
@@ -252,7 +252,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mairie_init")) {
 
                     $('#perso').removeClass("mairie_init");
-                    $('#perso').addClass("MtoMDE");
+                    $('#perso').addClass("MToMDE");
                     setTimeout (move_MDE, 10000);
 
                 }
@@ -262,7 +262,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("labo_init")) {
 
                     $('#perso').removeClass("labo_init");
-                    $('#perso').addClass("LtoMDE");
+                    $('#perso').addClass("LToMDE");
                     setTimeout (move_MDE, 10000);
 
                 }
@@ -272,7 +272,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("mediatheque_init")) {
 
                     $('#perso').removeClass("mediatheque_init");
-                    $('#perso').addClass("MEtoMDE");
+                    $('#perso').addClass("METoMDE");
                     setTimeout (move_MDE, 10000);
 
                 }
@@ -282,7 +282,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 else if ($("#perso").hasClass("ecomusee_init")) {
 
                     $('#perso').removeClass("ecomusee_init");
-                    $('#perso').addClass("EMtoMDE");
+                    $('#perso').addClass("EMToMDE");
                     setTimeout (move_MDE, 10000);
 
                 }
@@ -300,10 +300,10 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#super_glo').hide();
         $('#global').show();
 
-        $('#perso').removeClass("LtoM");
-        $('#perso').removeClass("MEtoM");
-        $('#perso').removeClass("EMtoM");
-        $('#perso').removeClass("MDEtoM");
+        $('#perso').removeClass("LToM");
+        $('#perso').removeClass("METoM");
+        $('#perso').removeClass("EMToM");
+        $('#perso').removeClass("MDEToM");
         $('#perso').removeClass("dep_mairie");
 
 
@@ -322,10 +322,10 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#super_glo').hide();
         $('#global').show();
 
-        $('#perso').removeClass("MtoL");
-        $('#perso').removeClass("MEtoL");
-        $('#perso').removeClass("EMtoL");
-        $('#perso').removeClass("MDEtoL");
+        $('#perso').removeClass("MToL");
+        $('#perso').removeClass("METoL");
+        $('#perso').removeClass("EMToL");
+        $('#perso').removeClass("MDEToL");
         $('#perso').removeClass("dep_labo");
 
         $('#perso').addClass("labo_init");
@@ -344,10 +344,10 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#super_glo').hide();
         $('#global').show();
 
-        $('#perso').removeClass("MtoME");
-        $('#perso').removeClass("LtoME");
-        $('#perso').removeClass("EMtoME");
-        $('#perso').removeClass("MDEtoME");
+        $('#perso').removeClass("MToME");
+        $('#perso').removeClass("LToME");
+        $('#perso').removeClass("EMToME");
+        $('#perso').removeClass("MDEToME");
         $('#perso').removeClass("dep_mediatheque");
 
 
@@ -366,10 +366,10 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#super_glo').hide();
         $('#global').show();
 
-        $('#perso').removeClass("MtoEM");
-        $('#perso').removeClass("LtoEM");
-        $('#perso').removeClass("MEtoEM");
-        $('#perso').removeClass("MDEtoEM");
+        $('#perso').removeClass("MToEM");
+        $('#perso').removeClass("LToEM");
+        $('#perso').removeClass("METoEM");
+        $('#perso').removeClass("MDEToEM");
         $('#perso').removeClass("dep_Ecomusée");
 
 
@@ -388,10 +388,10 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#super_glo').hide();
         $('#global').show();
 
-        $('#perso').removeClass("MtoMDE");
-        $('#perso').removeClass("LtoMDE");
-        $('#perso').removeClass("MEtoMDE");
-        $('#perso').removeClass("EMtoMDE");
+        $('#perso').removeClass("MToMDE");
+        $('#perso').removeClass("LToMDE");
+        $('#perso').removeClass("METoMDE");
+        $('#perso').removeClass("EMToMDE");
         $('#perso').removeClass("dep_MDE");
 
 
