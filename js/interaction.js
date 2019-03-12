@@ -14,8 +14,11 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
             alert($i);
 
+            //mairie
+
             if ($i == 0) {
 
+                //depart initiale
 
                 if ($("#perso").hasClass("perso_init")) {
 
@@ -25,12 +28,46 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                 }
 
+                //depart labo
+
+                else if ($("#perso").hasClass("labo_init")) {
+
+                    $('#perso').removeClass("labo_init");
+                    $('#perso').addClass("LToM");
+
+                }
+
+                //depart mediatheque
+
+                else if ($("#perso").hasClass("mediatheque_init")) {
+
+                    $('#perso').removeClass("mediatheque_init");
+                    $('#perso').addClass("METoM");
+                }
+
+                //depart ecomusee
+
+                else if ($("#perso").hasClass("ecomusee_init")) {
+
+                    $('#perso').removeClass("ecomusee_init");
+                    $('#perso').addClass("EMToM");
+                }
+
+                //depart maison de l'europe
+
+                else if ($("#perso").hasClass("mde_init")) {
+
+                    $('#perso').removeClass("mde_init");
+                    $('#perso').addClass("MDEToM");
+                }
 
             }
 
+            //labo
 
             if ($i == 1) {
 
+                //depart intiale
 
                 if ($("#perso").hasClass("perso_init")) {
 
@@ -42,7 +79,11 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
             }
 
+            //mediatheque
+
             if ($i == 2) {
+
+                //depart intiale
 
                 if ($("#perso").hasClass("perso_init")) {
 
@@ -55,7 +96,11 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
             }
 
+            //ecomusee
+
             if ($i == 3) {
+
+                //depart intiale
 
                 if ($ ("#perso").hasClass ("perso_init")) {
 
@@ -66,7 +111,12 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 }
             }
 
+            //maison de l'europe
+
             if ($i == 4) {
+
+                //depart intiale
+
                 if ($ ("#perso").hasClass ("perso_init")) {
 
                     $ ('#perso').removeClass ("perso_init");
