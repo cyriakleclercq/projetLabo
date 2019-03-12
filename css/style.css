@@ -48,6 +48,16 @@ input {
     padding-bottom: 50px;
     margin-left: 10%;
     margin-right: 10%;
+
+}
+
+#display_map {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
 }
 
 #corps {

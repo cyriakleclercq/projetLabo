@@ -37,14 +37,14 @@ if(isset($_GET['id_interaction'])) {
 }
 
 
-if(isset($id_batiment))
+if(!empty($id_batiment))
 {
     $R_sql = "SELECT *
           FROM `quetes` as a , `batiments` as b WHERE a.id_batiments = b.id_batiments 
            and a.id_batiments = $id_batiment";
 }
 
-else if(isset($id_interaction))
+else if(!empty($id_interaction))
 {
     $R_sql = "SELECT *
           FROM `presentations` as a , `dialogues` as b,`images` as c WHERE a.id_batiments = b.id_batiments AND b.id_batiments = c.id_batiments 
