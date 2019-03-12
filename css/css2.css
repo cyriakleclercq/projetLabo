@@ -416,7 +416,7 @@
 
 /* classe anim Ecomusée to Maison de l'europe*/
 
-.EcoToMDE {
+.EMToMDE {
     animation-duration: 10s;
     animation-name: movepersoEtoMDE;
     animation-fill-mode: both;
@@ -424,7 +424,7 @@
 
 /*classe anim Ecomusée to Mairie*/
 
-.EcoToM {
+.EMToM {
     animation-duration: 10s;
     animation-name: movepersoEtoM;
     animation-fill-mode: both;
@@ -432,7 +432,7 @@
 
 /*classe anim Ecomusée to Labo*/
 
-.EcoToL {
+.EMToL {
     animation-duration: 10s;
     animation-name: movepersoEtoL;
     animation-fill-mode: both;
@@ -441,7 +441,7 @@
 
 /*classe anim Ecomusée to Mediatheque*/
 
-.EcoToME {
+.EMToME {
      animation-duration: 10s;
      animation-name: movepersoEtoME;
      animation-fill-mode: both;
