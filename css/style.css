@@ -107,6 +107,11 @@ input {
     top: 89%;
 }
 
+.mairie_init{
+    left: 50.7%;
+    top: 37.5%;
+}
+
 @keyframes rotation {
     from {
         transform-origin: 50%;
