@@ -395,7 +395,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#perso').removeClass("dep_MDE");
 
 
-        $('#perso').addClass("labo_init");
+        $('#perso').addClass("mde_init");
 
         ajaxRequest0({'id_interaction' : 5} );
 
