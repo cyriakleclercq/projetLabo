@@ -441,6 +441,7 @@
 
 /*classe anim Ecomusée to Mediatheque*/
 
+
 .EMToME {
      animation-duration: 10s;
      animation-name: movepersoEtoME;
