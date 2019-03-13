@@ -40,6 +40,7 @@ function ajaxRequest()
                     $li = document.createElement('li');
                     $ul.appendChild($li);
                     $li.innerHTML= quetes[$j].nom;
+                    $li.style.listStyle = 'none' ;
                 }
 
         }
