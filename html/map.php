@@ -21,9 +21,9 @@
         <div id="avatar"></div>
 
         <div id="dialogue"> </div>
-        <div id="bouton_dialogue">
+        <div>
 
-            <input type="button"  value="suivant">
+            <input id="bouton_dialogue" type="button"  value="suivant">
         </div>
 
 
