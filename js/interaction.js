@@ -288,6 +288,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 }
 
             }
+            $('#cadre' + $i).hide();
+
 
         })
 
