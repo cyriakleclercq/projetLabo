@@ -198,8 +198,7 @@
 
 
 
-
-    .dep_mairie{
+.dep_mairie{
         animation-duration: 2s;
         animation-name: movepersoM;
         animation-fill-mode: both;
@@ -238,13 +237,13 @@
 /* anim mairie*/
 @keyframes movepersoM {
     0% {
-    left: 50.7%;
-    top: 42.5%;
+        left: 63%;
+        top: 30%;
     }
 
     100% {
-    left: 50.7%;
-    top: 37.5%;
+        left: 63%;
+        top: 24.6%;
     }
 }
 
@@ -253,38 +252,38 @@
 
 @keyframes movepersoL {
     0% {
-        left: 50.7%;
-        top: 42.5%;
+        left: 63%;
+        top: 30%;
     }
 
     15%{
-        left: 36.5%;
-        top: 42.5%;
+        left: 41.5%;
+        top: 30%;
     }
 
     30%{
-        left: 36.5%;
-        top: 66.5%;
+        left: 41.5%;
+        top: 59.2%;
     }
 
     45%{
-        left: 45.5%;
-        top: 66.5%;
+        left: 55.4%;
+        top: 59.2%;
     }
 
     60%{
-        left: 45.5%;
-        top: 83.8%;
+        left: 55.4%;
+        top: 80.2%;
     }
 
     75%{
-        left: 50%;
-        top: 83.8%;
+        left: 62.3%;
+        top: 80.2%;
     }
 
     100%{
-        left: 50%;
-        top: 77.8%;
+        left: 62.3%;
+        top: 75%;
     }
 
 }
@@ -294,48 +293,48 @@
 /*mouvement Maison de l'europe*/
 @keyframes movepersoMDE {
     0% {
-        left: 50.7%;
-        top: 42.5%;
+        left: 63%;
+        top: 30%;
     }
 
-    10% {
-        left: 36.5%;
-        top: 42.5%;
+    12.5%{
+        left: 41.5%;
+        top: 30%;
     }
 
-    20% {
-        left: 36.5%;
-        top: 66.5%;
+    25%{
+        left: 41.5%;
+        top: 59.2%;
     }
 
-    30% {
-        left: 45.5%;
-        top: 66.5%;
+    37.5%{
+        left: 55.4%;
+        top: 59.2%;
     }
 
-    40% {
-        left: 45.5%;
-        top: 83.8%;
+    50%{
+        left: 55.4%;
+        top: 80.2%;
     }
 
-    50% {
-        left: 17.5%;
-        top: 83.8%;
+    62.5%{
+        left: 11.7%;
+        top: 80.2%;
     }
 
-    60% {
-        left: 17.5%;
-        top: 90.2%;
+    75% {
+        left: 11.7%;
+        top: 87.5%;
     }
 
-    80% {
-        left: 13.2%;
-        top: 90.2%;
+    87.5% {
+        left: 4.5%;
+        top: 87.5%;
     }
 
     100% {
-        left: 13.2%;
-        top: 86.2%;
+        left: 4.5%;
+        top: 82%;
     }
 }
 
@@ -343,66 +342,66 @@
 /*mouvement médiatheque*/
 @keyframes movepersoME {
     0% {
-        left: 50.7%;
-        top: 42.5%;
+        left: 63%;
+        top: 30%;
     }
 
     15%{
-        left: 64.5%;
-        top: 42.5%;
+        left: 85%;
+        top: 30%;
     }
 
     30%{
-        left: 64.5%;
-        top: 80.6%;
+        left: 85%;
+        top: 76%;
     }
 
     45%{
-        left: 67.4%;
-        top: 80.6%;
+        left: 89.6%;
+        top: 76%;
     }
 
     60%{
-        left: 67.4%;
-        top: 93%;
+        left: 89.6%;
+        top: 90%;
     }
 
     75%{
-        left: 60.1%;
-        top: 93%;
+        left: 78%;
+        top: 90%;
     }
 
     100%{
-        left: 60.1%;
-        top: 89.5%;
+        left: 78%;
+        top: 85%;
     }
 }
 
 /*anim Eco musée*/
 @keyframes movepersoEM {
     0% {
-        left: 50.7%;
-        top: 42.5%;
+        left: 63%;
+        top: 30%;
     }
 
-    20% {
-        left: 36.5%;
-        top: 42.5%;
+    25%{
+        left: 41.5%;
+        top: 30%;
     }
 
-    40% {
-        left: 36.5%;
-        top: 57.5%;
+    50% {
+        left: 41.5%;
+        top: 48%;
     }
 
-    60%{
-        left: 23.5%;
-        top: 57.5%;
+    75%{
+        left: 20.7%;
+        top: 48%;
     }
 
     100%{
-        left: 23.5%;
-        top: 54%;
+        left: 20.7%;
+        top: 43%;
     }
 
 }
@@ -453,180 +452,179 @@
 /*anim Ecomusée to Maison de l'europe*/
 @keyframes movepersoEtoMDE {
 0% {
-left: 23.5%;
-top: 54%;
+    left: 20.7%;
+    top: 43%;
 }
 
 10% {
-left: 23.5%;
-top: 57.5%;
+    left: 20.7%;
+    top: 47.5%;
 }
 
 20% {
-left: 36.5%;
-top: 57.5%;
+    left: 41.5%;
+    top: 47.5%;
 }
 
 30% {
-left: 36.5%;
-top: 66.5%;
+    left: 41.5%;
+    top: 59.2%;
 }
 
 40% {
-left: 45.5%;
-top: 66.5%;
+    left: 55.2%;
+    top: 59.2%;
 }
 
 50% {
-left: 45.5%;
-top: 83.9%;
-}
+    left: 55.2%;
+    top: 80.5%;}
 
 60% {
-left: 17.5%;
-top: 83.9%;
+    left: 11.5%;
+    top: 80.5%;
 }
 
 70% {
-left: 17.5%;
-top: 90%;
+    left: 11.5%;
+    top: 87.5%;
 }
 
 80% {
-left: 13.2%;
-top: 90%;
+    left: 4.5%;
+    top: 87.5%;
 }
 
 100% {
-left: 13.2%;
-top: 86%;
+    left: 4.5%;
+    top: 82.5%;
 }
 }
 
 /*anim Ecomusée to Mairie*/
 @keyframes movepersoEtoM {
     0% {
-        left: 23.5%;
-        top: 54%;
+        left: 20.7%;
+        top: 43%;
     }
 
     20% {
-        left: 23.5%;
-        top: 57.5%;
+        left: 20.7%;
+        top: 47.5%;
     }
 
     40% {
-        left: 36.5%;
-        top: 57.5%;
+        left: 41.5%;
+        top: 47.5%;
     }
 
     60% {
-        left: 36.5%;
-        top: 42.5%;
+        left: 41.5%;
+        top: 30%;
     }
 
     80% {
-        left: 50.6%;
-        top: 42.5%;
+        left: 63%;
+        top: 29%;
     }
 
     100% {
-        left: 50.6%;
-        top: 35.5%;
+        left: 63%;
+        top: 25%;
     }
 }
 
 /*anim Ecomusée to Labo*/
 @keyframes movepersoEtoL {
     0% {
-        left: 23.5%;
-        top: 54%;
+        left: 20.7%;
+        top: 43%;
     }
 
     15% {
-        left: 23.5%;
-        top: 57.5%;
+        left: 20.7%;
+        top: 47.5%;
     }
 
     30% {
-        left: 36.5%;
-        top: 57.5%;
+        left: 41.5%;
+        top: 47.5%;
     }
 
     45% {
-        left: 36.5%;
-        top: 66.2%;
+        left: 41.5%;
+        top: 59.2%;
     }
     60% {
-        left: 45.4%;
-        top: 66.2%;
+        left: 55%;
+        top: 59.2%;
     }
 
     75%{
-        left: 45.4%;
-        top: 84%;
+        left: 55%;
+        top: 80%;
     }
 
     90%{
-        left: 50%;
-        top: 84%;
+        left: 62.2%;
+        top: 80%;
     }
 
     100%{
-        left: 50%;
-        top: 78.1%;
+        left: 62.2%;
+        top: 73%;
     }
 }
 
 /*anim Ecomusée to Mediatheque*/
 @keyframes movepersoEtoME {
     0% {
-        left: 23.5%;
-        top: 54%;
+        left: 20.7%;
+        top: 43%;
     }
 
     10% {
-        left: 23.5%;
-        top: 57.5%;
+        left: 20.7%;
+        top: 47.5%;
     }
 
     20% {
-        left: 36.5%;
-        top: 57.5%;
+        left: 41.5%;
+        top: 47.5%;
     }
 
     30% {
-        left: 36.5%;
-        top: 66.5%;
+        left: 41.5%;
+        top: 59.2%;
     }
 
     40% {
-        left: 64.5%;
-        top: 66.5%;
+        left: 55%;
+        top: 59.2%
     }
 
     50% {
-        left: 64.5%;
-        top: 81.5%;
+        left: 55%;
+        top: 80%;
     }
 
     60% {
-        left: 67.5%;
-        top: 81.5%;
+        left: 63%;
+        top: 80%;
     }
 
     70% {
-        left: 67.5%;
-        top: 93.3%;
+        left: 70%;
+        top: 90.5%;
     }
 
     80% {
-        left: 60.1%;
-        top: 93.3%;
+        left: 78%;
+        top: 90.5%;
     }
     100% {
-        left: 60.1%;
-        top: 88.3%;
+        left: 78%;
+        top: 85.5%;
     }
 }
 
@@ -640,13 +638,14 @@ top: 86%;
 
     /*anim Maison de l'europe to Labo*/
 
-    .MDEToL {
+.MDEToL {
         animation-duration: 10s;
         animation-name: movepersoMDEtoL;
         animation-fill-mode: both;
     }
 
 /*anim Maison de l'europe to Mediatheque*/
+
 
 .MDEToME {
     animation-duration: 10s;
@@ -664,192 +663,195 @@ top: 86%;
 
 /*anim Maison de l'europe to Mairie*/
 
-.MDEToM {
+.MDEToM{
     animation-duration: 10s;
     animation-name: movepersoMDEtoM;
     animation-fill-mode: both;
 }
 
-/*anim Maison de l'europe to Mediatheque*/
+/*anim Maison de l'europe to Labo*/
 @keyframes movepersoMDEtoL {
-0% {
-left: 13.2%;
-top: 86%;
-}
 
-20% {
-left: 13.2%;
-top: 90%;
-}
+    0% {
+        left: 4.5%;
+        top: 82%;
+    }
 
-40% {
-left: 17.5%;
-top: 90%;
-}
 
-60% {
-left: 17.5%;
-top: 83.9%;
-}
+    20% {
+        left: 4.5%;
+        top: 87%;
+    }
 
-80% {
-left: 49.9%;
-top: 83.9%;
-}
+    40% {
+        left: 11.5%;
+        top: 87%;
+    }
 
-100% {
-left: 49.9%;
-top: 78%;
-}
+    60% {
+        left: 11.5%;
+        top: 80%;
+    }
+
+    80% {
+        left: 62%;
+        top: 80%;
+    }
+
+    100% {
+        left: 62%;
+        top: 75%;
+    }
 
 }
 
 /*anim Maison de l'europe to Mediatheque*/
 @keyframes movepersoMDEtoME {
-  0% {
-      left: 13.2%;
-      top: 86%;
-  }
 
-  15% {
-      left: 13.2%;
-      top: 90%;
-  }
+    0% {
+        left: 4.5%;
+        top: 82%;
+    }
 
-  30% {
-      left: 17.5%;
-      top: 90%;
-  }
+    15% {
+        left: 4.5%;
+        top: 87%;
+    }
 
-  45% {
-      left: 17.5%;
-      top: 83.9%;
-  }
+    30% {
+        left: 11.5%;
+        top: 87%;
+    }
 
-  60% {
-      left: 49.9%;
-      top: 83.9%;
-  }
+    45% {
+        left: 11.5%;
+        top: 80%;
+    }
+
+    60% {
+        left: 63.5%;
+        top: 80%;
+    }
 
   75% {
-      left: 55%;
-      top: 93%;
+      left: 71%;
+      top: 91%;
   }
 
   90% {
-      left: 60.2%;
-      top: 93%;
+      left: 78.3%;
+      top: 91%;
   }
 
   100% {
-      left: 60.2%;
-      top: 90%;
+      left: 78.3%;
+      top: 85%;
   }
 }
 
 /*anim Maison de l'europe to Ecomusee*/
 @keyframes movepersoMDEtoEM {
     0% {
-        left: 13.2%;
-        top: 86%;
+        left: 4.5%;
+        top: 82%;
     }
 
     10% {
-        left: 13.2%;
-        top: 90%;
+        left: 4.5%;
+        top: 87%;
     }
 
     20% {
-        left: 17.5%;
-        top: 90%;
+        left: 11.5%;
+        top: 87%;
     }
 
     30% {
-        left: 17.5%;
-        top: 83.9%;
+        left: 11.5%;
+        top: 80%;
     }
 
     40% {
-        left: 45.5%;
-        top: 83.9%;
+        left: 55.3%;
+        top: 80%;
     }
 
     50% {
-        left: 45.5%;
-        top: 66.5%;
+        left: 55.3%;
+        top: 59.3%;
     }
 
     60% {
-        left: 36.5%;
-        top: 66.5%;
+        left: 41.5%;
+        top: 59.3%;
     }
 
     70% {
-        left: 36.5%;
-        top: 57.3%;
+        left: 41.5%;
+        top: 48.3%;
     }
 
     80% {
-        left: 23.5%;
-        top: 57.3%;
+        left: 21%;
+        top: 48.3%;
     }
 
     100% {
-        left: 23.5%;
-        top: 53.2%;
+        left: 21%;
+        top: 43%;
     }
 }
 
 /*anim Maison de l'europe to Mairie*/
 @keyframes movepersoMDEtoM {
     0% {
-        left: 13.2%;
-        top: 86%;
+        left: 4.5%;
+        top: 82%;
     }
 
     10% {
-        left: 13.2%;
-        top: 90%;
+        left: 4.5%;
+        top: 87%;
     }
 
     20% {
-        left: 17.5%;
-        top: 90%;
+        left: 11.5%;
+        top: 87%;
     }
 
     30% {
-        left: 17.5%;
-        top: 83.9%;
+        left: 11.5%;
+        top: 80%;
     }
 
     40% {
-        left: 45.5%;
-        top: 83.9%;
+        left: 55.3%;
+        top: 80%;
     }
 
     50% {
-        left: 45.5%;
-        top: 66.5%;
+        left: 55.3%;
+        top: 59.3%;
     }
 
     60% {
-        left: 36.5%;
-        top: 66.5%;
+        left: 41.5%;
+        top: 59.3%;
     }
 
     70% {
-        left: 36.5%;
-        top: 43.5%;
+        left: 41.5%;
+        top: 30%;
     }
 
     80% {
-        left: 50.6%;
-        top: 43.5%;
+        left: 63%;
+        top: 30%;
     }
 
     100% {
-        left: 50.6%;
-        top: 38%;
+        left: 63%;
+        top: 25%;
     }
 }
 
@@ -871,14 +873,14 @@ top: 78%;
 }
 
 /*class anim Labo to Ecomusée*/
-.LToEM {
+.LToEM{
     animation-duration: 10s;
     animation-name: movepersoLtoEM;
     animation-fill-mode: both;
 }
 
 /*class anim Labo to Mairie*/
-.LToM{
+#perso{
     animation-duration: 10s;
     animation-name: movepersoLtoM;
     animation-fill-mode: both;
@@ -888,31 +890,29 @@ top: 78%;
 /*anim Labo to Mediatheque*/
 @keyframes movepersoLtoME {
     0% {
-        left: 49.9%;
-        top: 78%;
+        left: 62%;
+        top: 75%;
 
     }
 
     25% {
-        left: 49.9%;
-        top: 84%;
-
+        left: 62%;
+        top: 80%;
     }
 
     50% {
-        left: 55.5%;
-        top: 92.5%;
-
+        left: 70%;
+        top: 90%;
     }
 
     75% {
-        left: 60%;
-        top: 92.5%;
+        left: 78%;
+        top: 90%;
     }
 
     100% {
-        left: 60%;
-        top: 87%;
+        left: 78%;
+        top: 85%;
     }
 }
 
@@ -920,133 +920,126 @@ top: 78%;
 /*anim Labo to Maison de l'europe*/
 @keyframes movepersoLtoMDE {
     0% {
-        left: 49.9%;
-        top: 78%;
+        left: 62%;
+        top: 75%;
 
     }
 
     20% {
-        left: 49.9%;
-        top: 84%;
+        left: 62%;
+        top: 80%;
 
     }
 
     40% {
-        left: 17.6%;
-        top: 84%;
+        left: 11.5%;
+        top: 80%;
 
     }
 
     60% {
-        left: 17.6%;
-        top: 89.5%;
+        left: 11.5%;
+        top: 87.2%;
     }
 
     80% {
-        left: 13.2%;
-        top: 89.5%;
+        left: 4.3%;
+        top: 87.2%;
     }
 
     100% {
-        left: 13.2%;
-        top: 86%;
+        left: 4.3%;
+        top: 82%;
     }
 }
 
 /*anim Labo to Ecomusée*/
 @keyframes movepersoLtoEM {
     0% {
-        left: 49.9%;
-        top: 78%;
-
+        left: 62%;
+        top: 75%;
     }
 
     10% {
-        left: 49.9%;
-        top: 84%;
-
+        left: 62%;
+        top: 80%;
     }
 
     25% {
-        left: 45.3%;
-        top: 84%;
+        left: 55.3%;
+        top: 80%;
 
     }
 
     35% {
-        left: 45.3%;
-        top: 66.8%;
+        left: 55.3%;
+        top: 59.4%;
     }
 
     60% {
-        left: 36.6%;
-        top: 66.8%;
+        left: 41.3%;
+        top: 59.4%;
     }
 
     70% {
-        left: 36.6%;
-        top: 57.5%;
+        left: 41.3%;
+        top: 49%;
     }
 
     80% {
-        left: 23.5%;
-        top: 57.5%;
-    }
-
-    90% {
-        left: 23.5%;
-        top: 57.5%;
+        left: 20.5%;
+        top: 49%;
     }
 
     100% {
-        left: 23.5%;
-        top: 53.5%;
+        left: 20.5%;
+        top: 43%;
     }
 }
 
 /*anim Labo to Mairie*/
 @keyframes movepersoLtoM {
     0% {
-        left: 49.9%;
-        top: 78%;
+        left: 62%;
+        top: 75%;
 
     }
 
     15% {
-        left: 49.9%;
-        top: 84%;
+        left: 62%;
+        top: 80%;
 
     }
 
     30% {
-        left: 45.3%;
-        top: 84%;
+        left: 55.3%;
+        top: 80%;
 
     }
 
     45% {
-        left: 45.3%;
-        top: 66.8%;
+        left: 55.3%;
+        top: 59.4%;
     }
 
     60% {
-        left: 36.6%;
-        top: 66.8%;
+        left: 41.3%;
+        top: 59.4%;
     }
 
     75% {
-        left: 36.6%;
-        top: 43.5%;
+        left: 41.3%;
+        top: 30.5%;
     }
 
     90% {
-        left: 50.8%;
-        top: 43.5%;
+        left: 63.5%;
+        top: 30.5%;
     }
 
     100% {
-        left: 50.8%;
-        top: 38%;
+        left: 63.5%;
+        top: 25%;
     }
 
 }
@@ -1060,7 +1053,7 @@ top: 78%;
 
 
 /*class anim Médiathèque to Labo*/
-.METoL{
+.LToM{
     animation-duration: 10s;
     animation-name: movepersoMEtoL;
     animation-fill-mode: both;
@@ -1091,31 +1084,29 @@ top: 78%;
 /*anim Médiathèque to Labo*/
 @keyframes movepersoMEtoL {
     0% {
-        left: 60%;
-        top: 89%;
-
+        left: 78%;
+        top: 85%
     }
 
     25% {
-        left: 60%;
-        top: 92.5%;
-
+        left: 78%;
+        top: 90%
     }
 
     50% {
-        left: 55%;
-        top: 92.5%;
+        left: 70%;
+        top: 90%
 
     }
 
     75% {
-        left: 50%;
-        top:  82.5%;
+        left: 63.5%;
+        top:  80%;
     }
 
     100% {
-        left: 50%;
-        top: 78%;
+        left: 63.5%;
+        top:  74%;
     }
 }
 
@@ -1123,44 +1114,41 @@ top: 78%;
 /*anim Médiathèque to Mairie*/
 @keyframes movepersoMEtoM {
     0% {
-        left: 60%;
-        top: 89%;
-
+        left: 78%;
+        top: 85%
     }
 
     15% {
-        left: 60%;
-        top: 92.5%;
-
+        left: 78%;
+        top: 90%
     }
 
     30% {
-        left: 67.4%;
-        top: 92.5%;
-
+        left: 89.5%;
+        top: 90%
     }
 
     45% {
-        left: 67.4%;
-        top: 81.5%;
+        left: 89.5%;
+        top: 77%
     }
 
     60% {
-        left: 64.5%;
-        top: 81.5%;
+        left: 85%;
+        top: 77%
     }
 
     75% {
-        left: 64.5%;
-        top: 42.8%;
+        left: 85%;
+        top: 31%
     }
     90% {
-        left: 50.5%;
-        top: 42.8%;
+        left: 63%;
+        top: 31%
     }
     100% {
-        left: 50.5%;
-        top: 37%;
+        left: 63%;
+        top: 25%
     }
 }
 
@@ -1168,97 +1156,97 @@ top: 78%;
 /*anim Médiathèque to Maison de l'europe*/
 @keyframes movepersoMEtoMDE {
     0% {
-        left: 60%;
-        top: 89%;
+        left: 78%;
+        top: 85%
 
     }
 
     15% {
-        left: 60%;
-        top: 92.5%;
+        left: 78%;
+        top: 90%
 
     }
 
     30% {
-        left: 55%;
-        top: 92.5%;
+        left: 70%;
+        top: 90%
     }
 
     45% {
-        left: 50%;
-        top:  84.5%;
+        left: 62%;
+        top:  80%;
     }
 
     60% {
-        left: 17.5%;
-        top:  84.5%;
+        left: 11.5%;
+        top:  80%;
     }
 
     75% {
-        left: 17.5%;
-        top:  89.5%;
+        left: 11.5%;
+        top:  87.5%;
     }
     90% {
-        left: 13.3%;
-        top:  89.5%;
+        left: 4.5%;
+        top:  87.5%;
     }
     100% {
-        left: 13.3%;
-        top:  86%;
+        left: 4.5%;
+        top:  82.5%;
     }
 }
 
 /*anim Médiathèque to Ecomusée*/
 @keyframes movepersoMEtoEM {
     0% {
-        left: 60%;
-        top: 89%;
+        left: 78%;
+        top: 85%
 
     }
 
     10% {
-        left: 60%;
-        top: 92.5%;
+        left: 78%;
+        top: 90%
 
     }
 
     20% {
-        left: 55%;
-        top: 92.5%;
+        left: 70%;
+        top: 90%
     }
 
     30% {
-        left: 50%;
-        top:  84.5%;
+        left: 62%;
+        top:  80%;
     }
 
     40% {
-        left: 45.5%;
-        top:  84.5%;
+        left: 55.4%;
+        top:  80%;
     }
 
     50% {
-        left: 45.5%;
-        top:  67%;
+        left: 55.4%;
+        top:  59.5%;
     }
     60% {
-        left: 36.5%;
-        top:  67%;
+        left: 41.5%;
+        top:  59.5%;
     }
 
     70% {
-        left: 36.5%;
-        top:  57.5%;
+        left: 41.5%;
+        top:  48.5%;
     }
 
     80% {
-        left: 23.6%;
-        top:  57.5%;
+        left: 20.5%;
+        top:  48.5%;
     }
 
     100% {
-        left: 23.6%;
-        top:  53.5%;
+        left: 20.5%;
+        top:  43%;
     }
 }
 
