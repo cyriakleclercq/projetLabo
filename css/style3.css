@@ -1,33 +1,39 @@
 .cadre {
     border: solid;
     position: absolute;
-    width: 5%;
-    height: 10%;
+    height: 14%;
 }
 
 #cadre0 {
-    left: 63.5%;
-    top: 22%;
+    left: 53%;
+    top: 14%;
+    width: 30%;
+    height: 20%;
 }
 
 #cadre1 {
-    left: 63.6%;
-    top: 72%;
+    left: 60%;
+    top: 68%;
+    width: 15%;
 }
 
 #cadre2 {
-    left: 78.5%;
-    top: 83%;
+    left: 76%;
+    top: 79%;
+    width: 10%;
+
 }
 
 #cadre3 {
-    left: 20%;
-    top: 40%;
+    left: 17%;
+    top: 36%;
+    width: 21%;
 }
 
 #cadre4 {
-    left: 5%;
-    top: 80%;
+    width: 12%;
+    left: 1%;
+    top: 75%
 }
 
 .icone {
