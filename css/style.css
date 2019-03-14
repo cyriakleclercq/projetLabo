@@ -77,15 +77,11 @@ input {
     width: 70px;
     height: 70px;
     z-index: 2;
-    transition-property: all;
-
-    transition-duration: 4s;
-    transition-timing-function: linear;
 }
 
 .perso_init {
-    left: 50.7%;
-    top: 42.5%;
+    left: 63%;
+    top: 30%;
 }
 
 .labo_init {
