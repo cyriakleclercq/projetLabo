@@ -1,7 +1,7 @@
 .cadre {
-    border: solid;
     position: absolute;
     height: 14%;
+    cursor: pointer;
 }
 
 #cadre0 {

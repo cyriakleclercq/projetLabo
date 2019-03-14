@@ -59,11 +59,8 @@ function ajaxRequest0(params)
                     $titre_quete = document.createElement ('li');
                     $list.appendChild ($titre_quete);
                     $titre_quete.id = 'title_quest'+$i;
+                    $titre_quete.className = 'title_quest'+$i;
                     $titre_quete.innerHTML = quetes[$i].nom;
-
-
-
-
 
 
                     $desc_quetes = document.createElement ('p');

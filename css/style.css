@@ -126,6 +126,18 @@ input {
     cursor: pointer;
 }
 
+.title_quest0:hover {
+    transform: scale(1.1);
+}
+
+.title_quest1:hover {
+    transform: scale(1.1)
+}
+
+.title_quest2:hover {
+    transform: scale(1.1)
+}
+
 #quest3:hover{
     background-color: ghostwhite;
     color : darkgreen;
