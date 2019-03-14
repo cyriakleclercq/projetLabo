@@ -61,6 +61,7 @@ input {
 }
 
 #corps {
+    position: relative;
     background-image: url("../image/test_map.png");
     width: 80%;
     height: 100%;
