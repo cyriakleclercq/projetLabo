@@ -880,7 +880,7 @@
 }
 
 /*class anim Labo to Mairie*/
-#perso{
+.LToM{
     animation-duration: 10s;
     animation-name: movepersoLtoM;
     animation-fill-mode: both;
