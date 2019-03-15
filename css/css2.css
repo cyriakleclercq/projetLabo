@@ -1333,7 +1333,35 @@
 }
 
 
+.perso_init {
+    left: 63%;
+    top: 30%;
+}
 
+.labo_init {
+    left: 62.2%;
+    top: 74%
+}
+
+.ecomusee_init{
+    left: 20.5%;
+    top: 42%
+}
+
+.mde_init{
+    left: 4.5%;
+    top: 81.7%;
+}
+
+.mediatheque_init{
+    left: 78%;
+    top: 85%
+}
+
+.mairie_init{
+    left: 63%;
+    top: 25%
+}
 
 
 

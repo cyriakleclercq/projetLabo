@@ -79,35 +79,6 @@ input {
     z-index: 2;
 }
 
-.perso_init {
-    left: 63%;
-    top: 30%;
-}
-
-.labo_init {
-    left: 49.9%;
-    top: 78%;
-}
-
-.ecomusee_init{
-    left: 23.5%;
-    top: 54%;
-}
-
-.mde_init{
-    left: 13.2%;
-    top: 86%;
-}
-
-.mediatheque_init{
-    left: 60%;
-    top: 89%;
-}
-
-.mairie_init{
-    left: 50.7%;
-    top: 37.5%;
-}
 
 @keyframes rotation {
     from {
