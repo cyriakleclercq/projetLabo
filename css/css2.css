@@ -59,139 +59,6 @@
     }
 }
 
-.check {
-    position: absolute;
-    background:red;
-    border-radius:50%;
-    width:20px;
-    height:20px;
-    border:2px solid #679403;
-}
-
-#checkM1 {
-    top: 47.6%;
-    left: 52%;
-
-}
-
-#check0 {
-    top: 42%;
-    left: 52%;
-
-}
-
-#check1 {
-    top: 82%;
-    left: 51.2%;
-
-}
-
-#check2 {
-    top: 93.3%;
-    left: 61.4%;
-
-}
-
-#check3 {
-    top: 58%;
-    left: 24.8%;
-
-}
-
-#check4 {
-    top: 90.7%;
-    left: 14.5%;
-
-}
-
-
-#checkME2 {
-    top: 47.6%;
-    left: 65.7%;
-
-}
-
-#checkME3 {
-    top: 85.6%;
-    left: 65.7%;
-
-}
-
-#checkME4 {
-    top: 85.6%;
-    left: 68.6%;
-
-}
-
-#checkME5 {
-    top: 97.3%;
-    left: 68.6%;
-
-}
-
-#checkME6 {
-    top: 97.3%;
-    left: 61.4%;
-
-}
-
-#checkL2 {
-    top: 47.6%;
-    left: 37.9%;
-
-}
-
-#checkL3 {
-    top: 71%;
-    left: 37.9%;
-
-}
-
-#checkL4 {
-    top: 71%;
-    left: 46.7%;
-
-}
-
-#checkL5 {
-    top: 88.6%;
-    left: 46.7%;
-
-}
-
-#checkL6 {
-    top: 88.6%;
-    left: 51.2%;
-
-}
-
-#checkMDE6 {
-    top: 88.6%;
-    left: 18.9%;
-
-}
-
-#checkMDE7 {
-    top: 94.3%;
-    left: 18.9%;
-
-}
-
-#checkMDE8 {
-    top: 94.3%;
-    left: 14.5%;
-
-}
-
-
-#checkEM4 {
-    top: 62.1%;
-    left: 24.8%;
-
-
-}
-
-
 
 /*partie départ to all*/
 
@@ -880,7 +747,7 @@
 }
 
 /*class anim Labo to Mairie*/
-#perso{
+.LToM{
     animation-duration: 10s;
     animation-name: movepersoLtoM;
     animation-fill-mode: both;
@@ -1289,180 +1156,179 @@
 /*anim Mairie to Eco-musée*/
 @keyframes movepersoMtoEM {
     0% {
-        left: 50.7%;
-        top: 37.5%;
+        left: 63%;
+        top: 25%
 
     }
 
     20% {
-        left: 50.7%;
-        top: 42.5%;
+        left: 63%;
+        top: 30%
 
     }
 
     40% {
-        left: 36.5%;
-        top: 42.5%;
+        left: 41.5%;
+        top: 30%
     }
 
     60% {
-        left: 36.5%;
-        top: 57.5%;
+        left: 41.5%;
+        top: 48.5%
     }
 
     80% {
-        left: 23.5%;
-        top: 57.5%;
+        left: 20.5%;
+        top: 48.5%
     }
 
     100% {
-        left: 23.5%;
-        top: 54%;
+        left: 20.5%;
+        top: 42%
     }
 }
 
 /*anim Mairie to Labo*/
 @keyframes movepersoMtoL {
     0% {
-        left: 50.7%;
-        top: 37.5%;
+        left: 63%;
+        top: 25%
 
     }
 
     15% {
-        left: 50.7%;
-        top: 42.5%;
+        left: 63%;
+        top: 30%
 
     }
 
     30% {
-        left: 36.5%;
-        top: 42.5%;
+        left: 41.5%;
+        top: 30%
     }
 
     45% {
-        left: 36.5%;
-        top: 66%;
+        left: 41.5%;
+        top: 59%
     }
 
     60% {
-        left: 45.5%;
-        top: 66%;
+        left: 55%;
+        top: 59%
     }
 
     75% {
-        left: 45.5%;
-        top: 84%;
+        left: 55%;
+        top: 80%
     }
 
     90% {
-        left: 50%;
-        top: 84%;
+        left: 62.2%;
+        top: 80%
     }
 
     100% {
-        left: 50%;
-        top: 78%;
+        left: 62.2%;
+        top: 74%
     }
 }
 
 /*anim Mairie to Maison de l'europe*/
 @keyframes movepersoMtoMDE {
     0% {
-        left: 50.7%;
-        top: 37.5%;
+        left: 63%;
+        top: 25%
 
     }
 
     10% {
-        left: 50.7%;
-        top: 42.5%;
-
+        left: 63%;
+        top: 30%
     }
 
     20% {
-        left: 36.5%;
-        top: 42.5%;
+        left: 41.5%;
+        top: 30%
     }
 
     30% {
-        left: 36.5%;
-        top: 66%;
+        left: 41.5%;
+        top: 59%
     }
 
     40% {
-        left: 45.5%;
-        top: 66%;
+        left: 55%;
+        top: 59%
     }
 
     50% {
-        left: 45.5%;
-        top: 84%;
+        left: 55%;
+        top: 80%
     }
 
     60% {
-        left: 17.6%;
-        top: 84%;
+        left: 11.5%;
+        top: 80%;
     }
 
     70% {
-        left: 17.6%;
-        top: 89.5%;
+        left: 11.5%;
+        top: 87.5%;
     }
 
     80% {
-        left: 13.2%;
-        top: 89.5%;
+        left: 4.5%;
+        top: 87.5%;
     }
 
     100% {
-        left: 13.2%;
-        top: 86%;
+        left: 4.5%;
+        top: 81.7%;
     }
 }
 
 /*anim Mairie to Médiathèque*/
 @keyframes movepersoMtoME {
     0% {
-        left: 50.7%;
-        top: 37.5%;
+        left: 63%;
+        top: 25%
 
     }
 
     15% {
-        left: 50.7%;
-        top: 42.5%;
+        left: 63%;
+        top: 30%
 
     }
 
     30% {
-        left: 64.5%;
-        top: 42.5%;
+        left: 85%;
+        top: 30%
     }
 
     45% {
-        left: 64.5%;
-        top: 81.3%;
+        left: 85%;
+        top: 76.5%
     }
 
     60% {
-        left: 67.5%;
-        top: 81.3%;
+        left: 89.5%;
+        top: 76.5%
     }
 
     75% {
-        left: 67.5%;
-        top: 92.8%;
+        left: 89.5%;
+        top: 90.5%
     }
 
     90% {
-        left: 60%;
-        top: 92.8%;
+        left: 78%;
+        top: 90.5%
     }
 
     100% {
-        left: 60%;
-        top: 89%;
+        left: 78%;
+        top: 85%
     }
 }
 
