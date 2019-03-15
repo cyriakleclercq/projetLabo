@@ -33,7 +33,7 @@ if(isset($_GET['id_batiment'])) {
 }
 
 if(isset($_GET['id_interaction'])) {
-    $id_interaction = $_GET['id_interaction'];
+    $id_interaction =  $_GET['id_interaction'];
 }
 
 
@@ -42,19 +42,20 @@ if(!empty($id_batiment))
     $R_sql = "SELECT *
           FROM `quetes` as a , `batiments` as b WHERE a.id_batiments = b.id_batiments 
            and a.id_batiments = $id_batiment";
+
 }
 
 else if(!empty($id_interaction))
 {
-    $R_sql = "SELECT *
-          FROM `presentations` as a , `dialogues` as b,`images` as c WHERE a.id_batiments = b.id_batiments AND b.id_batiments = c.id_batiments 
-           and a.id_batiments = $id_interaction";
+    $R_sql = "SELECT * FROM `presentations` as a, `dialogues` as b, `images` as c WHERE a.id_select = $id_interaction and b.id_batiments = $id_batiment and
+ b.id_select = $id_interaction and c.id_images = $id_interaction ";
 
 }
 
 else{
     $R_sql = "SELECT nom,batiments FROM `quetes` as a ,`batiments` as b WHERE a.id_batiments = b.id_batiments ORDER BY a.id_batiments ";
 }
+
 
 
 $connexion = $con -> query($R_sql) ;

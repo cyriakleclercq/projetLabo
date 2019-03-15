@@ -11,11 +11,13 @@ function ajaxRequest0(params)
         if(params.id_interaction) {
             id_interaction = params.id_interaction;
             document.getElementById('id_interaction').innerHTML = id_interaction;
-            $id_bat = document.getElementById('id_bat').innerHTML;
         }
         if(params.id_batiment)
         {
             id_batiment = params.id_batiment;
+            document.getElementById('id_bat').innerHTML = id_batiment;
+            $id_bat = id_batiment;
+
         }
 
 
