@@ -18,6 +18,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("perso_init");
                     $('#perso').addClass("dep_mairie");
+                    ajaxRequest0({'id_interaction' : 1} );
+
                     setTimeout(move_mairie, 2000);
 
                 }
@@ -28,6 +30,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("labo_init");
                     $('#perso').addClass("LToM");
+                    ajaxRequest0({'id_interaction' : 1} );
+
                     setTimeout(move_mairie, 10000);
 
 
@@ -39,6 +43,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mediatheque_init");
                     $('#perso').addClass("METoM");
+                    ajaxRequest0({'id_interaction' : 1} );
+
                     setTimeout(move_mairie, 10000);
 
                 }
@@ -49,6 +55,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("ecomusee_init");
                     $('#perso').addClass("EMToM");
+                    ajaxRequest0({'id_interaction' : 1} );
+
                     setTimeout(move_mairie, 10000);
 
                 }
@@ -59,6 +67,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mde_init");
                     $('#perso').addClass("MDEToM");
+                    ajaxRequest0({'id_interaction' : 1} );
+
                     setTimeout(move_mairie, 10000);
 
                 }
@@ -75,6 +85,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("perso_init");
                     $('#perso').addClass("dep_labo");
+                    ajaxRequest0({'id_interaction' : 2} );
+
                     setTimeout(move_labo, 10000);
                 }
 
@@ -84,6 +96,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mairie_init");
                     $('#perso').addClass("MToL");
+                    ajaxRequest0({'id_interaction' : 2} );
+
                     setTimeout(move_labo, 10000);
 
 
@@ -95,6 +109,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mediatheque_init");
                     $('#perso').addClass("METoL");
+                    ajaxRequest0({'id_interaction' : 2} );
+
                     setTimeout(move_labo, 10000);
 
                 }
@@ -105,6 +121,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("ecomusee_init");
                     $('#perso').addClass("EMToL");
+                    ajaxRequest0({'id_interaction' : 2} );
+
                     setTimeout(move_labo, 10000);
 
                 }
@@ -115,6 +133,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mde_init");
                     $('#perso').addClass("MDEToL");
+                    ajaxRequest0({'id_interaction' : 2} );
+
                     setTimeout(move_labo, 10000);
 
                 }
@@ -131,6 +151,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("perso_init");
                     $('#perso').addClass("dep_mediatheque");
+                    ajaxRequest0({'id_interaction' : 3} );
+
                     setTimeout(move_media, 10000);
 
                 }
@@ -141,6 +163,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mairie_init");
                     $('#perso').addClass("MToME");
+                    ajaxRequest0({'id_interaction' : 3} );
+
                     setTimeout(move_media, 10000);
 
                 }
@@ -151,6 +175,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("labo_init");
                     $('#perso').addClass("LToME");
+                    ajaxRequest0({'id_interaction' : 3} );
+
                     setTimeout(move_media, 10000);
 
                 }
@@ -161,6 +187,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("ecomusee_init");
                     $('#perso').addClass("EMToME");
+                    ajaxRequest0({'id_interaction' : 3} );
+
                     setTimeout(move_media, 10000);
 
                 }
@@ -171,6 +199,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mde_init");
                     $('#perso').addClass("MDEToME");
+                    ajaxRequest0({'id_interaction' : 3} );
+
                     setTimeout(move_media, 10000);
 
                 }
@@ -187,6 +217,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $ ('#perso').removeClass ("perso_init");
                     $ ('#perso').addClass ("dep_Ecomusée");
+                    ajaxRequest0({'id_interaction' : 4} );
+
                     setTimeout (move_ecomusee, 10000);
 
                 }
@@ -197,6 +229,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mairie_init");
                     $('#perso').addClass("MToEM");
+                    ajaxRequest0({'id_interaction' : 4} );
+
                     setTimeout (move_ecomusee, 10000);
 
                 }
@@ -207,6 +241,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("labo_init");
                     $('#perso').addClass("LToEM");
+                    ajaxRequest0({'id_interaction' : 4} );
+
                     setTimeout (move_ecomusee, 10000);
 
                 }
@@ -217,6 +253,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mediatheque_init");
                     $('#perso').addClass("METoEM");
+                    ajaxRequest0({'id_interaction' : 4} );
+
                     setTimeout (move_ecomusee, 10000);
 
                 }
@@ -227,6 +265,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mde_init");
                     $('#perso').addClass("MDEToEM");
+                    ajaxRequest0({'id_interaction' : 4} );
+
                     setTimeout (move_ecomusee, 10000);
 
                 }
@@ -243,6 +283,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $ ('#perso').removeClass ("perso_init");
                     $ ('#perso').addClass ("dep_MDE");
+                    ajaxRequest0({'id_interaction' : 5} );
+
                     setTimeout (move_MDE, 10000);
 
                 }
@@ -253,6 +295,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mairie_init");
                     $('#perso').addClass("MToMDE");
+                    ajaxRequest0({'id_interaction' : 5} );
+
                     setTimeout (move_MDE, 10000);
 
                 }
@@ -263,6 +307,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("labo_init");
                     $('#perso').addClass("LToMDE");
+                    ajaxRequest0({'id_interaction' : 5} );
+
                     setTimeout (move_MDE, 10000);
 
                 }
@@ -273,6 +319,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("mediatheque_init");
                     $('#perso').addClass("METoMDE");
+                    ajaxRequest0({'id_interaction' : 5} );
+
                     setTimeout (move_MDE, 10000);
 
                 }
@@ -283,6 +331,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
                     $('#perso').removeClass("ecomusee_init");
                     $('#perso').addClass("EMToMDE");
+                    ajaxRequest0({'id_interaction' : 5} );
+
                     setTimeout (move_MDE, 10000);
 
                 }
@@ -311,7 +361,6 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
         $('#perso').addClass("mairie_init");
 
-        ajaxRequest0({'id_interaction' : 1} );
 
     }
 
@@ -331,9 +380,6 @@ $id_bat = document.getElementById('id_bat').innerHTML;
         $('#perso').removeClass("dep_labo");
 
         $('#perso').addClass("labo_init");
-
-
-        ajaxRequest0({'id_interaction' : 2} );
 
     }
 
@@ -355,8 +401,6 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
         $('#perso').addClass("mediatheque_init");
 
-        ajaxRequest0({'id_interaction' : 3} );
-
     }
 
 
@@ -377,8 +421,6 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
         $('#perso').addClass("ecomusee_init");
 
-        ajaxRequest0({'id_interaction' : 4} );
-
     }
 
 
@@ -398,9 +440,6 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
 
         $('#perso').addClass("mde_init");
-
-        ajaxRequest0({'id_interaction' : 5} );
-
 
 }
 
