@@ -1,21 +1,18 @@
-$perso = document.getElementById("perso");
-$id_bat = document.getElementById('id_bat').innerHTML;
-
 
 // 'For' mouvements perso
 
-    for (let $i = 0; $i <= 4; $i++) {
+    for (let i = 0; i <= 4; i++) {
 
-        $('#cadre' + $i).click(function () {
+        document.getElementById('cadre'+i).addEventListener(click,function () {
 
             //mairie
 
             ajaxRequest0({
-                'id_interaction' : $i+1,
-                'id_batiment' : $('#id_bat').html()
+                'id_event' : i+1,
+                'id_scenario' : document.getElementById('id_story').innerHTML
             } );
 
-            if ($i == 0) {
+            if (i == 0) {
 
                 //depart initiale
 
@@ -77,7 +74,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
             //labo
 
-            if ($i == 1) {
+            if (i == 1) {
 
                 //depart intiale
 
@@ -138,7 +135,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
             //mediatheque
 
-            if ($i == 2) {
+            if (i == 2) {
 
                 //depart intiale
 
@@ -199,7 +196,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
             //ecomusee
 
-            if ($i == 3) {
+            if (i == 3) {
 
                 //depart intiale
 
@@ -260,7 +257,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
             //maison de l'europe
 
-            if ($i == 4) {
+            if (i == 4) {
 
                 //depart intiale
 
@@ -318,7 +315,7 @@ $id_bat = document.getElementById('id_bat').innerHTML;
                 }
 
             }
-            $('#cadre' + $i).hide();
+            $('#cadre' + i).hide();
 
 
         })

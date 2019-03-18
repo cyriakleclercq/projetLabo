@@ -1,5 +1,5 @@
 var RequestURL = "../quetes.php" ;
-$quest = document.getElementById('quest');
+var quest = document.getElementById('quest');
 
 function ajaxRequest()
 {
@@ -17,36 +17,36 @@ function ajaxRequest()
         let quetes = JSON.parse(objQuete);
         console.log(quetes);
 
-        $quest = document.getElementById('quest');
+        quest = document.getElementById('quest');
 
-        for(let $i = 0;$i < quetes.length; $i=$i+3)
+        for(let i = 0;i < quetes.length; i=i+3)
         {
 
-            $glo_quetes = document.createElement('div');
-            $quest.appendChild($glo_quetes);
-            $glo_quetes.className = 'glo_quetes';
+            var scenario_resume = document.createElement('div');
+            quest.appendChild(scenario_resume);
+            scenario_resume.className = 'scenario_sum';
 
 
-            $titre = document.createElement('h2');
-            $glo_quetes.appendChild($titre);
-            $titre.id = 'quest'+ $i ;
-            $titre.innerHTML = quetes[$i].scenario;
+            var title = document.createElement('h2');
+            scenario_resume.appendChild(title);
+            title.id = 'quest'+ i ;
+            title.innerHTML = quetes[i].scenario;
 
-                $ul = document.createElement('ul');
-                $ul.id = 'ul'+$i;
-                $glo_quetes.appendChild($ul);
+                var ul = document.createElement('ul');
+                ul.id = 'ul'+i;
+                scenario_resume.appendChild(ul);
 
-                for(let $j= $i; $j< $i+3; $j++) {
-                    $li = document.createElement('li');
-                    $ul.appendChild($li);
-                    $li.innerHTML= quetes[$j].nom;
-                    $li.style.listStyle = 'none' ;
+                for(let j= i; j< i+3; j++) {
+                    var li = document.createElement('li');
+                    ul.appendChild(li);
+                    li.innerHTML= quetes[j].nom;
+                    li.style.listStyle = 'none' ;
                 }
 
         }
 
 
-        random();
+        scene();
 
     };
 

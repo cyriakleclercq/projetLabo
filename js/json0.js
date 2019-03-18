@@ -4,24 +4,24 @@ function ajaxRequest0(params)
     var RequestURL = "../quetes.php" ;
 
 
-    var id_interaction="",id_batiment="";
+    var id_event="",id_story="";
 
     if(params)
     {
 
-            id_interaction = params.id_interaction;
-            document.getElementById('id_interaction').innerHTML = id_interaction;
+            id_event = params.id_event;
+            document.getElementById('id_event').innerHTML = id_event;
 
-            id_batiment = params.id_batiment;
-            document.getElementById('id_bat').innerHTML = id_batiment;
-            $id_bat = id_batiment;
+            id_story = params.id_batiment;
+            document.getElementById('id_story').innerHTML = id_story;
+            var id_story = id_story;
 
 
 
 
     }
 
-    RequestURL+="?id_batiment="+id_batiment+"&id_interaction="+id_interaction;
+    RequestURL+="?id_story="+id_story+"&id_event="+id_event;
 
 
 
@@ -36,36 +36,35 @@ function ajaxRequest0(params)
             }
 
             let quetes = JSON.parse (objQuete);
-            console.log (quetes);
 
         if (params) {
 
             if (params.affichage == 'quetes') {
 
 
-                $resume = document.getElementById ('resume0');
+                var summary = document.getElementById ('summary');
 
 
-                $titre_map = document.createElement ('h2');
-                $resume.appendChild ($titre_map);
-                $titre_map.innerHTML = quetes[0].scenario;
+                var title_scenario = document.createElement ('h2');
+                summary.appendChild (title_scenario);
+                title_scenario.innerHTML = quetes[0].scenario;
 
 
-                $list = document.createElement ('ul');
-                $resume.appendChild ($list);
+                var list = document.createElement ('ul');
+                summary.appendChild (list);
 
-                for (let $i = 0; $i < quetes.length; $i++) {
+                for (let i = 0; i < quetes.length; i++) {
 
-                    $titre_quete = document.createElement ('li');
-                    $list.appendChild ($titre_quete);
-                    $titre_quete.id = 'title_quest'+$i;
-                    $titre_quete.className = 'title_quest'+$i;
-                    $titre_quete.innerHTML = quetes[$i].nom;
+                    var quest = document.createElement ('li');
+                    list.appendChild (quest);
+                    quest.id = 'quest'+i;
+                    quest.className = 'quest_n'+i;
+                    quest.innerHTML = quetes[i].nom;
 
 
-                    $desc_quetes = document.createElement ('p');
-                    $titre_quete.appendChild ($desc_quetes);
-                    $desc_quetes.innerHTML = quetes[$i].descriptif;
+                    var description = document.createElement ('p');
+                    quest.appendChild (description);
+                    description.innerHTML = quetes[i].descriptif;
 
                 }
 
@@ -76,7 +75,7 @@ function ajaxRequest0(params)
                 for (let i = 0; i < quetes.length; i++) {
 
 
-                    if (document.getElementById('id_interaction').innerHTML == quetes[i].id_select) {
+                    if (document.getElementById('id_event').innerHTML == quetes[i].id_select) {
 
                         table.push(quetes[i].dialogues);
 
@@ -110,8 +109,8 @@ function ajaxRequest0(params)
 };
 
         ajaxRequest0({
-            'id_batiment' : $('#id_bat').html(),
-            'id_interaction' : $('#id_interaction').html(),
+            'id_story' : document.getElementById('id_story').innerHTML,
+            'id_event' : document.getElementById('id_event').innerHTML,
             'affichage' : 'quetes',
 
 
