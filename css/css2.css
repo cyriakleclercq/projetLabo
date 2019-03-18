@@ -920,7 +920,7 @@
 
 
 /*class anim Médiathèque to Labo*/
-.LToM{
+.METoL{
     animation-duration: 10s;
     animation-name: movepersoMEtoL;
     animation-fill-mode: both;
