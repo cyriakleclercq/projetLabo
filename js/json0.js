@@ -8,17 +8,15 @@ function ajaxRequest0(params)
 
     if(params)
     {
-        if(params.id_interaction) {
+
             id_interaction = params.id_interaction;
             document.getElementById('id_interaction').innerHTML = id_interaction;
-        }
-        if(params.id_batiment)
-        {
+
             id_batiment = params.id_batiment;
             document.getElementById('id_bat').innerHTML = id_batiment;
             $id_bat = id_batiment;
 
-        }
+
 
 
     }
@@ -50,7 +48,7 @@ function ajaxRequest0(params)
 
                 $titre_map = document.createElement ('h2');
                 $resume.appendChild ($titre_map);
-                $titre_map.innerHTML = quetes[0].batiments;
+                $titre_map.innerHTML = quetes[0].scenario;
 
 
                 $list = document.createElement ('ul');
@@ -73,22 +71,26 @@ function ajaxRequest0(params)
 
             } else {
 
-                if (document.getElementById('id_interaction').innerHTML == $id_bat) {
+                for (let i = 0; i < quetes.length; i++) {
 
-                    document.getElementById ('dialogue').innerHTML = quetes[0].dialogues;
+                alert(id_interaction);
+                    if (document.getElementById('id_interaction').innerHTML == quetes[i].id_select) {
+
+                        document.getElementById('dialogue').innerHTML = quetes[i].dialogues;
 
 
-                } else {
+                    } else {
 
-                    document.getElementById ('dialogue').innerHTML = quetes[0].presentations;
+                        document.getElementById('dialogue').innerHTML = quetes[i].presentations;
+                    }
+
+
+                    document.getElementById('avatar').style.backgroundImage = "url('../image/" + quetes[i].skin + "')";
+
+                    document.getElementById('global').style.backgroundImage = "url('../image/" + quetes[i].background + "')";
+
+
                 }
-
-
-                document.getElementById ('avatar').style.backgroundImage = "url('../image/" + quetes[0].skin + "')";
-
-                document.getElementById ('global').style.backgroundImage = "url('../image/" + quetes[0].background + "')";
-
-
             }
 
         }};
@@ -103,7 +105,6 @@ function ajaxRequest0(params)
             'id_batiment' : $('#id_bat').html(),
             'id_interaction' : $('#id_interaction').html(),
             'affichage' : 'quetes',
-
 
 
         });
