@@ -71,27 +71,35 @@ function ajaxRequest0(params)
 
             } else {
 
+                var table = [];
+
                 for (let i = 0; i < quetes.length; i++) {
 
-                alert(id_interaction);
+
                     if (document.getElementById('id_interaction').innerHTML == quetes[i].id_select) {
 
-                        document.getElementById('dialogue').innerHTML = quetes[i].dialogues;
+                        table.push(quetes[i].dialogues);
 
+                    }
+                }
 
-                    } else {
+                if (table != "") {
 
-                        document.getElementById('dialogue').innerHTML = quetes[i].presentations;
+                    document.getElementById('dialogue').innerHTML = table[0];
+
+                }
+                else {
+                        document.getElementById('dialogue').innerHTML = quetes[0].presentations;
                     }
 
 
-                    document.getElementById('avatar').style.backgroundImage = "url('../image/" + quetes[i].skin + "')";
+                    document.getElementById('avatar').style.backgroundImage = "url('../image/" + quetes[0].skin + "')";
 
-                    document.getElementById('global').style.backgroundImage = "url('../image/" + quetes[i].background + "')";
+                    document.getElementById('global').style.backgroundImage = "url('../image/" + quetes[0].background + "')";
 
-
-                }
             }
+
+            table = [];
 
         }};
 
