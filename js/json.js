@@ -30,7 +30,7 @@ function ajaxRequest()
             $titre = document.createElement('h2');
             $glo_quetes.appendChild($titre);
             $titre.id = 'quest'+ $i ;
-            $titre.innerHTML = quetes[$i].batiments;
+            $titre.innerHTML = quetes[$i].scenario;
 
                 $ul = document.createElement('ul');
                 $ul.id = 'ul'+$i;
