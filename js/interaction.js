@@ -329,8 +329,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
     function move_mairie() {
 
-        $('#super_glo').hide();
-        $('#global').show();
+        $('#map_page').hide();
+        $('#dialogue_page').show();
 
         $('#perso').removeClass("LToM");
         $('#perso').removeClass("METoM");
@@ -350,8 +350,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
     function move_labo() {
 
-        $('#super_glo').hide();
-        $('#global').show();
+        $('#map_page').hide();
+        $('#dialogue_page').show();
 
         $('#perso').removeClass("MToL");
         $('#perso').removeClass("METoL");
@@ -369,8 +369,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
     function move_media() {
 
-        $('#super_glo').hide();
-        $('#global').show();
+        $('#map_page').hide();
+        $('#dialogue_page').show();
 
         $('#perso').removeClass("MToME");
         $('#perso').removeClass("LToME");
@@ -389,8 +389,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
     function move_ecomusee() {
 
-        $('#super_glo').hide();
-        $('#global').show();
+        $('#map_page').hide();
+        $('#dialogue_page').show();
 
         $('#perso').removeClass("MToEM");
         $('#perso').removeClass("LToEM");
@@ -409,8 +409,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
     function move_MDE() {
 
-        $('#super_glo').hide();
-        $('#global').show();
+        $('#map_page').hide();
+        $('#dialogue_page').show();
 
         $('#perso').removeClass("MToMDE");
         $('#perso').removeClass("LToMDE");
@@ -425,8 +425,8 @@ $id_bat = document.getElementById('id_bat').innerHTML;
 
     $('#bouton_dialogue').click(function () {
 
-        $('#super_glo').show();
-        $('#global').hide();
+        $('#map_page').show();
+        $('#dialogue_page').hide();
     })
 
 

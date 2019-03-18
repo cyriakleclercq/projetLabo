@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title> Map </title>
     <script src="../js/jquery.js"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/css2.css">
@@ -11,16 +12,17 @@
 </head>
 <body>
 
-<h1> VIDEO GAME </h1>
+<h1>  </h1>
 
-<div id="display_map">
+<div id="second_page">
 
 
-    <div id="global" style="display: none">
+    <div id="dialogue_page" style="display: none">
 
         <div id="avatar"></div>
 
         <div id="dialogue"> </div>
+
         <div>
 
             <input id="bouton_dialogue" type="button"  value="suivant">
@@ -32,36 +34,11 @@
 
 
 
-    <div id="super_glo">
+    <div id="map_page">
 
-        <div id="corps">
+        <div id="maps_elements">
 
             <div class="perso_init" id="perso"> </div>
-
-            <div class="check" id="checkM1"></div>
-            <div class="check" id="check0"></div>
-
-            <div class="check" id="checkME2"></div>
-            <div class="check" id="checkME3"></div>
-            <div class="check" id="checkME4"></div>
-            <div class="check" id="checkME5"></div>
-            <div class="check" id="checkME6"></div>
-            <div class="check" id="check2"></div>
-
-            <div class="check" id="checkL2"></div>
-            <div class="check" id="checkL3"></div>
-            <div class="check" id="checkL4"></div>
-            <div class="check" id="checkL5"></div>
-            <div class="check" id="checkL6"></div>
-            <div class="check" id="check1"></div>
-
-            <div class="check" id="checkMDE6"></div>
-            <div class="check" id="checkMDE7"></div>
-            <div class="check" id="checkMDE8"></div>
-            <div class="check" id="check4"></div>
-
-            <div class="check" id="checkEM4"></div>
-            <div class="check" id="check3"></div>
 
             <div class="cadre" id="cadre0"> </div>
             <div class="cadre" id="cadre1"> </div>
@@ -83,10 +60,10 @@
 
         </div>
 
-        <div class="resume" id="resume0"> </div>
+        <div class="resume" id="summary"> </div>
 
-        <span id="id_bat" style="display:none"><?= $_GET['id_bat'] ?></span>
-       <span id="id_interaction" style="display:none;"> </span>
+        <span id="id_story" style="display:none"><?= $_GET['id_story'] ?></span>
+       <span id="id_event" style="display:none;"> </span>
 
 
     </div>

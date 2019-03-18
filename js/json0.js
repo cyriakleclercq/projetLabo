@@ -95,7 +95,7 @@ function ajaxRequest0(params)
 
                     document.getElementById('avatar').style.backgroundImage = "url('../image/" + quetes[0].skin + "')";
 
-                    document.getElementById('global').style.backgroundImage = "url('../image/" + quetes[0].background + "')";
+                    document.getElementById('dialogue_page').style.backgroundImage = "url('../image/" + quetes[0].background + "')";
 
             }
 

@@ -43,7 +43,7 @@ input {
     margin-top: 20%;
 }
 
-#welcome {
+#first_page {
     margin-top: 50px;
     padding-bottom: 50px;
     margin-left: 10%;
@@ -51,7 +51,7 @@ input {
 
 }
 
-#display_map {
+#second_page {
     margin-top: 50px;
     padding-bottom: 50px;
     margin-left: 10%;
@@ -60,7 +60,7 @@ input {
     justify-content: center;
 }
 
-#corps {
+#maps_elements {
     position: relative;
     background-image: url("../image/test_map.png");
     width: 80%;
@@ -138,7 +138,7 @@ input {
     color : white;
 }
 
-#super_glo {
+#map_page {
     display: flex;
     flex-wrap: wrap;
     border: solid ;
