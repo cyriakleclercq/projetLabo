@@ -42,7 +42,7 @@
     animation-duration: 4s;
     animation-name: dialogue;
     animation-fill-mode: both;
-    overflow: scroll;
+    overflow: auto;
 
 
 }
