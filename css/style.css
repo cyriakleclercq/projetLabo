@@ -19,6 +19,7 @@ li {
     font-size: 18px;
 }
 
+
 input {
     border-radius: 15px;
     padding: 5px 5px 5px 5px;
@@ -62,7 +63,7 @@ input {
 
 }
 
-#second_page {
+.second_page {
     margin-top: 50px;
     padding-bottom: 50px;
     margin-left: 10%;
@@ -224,4 +225,8 @@ input {
 #bouton_dialogue {
     top: 82%;
     left: 42%;
+}
+
+#credits {
+    display: none;
 }

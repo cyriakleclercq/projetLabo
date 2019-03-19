@@ -13,7 +13,7 @@ $password = '';
 $dbname = "labo";
 
 
-// créer une nouvelle connexion :
+//create new connexion :
 
 $con = new mysqli($servername, $username, $password) ;
 
@@ -28,15 +28,20 @@ if($con -> connect_error) {
 
 }
 
+
+
 if(isset($_GET['id_story'])) {
     $id_story = $_GET['id_story'];
 }
+
+
 
 if(isset($_GET['id_event'])) {
     $id_event =  $_GET['id_event'];
 }
 
 
+// execute request for display resume of scenario/quest next to the map on map.php
 if(!empty($id_story) && empty($id_event))
 {
     $R_sql = "SELECT *
@@ -45,12 +50,16 @@ if(!empty($id_story) && empty($id_event))
 
 }
 
+
+//execute request for display avatar/dialogues/background/description on map.php
 else if(!empty($id_event))
 {
     $R_sql = "SELECT * FROM `presentations` as a, `dialogues` as b, `images` as c, `pieces_labo` as d WHERE a.id_presentations = $id_event and b.id_scenario = $id_story and c.id_images = $id_event and d.id_piece_labo = b.id_select";
 
 }
 
+
+//execute request for display scenario on index.php
 else{
     $R_sql = "SELECT `nom`,`scenario` FROM `quetes` as a ,`scenarios` as b WHERE a.id_scenario = b.id_scenario ORDER BY a.id_scenario ";
 }
