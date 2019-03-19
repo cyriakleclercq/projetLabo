@@ -320,7 +320,6 @@ document.getElementById('btn_labo').style.display = 'none';
                 }
 
             }
-            $('#cadre' + i).hide();
 
 
         })

@@ -1,3 +1,11 @@
+var table2 = [];
+
+function push(param) {
+
+    table2.push(param);
+}
+
+
 function ajaxRequest0(params)
 {
 
@@ -82,7 +90,13 @@ function ajaxRequest0(params)
 
                         table.push(quetes[i].dialogues);
 
-                        console.log(table);
+
+                        if (table2.indexOf(quetes[i].dialogues) === -1) {
+
+                            push(quetes[i].dialogues);
+
+                            console.log(table2)
+                        }
 
                     }
                 }
@@ -114,7 +128,6 @@ function ajaxRequest0(params)
 
             }
 
-            //table = [];
 
         }};
 
