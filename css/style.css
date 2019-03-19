@@ -174,29 +174,35 @@ input {
 
 
 .piece_labo {
-    border: 1px solid black;
+    border: 3px solid black;
     position: relative;
-}
-
-#labo_coworking {
-    width: 28%;
-    height: 25%;
-    margin-top: -2%;
-    display: none;
+    overflow: auto;
+    text-align: center;
+    background: grey;
+    color: ghostwhite;
 }
 
 #labo_fablab {
-    width: 37%;
-    height: 25%;
-    margin-left: 62%;
-    margin-top: 28%;
-    display: none;
-}
-#labo_reunion {
     width: 28%;
-    height: 25%;
-    margin-top: -45%;
+    height: 16%;
     display: none;
+    top: -6%;
+}
+
+#labo_reunion {
+    width: 37%;
+    height: 16%;
+    display: none;
+    top: 42%;
+    left: 61%;
+}
+
+
+#labo_coworking {
+    width: 28%;
+    height: 15%;
+    display: none;
+    top: 17%;
 }
 
 #btn_labo {
@@ -213,4 +219,9 @@ input {
     padding: 5px 5px 5px 5px;
     margin-top: -1%;
     position: absolute;
+}
+
+#bouton_dialogue {
+    top: 82%;
+    left: 42%;
 }

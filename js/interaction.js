@@ -1,6 +1,8 @@
 
 // 'For' mouvements perso
 
+document.getElementById('btn_labo').style.display = 'none';
+
     for (let i = 0; i <= 4; i++) {
 
         document.getElementById('cadre'+i).addEventListener('click',function () {
@@ -75,6 +77,9 @@
             //labo
 
             if (i == 1) {
+
+                document.getElementById('btn_labo').style.display = 'block';
+
 
                 //depart intiale
 

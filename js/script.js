@@ -59,6 +59,17 @@ document.getElementById('btn_labo').addEventListener('click', function () {
 
 });
 
+document.getElementById('bouton_dialogue').addEventListener('click', function () {
+
+        document.getElementById('avatar').style.display = 'block';
+        document.getElementById('dialogue').style.display = 'block';
+        document.getElementById('btn_labo').style.display = 'none';
+        document.getElementById('labo_coworking').style.display = 'none';
+        document.getElementById('labo_fablab').style.display = 'none';
+        document.getElementById('labo_reunion').style.display = 'none';
+
+});
+
 
 
 

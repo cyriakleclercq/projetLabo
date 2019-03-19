@@ -87,6 +87,17 @@ function ajaxRequest0(params)
                     }
                 }
 
+                document.getElementById('btn_labo').addEventListener('click',function () {
+
+                    for(let i = 0; i<quetes.length; i++) {
+
+                        document.getElementById('title_labo-room'+i).innerHTML = quetes[i].titre;
+                        document.getElementById('text_labo-room'+i).innerHTML = quetes[i].descriptif;
+
+                    }
+
+                });
+
                 if (table != "") {
 
                     document.getElementById('dialogue').innerHTML = table[0];
