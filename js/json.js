@@ -1,5 +1,5 @@
-var RequestURL = "../quetes.php" ;
-var quest = document.getElementById('quest');
+var RequestURL = "../php/requestSQL.php" ;
+var title_story = document.getElementById('quest');
 
 function ajaxRequest()
 {
@@ -17,19 +17,19 @@ function ajaxRequest()
         let quetes = JSON.parse(objQuete);
         console.log(quetes);
 
-        quest = document.getElementById('quest');
+        title_story = document.getElementById('quest');
 
         for(let i = 0;i < quetes.length; i=i+3)
         {
 
             var scenario_resume = document.createElement('div');
-            quest.appendChild(scenario_resume);
+            title_story.appendChild(scenario_resume);
             scenario_resume.className = 'scenario_sum';
 
 
             var title = document.createElement('h2');
             scenario_resume.appendChild(title);
-            title.id = 'quest'+ i ;
+            title.id = 'title_story'+ i ;
             title.innerHTML = quetes[i].scenario;
 
                 var ul = document.createElement('ul');

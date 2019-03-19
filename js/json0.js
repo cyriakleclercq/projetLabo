@@ -1,7 +1,7 @@
 function ajaxRequest0(params)
 {
 
-    var RequestURL = "../quetes.php" ;
+    var RequestURL = "../php/requestSQL.php" ;
 
 
     var id_event="",id_story="";

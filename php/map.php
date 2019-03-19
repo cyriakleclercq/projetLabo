@@ -6,8 +6,8 @@
     <title> Map </title>
     <script src="../js/jquery.js"></script>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/css2.css">
-    <link rel="stylesheet" href="../css/style3.css">
+    <link rel="stylesheet" href="../css/move.css">
+    <link rel="stylesheet" href="../css/mapping.css">
 
 </head>
 <body>

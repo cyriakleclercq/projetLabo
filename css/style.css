@@ -79,6 +79,15 @@ input {
     z-index: 2;
 }
 
+#dialogue_page{
+    position: relative;
+    padding-bottom: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 704px;
+}
+
 
 @keyframes rotation {
     from {
@@ -91,49 +100,49 @@ input {
     }
 }
 
-#quest0:hover{
-    background-color: ghostwhite;
-    color : darkgreen;
-    cursor: pointer;
-}
-
-.title_quest0:hover {
+.quest_n0:hover {
     transform: scale(1.1);
 }
 
-.title_quest1:hover {
+.quest_n1:hover {
     transform: scale(1.1)
 }
 
-.title_quest2:hover {
+.quest_n2:hover {
     transform: scale(1.1)
 }
 
-#quest3:hover{
+#title_story0:hover{
     background-color: ghostwhite;
     color : darkgreen;
     cursor: pointer;
 }
 
-#quest6:hover{
+#title_story3:hover{
     background-color: ghostwhite;
     color : darkgreen;
     cursor: pointer;
 }
 
-#quest9:hover{
+#title_story6:hover{
     background-color: ghostwhite;
     color : darkgreen;
     cursor: pointer;
 }
 
-#quest12:hover{
+#title_story9:hover{
     background-color: ghostwhite;
     color : darkgreen;
     cursor: pointer;
 }
 
-.glo_quetes {
+#title_story12:hover{
+    background-color: ghostwhite;
+    color : darkgreen;
+    cursor: pointer;
+}
+
+.scenario_sum {
     background-color: darkgreen;
     color : white;
 }
