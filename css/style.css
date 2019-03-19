@@ -54,16 +54,14 @@ input {
 }
 
 
-
-#first_page {
+.first_page {
     margin-top: 50px;
     padding-bottom: 50px;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 
-.second_page {
+#second_page {
     margin-top: 50px;
     padding-bottom: 50px;
     margin-left: 10%;

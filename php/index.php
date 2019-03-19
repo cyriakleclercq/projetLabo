@@ -17,7 +17,7 @@
 <h1>   </h1>
 
                 <!-- Screen where player start and select scenario -->
-    <div id="first_page">
+    <div class="first_page">
 
         <div id="start" class="macro">
 

@@ -16,7 +16,7 @@
 
 
                 <!--div 'second_page' contains the map and dialogues display-->
-<div id="second_page" class="seconde_page">
+<div id="second_page">
 
 
     <div id="dialogue_page" style="display: none">
@@ -101,7 +101,7 @@
     </div>
 </div>
 
-<div id="credits" class="second_page">
+<div id="credits" class="first_page">
 
     <h1>TEST UN DEUX TEST MICRO (ah non c'est un h1...)</h1>
     <h2>MY BAD !!!!</h2>

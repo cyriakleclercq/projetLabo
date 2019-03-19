@@ -6,6 +6,8 @@ function push(param) {
 }
 
 
+
+
 function ajaxRequest0(params)
 {
 
@@ -95,10 +97,21 @@ function ajaxRequest0(params)
 
                             push(quetes[i].dialogues);
 
-                            console.log(table2)
                         }
 
                     }
+
+                    console.log(table2);
+
+                    document.getElementById('bouton_dialogue').addEventListener("click", function () {
+
+                        if (table2.length === 3) {
+                            document.getElementById('second_page').style.display = "none";
+                            document.getElementById('credits').style.display = "block";
+                        }
+
+                    })
+
                 }
 
                 document.getElementById('btn_labo').addEventListener('click',function () {
