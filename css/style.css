@@ -22,7 +22,7 @@ li {
 input {
     border-radius: 15px;
     padding: 5px 5px 5px 5px;
-    margin-top: 12%;
+    margin-top: 3%;
     position: absolute;
 }
 
@@ -73,7 +73,7 @@ input {
 
 #maps_elements {
     position: relative;
-    background-image: url("../image/test_map.png");
+    background-image: url("../image/map.png");
     width: 80%;
     height: 100%;
     background-repeat: no-repeat;
@@ -206,4 +206,11 @@ input {
     color: maroon;
     margin-left: 41%;
     margin-top: 20%;
+}
+
+#btStart {
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    margin-top: -1%;
+    position: absolute;
 }
