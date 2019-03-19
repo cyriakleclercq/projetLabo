@@ -47,6 +47,19 @@ function scene () {
 }
 
 
+document.getElementById('btn_labo').addEventListener('click', function () {
+
+        document.getElementById('avatar').style.display = 'none';
+        document.getElementById('dialogue').style.display = 'none';
+        document.getElementById('btn_labo').style.display = 'none';
+        document.getElementById('labo_coworking').style.display = 'block';
+        document.getElementById('labo_fablab').style.display = 'block';
+        document.getElementById('labo_reunion').style.display = 'block';
+
+
+});
+
+
 
 
 

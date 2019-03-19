@@ -11,6 +11,21 @@ h1 {
     padding-top: 2%;
 }
 
+h2 {
+    text-align: center;
+}
+
+li {
+    font-size: 18px;
+}
+
+input {
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    margin-top: 12%;
+    position: absolute;
+}
+
 #start {
     margin-top: 150px;
     height: 200px;
@@ -37,11 +52,7 @@ h1 {
     background: darkgreen;
 }
 
-input {
-    border-radius: 15px;
-    padding: 5px 5px 5px 5px;
-    margin-top: 20%;
-}
+
 
 #first_page {
     margin-top: 50px;
@@ -161,12 +172,38 @@ input {
     color: ghostwhite;
 }
 
-h2 {
-    text-align: center;
+
+.piece_labo {
+    border: 1px solid black;
+    position: relative;
 }
 
-li {
-    font-size: 18px;
+#labo_coworking {
+    width: 28%;
+    height: 25%;
+    margin-top: -2%;
+    display: none;
 }
 
+#labo_fablab {
+    width: 37%;
+    height: 25%;
+    margin-left: 62%;
+    margin-top: 28%;
+    display: none;
+}
+#labo_reunion {
+    width: 28%;
+    height: 25%;
+    margin-top: -45%;
+    display: none;
+}
 
+#btn_labo {
+    width: 10%;
+    height: 6%;
+    border: 4px outset;
+    color: maroon;
+    margin-left: 41%;
+    margin-top: 20%;
+}

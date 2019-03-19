@@ -12,19 +12,43 @@
 </head>
 <body>
 
-<h1>  </h1>
+<h1></h1>
 
 <div id="second_page">
 
 
     <div id="dialogue_page" style="display: none">
 
+        <div id="labo_fablab" class="piece_labo">
+
+            <h3 id="title_labo-room0"></h3>
+            <p id="text_labo-room0"></p>
+
+        </div>
+
+        <div id="labo_coworking" class="piece_labo">
+
+            <h3 id="title_labo-room1"></h3>
+            <p id="text_labo-room1"></p>
+
+        </div>
+
+        <div id="labo_reunion" class="piece_labo">
+
+            <h3 id="title_labo-room2"></h3>
+            <p id="text_labo-room2"></p>
+
+        </div>
+
+
+        <button type="button" id="btn_labo">Visiter le L@bo</button>
+
+
         <div id="avatar"></div>
 
-        <div id="dialogue"> </div>
+        <div id="dialogue"></div>
 
         <div>
-
             <input id="bouton_dialogue" type="button"  value="suivant">
         </div>
 
