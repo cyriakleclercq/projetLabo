@@ -12,7 +12,7 @@ function ajaxRequest0(params)
             id_event = params.id_event;
             document.getElementById('id_event').innerHTML = id_event;
 
-            id_story = params.id_batiment;
+            id_story = params.id_story;
             document.getElementById('id_story').innerHTML = id_story;
             var id_story = id_story;
 
@@ -36,6 +36,9 @@ function ajaxRequest0(params)
             }
 
             let quetes = JSON.parse (objQuete);
+
+            console.log(quetes);
+
 
         if (params) {
 
@@ -79,6 +82,8 @@ function ajaxRequest0(params)
 
                         table.push(quetes[i].dialogues);
 
+                        console.log(table);
+
                     }
                 }
 
@@ -98,7 +103,7 @@ function ajaxRequest0(params)
 
             }
 
-            table = [];
+            //table = [];
 
         }};
 

@@ -3,13 +3,13 @@
 
     for (let i = 0; i <= 4; i++) {
 
-        document.getElementById('cadre'+i).addEventListener(click,function () {
+        document.getElementById('cadre'+i).addEventListener('click',function () {
 
             //mairie
 
             ajaxRequest0({
                 'id_event' : i+1,
-                'id_scenario' : document.getElementById('id_story').innerHTML
+                'id_story' : document.getElementById('id_story').innerHTML
             } );
 
             if (i == 0) {

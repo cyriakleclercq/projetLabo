@@ -28,26 +28,26 @@ if($con -> connect_error) {
 
 }
 
-if(isset($_GET['id_batiment'])) {
-    $id_batiment = $_GET['id_batiment'];
+if(isset($_GET['id_story'])) {
+    $id_story = $_GET['id_story'];
 }
 
-if(isset($_GET['id_interaction'])) {
-    $id_interaction =  $_GET['id_interaction'];
+if(isset($_GET['id_event'])) {
+    $id_event =  $_GET['id_event'];
 }
 
 
-if(!empty($id_batiment) && empty($id_interaction))
+if(!empty($id_story) && empty($id_event))
 {
     $R_sql = "SELECT *
           FROM `quetes` as a , `scenarios` as b WHERE a.id_scenario = b.id_scenario 
-           and a.id_scenario = $id_batiment";
+           and a.id_scenario = $id_story";
 
 }
 
-else if(!empty($id_interaction))
+else if(!empty($id_event))
 {
-    $R_sql = "SELECT * FROM `presentations` as a, `dialogues` as b, `images` as c WHERE a.id_presentations = $id_interaction and b.id_scenario = $id_batiment and c.id_images = $id_interaction";
+    $R_sql = "SELECT * FROM `presentations` as a, `dialogues` as b, `images` as c WHERE a.id_presentations = $id_event and b.id_scenario = $id_story and c.id_images = $id_event";
 
 }
 
