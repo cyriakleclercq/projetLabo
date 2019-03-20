@@ -32,12 +32,17 @@ if($con -> connect_error) {
 
 if(isset($_GET['id_story'])) {
     $id_story = $_GET['id_story'];
+    $id_story = filter_var($id_story,FILTER_SANITIZE_NUMBER_INT);
+
+
 }
 
 
 
 if(isset($_GET['id_event'])) {
     $id_event =  $_GET['id_event'];
+    $id_event = filter_var($id_event,FILTER_SANITIZE_NUMBER_INT);
+
 }
 
 
