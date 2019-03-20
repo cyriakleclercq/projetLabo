@@ -247,9 +247,10 @@ input {
 #txt_koco {
     display: none;
     height: 10%;
-    width: 10%;
+    width: 100%;
     bottom: -9952%;
     position: absolute;
     color : black;
     font-size: 144px;
+    text-align: center;
 }
