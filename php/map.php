@@ -103,8 +103,23 @@
 
 <div id="credits" class="first_page">
 
-    <h1>TEST UN DEUX TEST MICRO (ah non c'est un h1...)</h1>
-    <h2>MY BAD !!!!</h2>
+    <h1>Crédits</h1>
+
+    <h2>Responsable:</h2>
+    <p class="nom_credit">Grevin Michael</p>
+
+    <h2>Développeurs:</h2>
+    <p class="nom_credit">Leclerc Cyriak</p>
+    <p class="nom_credit">Dohen Geoffrey</p>
+    <p class="nom_credit">Durvin James</p>
+
+    <h2>En coopération avec le labo:</h2>
+    <p class="nom_credit">Malcolm</p>
+    <p class="nom_credit">Dylan</p>
+
+    <h2>Tilleset made by:</h2>
+    <p class="nom_credit">ArMM1998</p>
+    <p  class="nom_credit"> "[LPC] Colonial Buildings" by bluecarrot16</p>
 
 </div>
 

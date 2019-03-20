@@ -8,13 +8,13 @@ $('#btStart').click(function ()
         $('#start').hide();
 
 });
-
+// Fonction qui gere le scenario
 function scene () {
 
 
         for (let i = 0; i < 15; i=i+3) {
 
-
+                // Affiche en fonction de i le scenario selectionné
                 $ ("#title_story" + [i]).click (function () {
 
 
@@ -46,7 +46,7 @@ function scene () {
         }
 }
 
-
+// Evenement sur click pour les pieces du l@bo
 document.getElementById('btn_labo').addEventListener('click', function () {
 
         document.getElementById('avatar').style.display = 'none';
@@ -59,6 +59,7 @@ document.getElementById('btn_labo').addEventListener('click', function () {
 
 });
 
+// Evenement sur click pour les pieces du l@bo
 document.getElementById('bouton_dialogue').addEventListener('click', function () {
 
         document.getElementById('avatar').style.display = 'block';

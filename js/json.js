@@ -22,16 +22,21 @@ function ajaxRequest()
         for(let i = 0;i < quetes.length; i=i+3)
         {
 
+            // Div pour regrouper et afficher scenarios + quetes
+
             var scenario_resume = document.createElement('div');
             title_story.appendChild(scenario_resume);
             scenario_resume.className = 'scenario_sum';
 
 
+            // Div pour afficher chaque titre de scenario
             var title = document.createElement('h2');
             scenario_resume.appendChild(title);
             title.id = 'title_story'+ i ;
             title.innerHTML = quetes[i].scenario;
 
+
+                // Liste pour afficher chaque quête composant un scenario
                 var ul = document.createElement('ul');
                 ul.id = 'ul'+i;
                 scenario_resume.appendChild(ul);

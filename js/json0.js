@@ -1,5 +1,6 @@
 var table2 = [];
 
+// Fonction permettant de voir si 1 batiment est visité
 function push(param) {
 
     table2.push(param);
@@ -18,7 +19,7 @@ function ajaxRequest0(params)
 
     if(params)
     {
-
+            // parametre de la fonction 'AjaxRequest0' pour recuperer id_event(numero batiment) et id_story(numero scenario)
             id_event = params.id_event;
             document.getElementById('id_event').innerHTML = id_event;
 
@@ -52,42 +53,45 @@ function ajaxRequest0(params)
 
         if (params) {
 
+            // condition qui permets d'afficher le resume du scenario a droite de la map
             if (params.affichage == 'quetes') {
 
 
                 var summary = document.getElementById ('summary');
 
-
+                // Regroupe les titres du scenario
                 var title_scenario = document.createElement ('h2');
                 summary.appendChild (title_scenario);
                 title_scenario.innerHTML = quetes[0].scenario;
 
-
+                // Liste des quêtes et leurs descriptifs
                 var list = document.createElement ('ul');
                 summary.appendChild (list);
 
                 for (let i = 0; i < quetes.length; i++) {
 
+                    // Noms des quêtes afficher en liste non ordonnée ( ul )
                     var quest = document.createElement ('li');
                     list.appendChild (quest);
                     quest.id = 'quest'+i;
                     quest.className = 'quest_n'+i;
                     quest.innerHTML = quetes[i].nom;
 
-
+                    // Descriptif des quêtes
                     var description = document.createElement ('p');
                     quest.appendChild (description);
                     description.innerHTML = quetes[i].descriptif;
 
                 }
 
+              // condition qui affiche "l'interieur" d'un batiment
             } else {
 
                 var table = [];
 
                 for (let i = 0; i < quetes.length; i++) {
 
-
+                    // Verifie si les 3 batiments d'un scenario on était visités
                     if (document.getElementById('id_event').innerHTML == quetes[i].id_select) {
 
                         table.push(quetes[i].dialogues);
@@ -103,6 +107,8 @@ function ajaxRequest0(params)
 
                     console.log(table2);
 
+
+                    // affichage de la page credits
                     document.getElementById('bouton_dialogue').addEventListener("click", function () {
 
                         if (table2.length === 3) {
@@ -113,7 +119,7 @@ function ajaxRequest0(params)
                     })
 
                 }
-
+                    // Fonction affichage des descriptions des pieces du l@bo
                 document.getElementById('btn_labo').addEventListener('click',function () {
 
                     for(let i = 0; i<quetes.length; i++) {
@@ -124,7 +130,7 @@ function ajaxRequest0(params)
                     }
 
                 });
-
+                // Condition pour afficher une presentation d'un batiment
                 if (table != "") {
 
                     document.getElementById('dialogue').innerHTML = table[0];
@@ -134,7 +140,7 @@ function ajaxRequest0(params)
                         document.getElementById('dialogue').innerHTML = quetes[0].presentations;
                     }
 
-
+                    // Affiche l'avatar + l'image de fond du batiment
                     document.getElementById('avatar').style.backgroundImage = "url('../image/" + quetes[0].skin + "')";
 
                     document.getElementById('dialogue_page').style.backgroundImage = "url('../image/" + quetes[0].background + "')";
