@@ -81,7 +81,7 @@ input {
 
 #perso {
     position: absolute;
-    background-image: url("../image/chevalier.png");
+    background-image: url("../image/chevaliere.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 70px;

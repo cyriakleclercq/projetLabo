@@ -326,7 +326,7 @@ document.getElementById('btn_labo').style.display = 'none';
 
     }
 
-// Redirection du personnage vers batiment :
+// Redirection du personnage vers batiment mairie  :
 
     function move_mairie() {
 
@@ -347,7 +347,7 @@ document.getElementById('btn_labo').style.display = 'none';
 
 
 
-
+// Redirection du personnage vers batiment l@bo  :
 
     function move_labo() {
 
@@ -367,6 +367,7 @@ document.getElementById('btn_labo').style.display = 'none';
 
 
 
+// Redirection du personnage vers batiment mediatheque  :
 
     function move_media() {
 
@@ -386,7 +387,7 @@ document.getElementById('btn_labo').style.display = 'none';
 
 
 
-
+// Redirection du personnage vers batiment ecomusee  :
 
     function move_ecomusee() {
 
@@ -406,7 +407,7 @@ document.getElementById('btn_labo').style.display = 'none';
 
 
 
-
+// Redirection du personnage vers batiment maison de l'europe  :
 
     function move_MDE() {
 
@@ -423,6 +424,9 @@ document.getElementById('btn_labo').style.display = 'none';
         $('#perso').addClass("mde_init");
 
 }
+
+
+// Redirection des batiments vers la map :
 
     $('#bouton_dialogue').click(function () {
 
