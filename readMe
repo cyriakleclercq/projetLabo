@@ -1,0 +1,53 @@
+						Jeu du l@bo
+
+Languages utilisés : HTML / CSS / JavaScript / PHP
+
+
+1ère partie : Explication
+
+Affichage d'un bouton 'Start', puis changement vers la sélection des différents scénarios.
+Une fois le scénario sélectionné, on est envoyé sur la page map.php avec la carte du jeu
+qui est affichée (background). Un résumé des quêtes ainsi que leur description est visible sur
+la droite de la carte. Pour visiter les bâtiments, il suffit de cliquer sur la porte de ce dernier.
+Une fois cliqué, le personnage se déplace et rentre dans celui-ci, ce qui nous présente un background
+représentant le dit bâtiment ainsi qu'un dialogue ou descriptif de celui-ci et un avatar.
+
+
+Le l@bo a une fonction en plus, un bouton est présent à l'intérieur de la map et permet d'afficher
+un résumé des différentes pièces ainsi que leurs fonctionnalités. Une fois que le scénario est fini,
+la page des crédits s'affiche et on a la possibilité de selectionner un nouveau scénario.
+On a tout de même la possibilité de visiter les bâtiments plusieurs fois tant que le joueur ne rentre pas dans
+les 3 bâtiments 'principaux'.
+
+
+
+2ème partie : Fonctionnement
+
+Index.html sert à afficher les scénarios suivis des différentes quêtes associées.
+On utilise le JSON pour récupérer les données stockées en BDD avec MySQL qui est un SGBD [BDD: Base De Données /SGBD: Système de Gestion de Base de Données]
+puis on les affiche dynamiquement avec AJAX.
+
+une fois un scénario sélectionné par le joueur, la page map s'affiche avec les quêtes associées au scénario. Le déplacement de l'avatar se fait
+au clic sur les différents batiments présents sur la map.
+
+une fois un batiment cliqué, l'avatar se déplace jusqu'a celui ci, au même moment la requête ajax se lance, ce qui permet de ne pas avoir de delai
+d'affichage au moment ou le personnage atteint sa destination et que le joueur "entre" dans le batiment.
+
+au moment du clic du joueur sur un batiment, un check est fait dans la fonction ajaxRequest pour vérifier que le batiment entre dans la trame
+du scénario. Si c'est le cas, un dialogue lié au scénario est affiché, dans le cas contraire une description du batiment apparait.
+
+Dans le cas ou un dialogue est affiché, un tableau dans la fonction ajaxRequest se rempli. un check est fait pour eviter les doublons dans
+ce tableau. une fois le nombre d'entrée du tableau égal au nombre de quêtes, la page des crédits s'affiche.
+
+le joueur aura la possiblité de relancer un scénario si il le souhaite.
+
+
+
+3ème partie : Modifications
+
+image et background -> dans bdd table image et dans le projet dossier image
+dialogues -> table dialogues
+presentations -> table presentations
+descriptions presentation pieces labo -> table pieces-labo
+
+dans la bdd, vous ne pourrez faire la recuperation en json si certains caracteres speciaux apparaissent (é,è,-,ê,à,ç,`,@, etc..)
