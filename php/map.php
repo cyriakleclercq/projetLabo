@@ -14,6 +14,7 @@
 
 <h1></h1>
 
+<div id="ko_co"></div>
 
                 <!--div 'second_page' contains the map and dialogues display-->
 <div id="second_page">
@@ -126,7 +127,7 @@
 <script src="../js/script.js"></script>
 <script src="../js/json0.js"></script>
 <script src="../js/interaction.js"></script>
-
+<span id="txt_koco"></span>
 
 
 </body>

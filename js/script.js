@@ -72,6 +72,27 @@ document.getElementById('bouton_dialogue').addEventListener('click', function ()
 });
 
 
+function secret(){
+    var kKeys = [];
+    function Kpress(e){
+        kKeys.push(e.keyCode);
+        if (kKeys.toString().indexOf("38,38,40,40,37,39,37,39,66,65") >= 0) {
+            jQuery(this).unbind('keydown', Kpress);
+            kExec();
+        }
+    }
+    jQuery(document).keydown(Kpress);
+}
+function kExec(){
+
+    document.getElementById('second_page').style.display ='none';
+    document.getElementById('ko_co').style.display = 'block';
+    document.body.style.backgroundColor = 'black';
+    document.getElementById('txt_koco').style.display = 'block';
+    document.getElementById('txt_koco').innerHTML = 'Bien numériquement';
 
 
+}
+
+secret();
 
