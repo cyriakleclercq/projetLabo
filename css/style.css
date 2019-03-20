@@ -228,3 +228,7 @@ input {
 #credits {
     display: none;
 }
+
+.nom_credit{
+    text-align: center;
+}
