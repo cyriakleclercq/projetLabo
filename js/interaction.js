@@ -1,3 +1,5 @@
+var source = document.getElementById('src_ko');
+var lecteur = document.getElementById('audio_ko');
 
 // 'For' mouvements perso
 
@@ -11,7 +13,7 @@ document.getElementById('btn_labo').style.display = 'none';
 
             ajaxRequest0({
                 'id_event' : i+1,
-                'id_story' : document.getElementById('id_story').innerHTML
+                'id_story' : document.getElementById('id_story').innerHTML,
             } );
 
             if (i == 0) {
@@ -258,6 +260,7 @@ document.getElementById('btn_labo').style.display = 'none';
 
                 }
 
+
             }
 
             //maison de l'europe
@@ -326,6 +329,16 @@ document.getElementById('btn_labo').style.display = 'none';
 
     }
 
+    table_musique = ['../audio/Komiku_-_06_-_School.mp3','../audio/Komiku_-_59_-_Together_we_are_stronger.mp3',];
+
+    function  play() {
+
+        lecteur.load();
+        lecteur.play();
+
+
+    }
+
 // Redirection du personnage vers batiment mairie  :
 
     function move_mairie() {
@@ -341,6 +354,10 @@ document.getElementById('btn_labo').style.display = 'none';
 
 
         $('#perso').addClass("mairie_init");
+
+        source.src = table_musique[1];
+        play();
+
 
 
     }
@@ -432,7 +449,9 @@ document.getElementById('btn_labo').style.display = 'none';
 
         $('#map_page').show();
         $('#dialogue_page').hide();
-    })
+        source.src = table_musique[0] ;
+        play();
+    });
 
 
 

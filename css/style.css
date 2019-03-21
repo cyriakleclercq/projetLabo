@@ -128,25 +128,25 @@ input {
     cursor: pointer;
 }
 
+#title_story1:hover{
+    background-color: ghostwhite;
+    color : darkgreen;
+    cursor: pointer;
+}
+
+#title_story2:hover{
+    background-color: ghostwhite;
+    color : darkgreen;
+    cursor: pointer;
+}
+
 #title_story3:hover{
     background-color: ghostwhite;
     color : darkgreen;
     cursor: pointer;
 }
 
-#title_story6:hover{
-    background-color: ghostwhite;
-    color : darkgreen;
-    cursor: pointer;
-}
-
-#title_story9:hover{
-    background-color: ghostwhite;
-    color : darkgreen;
-    cursor: pointer;
-}
-
-#title_story12:hover{
+#title_story4:hover{
     background-color: ghostwhite;
     color : darkgreen;
     cursor: pointer;

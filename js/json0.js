@@ -1,4 +1,6 @@
 var table2 = [];
+var source = document.getElementById('src_ko');
+var lecteur = document.getElementById('audio_ko');
 
 // Fonction permettant de voir si 1 batiment est visité
 function push(param) {
@@ -56,6 +58,10 @@ function ajaxRequest0(params)
             // condition qui permets d'afficher le resume du scenario a droite de la map
             if (params.affichage == 'quetes') {
 
+                source.src = '../audio/Komiku_-_06_-_School.mp3';
+                lecteur.load();
+                lecteur.play();
+
 
                 var summary = document.getElementById ('summary');
 
@@ -86,6 +92,8 @@ function ajaxRequest0(params)
 
               // condition qui affiche "l'interieur" d'un batiment
             } else {
+
+
 
                 var table = [];
 
@@ -160,6 +168,6 @@ function ajaxRequest0(params)
             'id_story' : document.getElementById('id_story').innerHTML,
             'id_event' : document.getElementById('id_event').innerHTML,
             'affichage' : 'quetes',
-
+            'musique_map' : '../audio/Loyalty_Freak_Music_-_03_-_IM_ON_FIRE.mp3',
 
         });

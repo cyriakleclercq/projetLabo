@@ -19,7 +19,7 @@
         <h5 id="title1_ko"></h5>
     </h4>
     <div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/I8Jb9DeQUU3Qs" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/black-and-white-dance-superheroes-I8Jb9DeQUU3Qs">via GIPHY</a></p>
-    <audio id="audio_ko" style="display: none">
+    <audio id="audio_ko" style="display: none" loop preload="metadata">
         <source id="src_ko" src="">
     </audio>
 </div>
