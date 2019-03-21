@@ -234,23 +234,22 @@ input {
 }
 
 #ko_co {
-    background-image: url("../image/link_koco.gif");
-    width: 94%;
-    height: 10000%;
-    left : 2% ;
+    width: 62%;
+    height: 100%;
+    left : 23% ;
     top : 1%;
     position: absolute;
     display: none;
-    background-repeat: inherit;
 }
 
-#txt_koco {
-    display: none;
-    height: 10%;
-    width: 100%;
-    bottom: -9952%;
-    position: absolute;
-    color : black;
-    font-size: 144px;
+
+#title0_ko {
+    color : white;
     text-align: center;
+}
+
+#title1_ko{
+    color: black;
+    text-align: center;
+    font-size: x-large
 }

@@ -84,13 +84,18 @@ function secret(){
     jQuery(document).keydown(Kpress);
 }
 function kExec(){
-
+    var audio_ko = document.getElementById('audio_ko');
+    var src_ko = document.getElementById('src_ko');
     document.getElementById('second_page').style.display ='none';
     document.getElementById('ko_co').style.display = 'block';
     document.body.style.backgroundColor = 'black';
-    document.getElementById('txt_koco').style.display = 'block';
-    document.getElementById('txt_koco').innerHTML = 'Bien numériquement';
-
+    src_ko.src = "../audio/Loyalty_Freak_Music_-_03_-_IM_ON_FIRE.mp3";
+    audio_ko.load();
+    audio_ko.play();
+    var title0_ko = document.getElementById('title0_ko');
+    var title1_ko = document.getElementById('title1_ko');
+    title0_ko.innerHTML = "Bien joué , Profite du bonus !";
+    title1_ko.innerHTML = "By G.D UpTo";
 
 }
 
