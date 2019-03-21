@@ -25,8 +25,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("perso_init");
                     $('#perso').addClass("dep_mairie");
 
-                    setTimeout(move_mairie, 2000);
-
                 }
 
                 //depart labo
@@ -35,9 +33,6 @@ document.getElementById('btn_labo').style.display = 'none';
 
                     $('#perso').removeClass("labo_init");
                     $('#perso').addClass("LToM");
-
-                    setTimeout(move_mairie, 10000);
-
 
                 }
 
@@ -48,8 +43,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("mediatheque_init");
                     $('#perso').addClass("METoM");
 
-                    setTimeout(move_mairie, 10000);
-
                 }
 
                 //depart ecomusee
@@ -59,8 +52,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("ecomusee_init");
                     $('#perso').addClass("EMToM");
 
-                    setTimeout(move_mairie, 10000);
-
                 }
 
                 //depart maison de l'europe
@@ -69,8 +60,6 @@ document.getElementById('btn_labo').style.display = 'none';
 
                     $('#perso').removeClass("mde_init");
                     $('#perso').addClass("MDEToM");
-
-                    setTimeout(move_mairie, 10000);
 
                 }
 
@@ -90,7 +79,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("perso_init");
                     $('#perso').addClass("dep_labo");
 
-                    setTimeout(move_labo, 10000);
                 }
 
                 //depart mairie
@@ -99,8 +87,6 @@ document.getElementById('btn_labo').style.display = 'none';
 
                     $('#perso').removeClass("mairie_init");
                     $('#perso').addClass("MToL");
-
-                    setTimeout(move_labo, 10000);
 
 
                 }
@@ -112,8 +98,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("mediatheque_init");
                     $('#perso').addClass("METoL");
 
-                    setTimeout(move_labo, 10000);
-
                 }
 
                 //depart ecomusee
@@ -122,8 +106,6 @@ document.getElementById('btn_labo').style.display = 'none';
 
                     $('#perso').removeClass("ecomusee_init");
                     $('#perso').addClass("EMToL");
-
-                    setTimeout(move_labo, 10000);
 
                 }
 
@@ -134,10 +116,7 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("mde_init");
                     $('#perso').addClass("MDEToL");
 
-                    setTimeout(move_labo, 10000);
-
                 }
-
             }
 
             //mediatheque
@@ -151,8 +130,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("perso_init");
                     $('#perso').addClass("dep_mediatheque");
 
-                    setTimeout(move_media, 10000);
-
                 }
 
                 //depart mairie
@@ -161,8 +138,6 @@ document.getElementById('btn_labo').style.display = 'none';
 
                     $('#perso').removeClass("mairie_init");
                     $('#perso').addClass("MToME");
-
-                    setTimeout(move_media, 10000);
 
                 }
 
@@ -173,8 +148,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("labo_init");
                     $('#perso').addClass("LToME");
 
-                    setTimeout(move_media, 10000);
-
                 }
 
                 //depart ecomusee
@@ -184,8 +157,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("ecomusee_init");
                     $('#perso').addClass("EMToME");
 
-                    setTimeout(move_media, 10000);
-
                 }
 
                 //depart maison de l'europe
@@ -194,8 +165,6 @@ document.getElementById('btn_labo').style.display = 'none';
 
                     $('#perso').removeClass("mde_init");
                     $('#perso').addClass("MDEToME");
-
-                    setTimeout(move_media, 10000);
 
                 }
 
@@ -212,8 +181,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $ ('#perso').removeClass ("perso_init");
                     $ ('#perso').addClass ("dep_Ecomusée");
 
-                    setTimeout (move_ecomusee, 10000);
-
                 }
 
                 //depart mairie
@@ -222,8 +189,6 @@ document.getElementById('btn_labo').style.display = 'none';
 
                     $('#perso').removeClass("mairie_init");
                     $('#perso').addClass("MToEM");
-
-                    setTimeout (move_ecomusee, 10000);
 
                 }
 
@@ -234,8 +199,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("labo_init");
                     $('#perso').addClass("LToEM");
 
-                    setTimeout (move_ecomusee, 10000);
-
                 }
 
                 //depart mediatheque
@@ -245,8 +208,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("mediatheque_init");
                     $('#perso').addClass("METoEM");
 
-                    setTimeout (move_ecomusee, 10000);
-
                 }
 
                 //depart maison de l'europe
@@ -255,8 +216,6 @@ document.getElementById('btn_labo').style.display = 'none';
 
                     $('#perso').removeClass("mde_init");
                     $('#perso').addClass("MDEToEM");
-
-                    setTimeout (move_ecomusee, 10000);
 
                 }
 
@@ -274,8 +233,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $ ('#perso').removeClass ("perso_init");
                     $ ('#perso').addClass ("dep_MDE");
 
-                    setTimeout (move_MDE, 10000);
-
                 }
 
                 //depart mairie
@@ -284,8 +241,6 @@ document.getElementById('btn_labo').style.display = 'none';
 
                     $('#perso').removeClass("mairie_init");
                     $('#perso').addClass("MToMDE");
-
-                    setTimeout (move_MDE, 10000);
 
                 }
 
@@ -296,8 +251,6 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("labo_init");
                     $('#perso').addClass("LToMDE");
 
-                    setTimeout (move_MDE, 10000);
-
                 }
 
                 //depart mediatheque
@@ -306,8 +259,6 @@ document.getElementById('btn_labo').style.display = 'none';
 
                     $('#perso').removeClass("mediatheque_init");
                     $('#perso').addClass("METoMDE");
-
-                    setTimeout (move_MDE, 10000);
 
                 }
 
@@ -318,11 +269,14 @@ document.getElementById('btn_labo').style.display = 'none';
                     $('#perso').removeClass("ecomusee_init");
                     $('#perso').addClass("EMToMDE");
 
-                    setTimeout (move_MDE, 10000);
-
                 }
 
+
             }
+
+            setTimeout( function () {
+                move(i)
+            }, 10000);
 
 
         })
@@ -339,106 +293,59 @@ document.getElementById('btn_labo').style.display = 'none';
 
     }
 
-// Redirection du personnage vers batiment mairie  :
+// Redirection du personnage vers batiment cliqué  :
 
-    function move_mairie() {
+function move(i) {
 
-        $('#map_page').hide();
-        $('#dialogue_page').show();
+    $('#map_page').hide();
+    $('#dialogue_page').show();
 
-        $('#perso').removeClass("LToM");
-        $('#perso').removeClass("METoM");
-        $('#perso').removeClass("EMToM");
-        $('#perso').removeClass("MDEToM");
-        $('#perso').removeClass("dep_mairie");
+    $('#perso').removeClass("LToM");
+    $('#perso').removeClass("METoM");
+    $('#perso').removeClass("EMToM");
+    $('#perso').removeClass("MDEToM");
+    $('#perso').removeClass("dep_mairie");
+    $('#perso').removeClass("dep_labo");
+    $('#perso').removeClass("dep_mediatheque");
+    $('#perso').removeClass("dep_Ecomusée")
+    $('#perso').removeClass("dep_MDE");
 
+// click on mairie
+    if (i == 0) {
 
         $('#perso').addClass("mairie_init");
-
         source.src = table_musique[1];
         play();
 
-
-
     }
 
-
-
-// Redirection du personnage vers batiment l@bo  :
-
-    function move_labo() {
-
-        $('#map_page').hide();
-        $('#dialogue_page').show();
-
-        $('#perso').removeClass("MToL");
-        $('#perso').removeClass("METoL");
-        $('#perso').removeClass("EMToL");
-        $('#perso').removeClass("MDEToL");
-        $('#perso').removeClass("dep_labo");
+    //click on labo
+    else  if (i == 1) {
 
         $('#perso').addClass("labo_init");
 
     }
 
-
-
-
-// Redirection du personnage vers batiment mediatheque  :
-
-    function move_media() {
-
-        $('#map_page').hide();
-        $('#dialogue_page').show();
-
-        $('#perso').removeClass("MToME");
-        $('#perso').removeClass("LToME");
-        $('#perso').removeClass("EMToME");
-        $('#perso').removeClass("MDEToME");
-        $('#perso').removeClass("dep_mediatheque");
-
+    //click on mediatheque
+    else  if (i == 2) {
 
         $('#perso').addClass("mediatheque_init");
 
     }
 
-
-
-// Redirection du personnage vers batiment ecomusee  :
-
-    function move_ecomusee() {
-
-        $('#map_page').hide();
-        $('#dialogue_page').show();
-
-        $('#perso').removeClass("MToEM");
-        $('#perso').removeClass("LToEM");
-        $('#perso').removeClass("METoEM");
-        $('#perso').removeClass("MDEToEM");
-        $('#perso').removeClass("dep_Ecomusée");
-
+    //click on ecomusee
+    else  if (i == 3) {
 
         $('#perso').addClass("ecomusee_init");
 
     }
 
-
-
-// Redirection du personnage vers batiment maison de l'europe  :
-
-    function move_MDE() {
-
-        $('#map_page').hide();
-        $('#dialogue_page').show();
-
-        $('#perso').removeClass("MToMDE");
-        $('#perso').removeClass("LToMDE");
-        $('#perso').removeClass("METoMDE");
-        $('#perso').removeClass("EMToMDE");
-        $('#perso').removeClass("dep_MDE");
-
+    //click on maison de l'europe
+    else  if (i == 4) {
 
         $('#perso').addClass("mde_init");
+
+    }
 
 }
 
