@@ -35,7 +35,7 @@ function ajaxRequest()
             title.id = 'title_story'+ i ;
             title.innerHTML = quetes[i].scenario;
 
-
+/*
                 // Liste pour afficher chaque quête composant un scenario
                 var ul = document.createElement('ul');
                 ul.id = 'ul'+i;
@@ -47,7 +47,7 @@ function ajaxRequest()
                     li.innerHTML= quetes[j].nom;
                     li.style.listStyle = 'none' ;
                 }
-
+*/
         }
 
 

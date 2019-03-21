@@ -66,7 +66,7 @@ else if(!empty($id_event))
 
 //execute request for display scenario on index.php
 else{
-    $R_sql = "SELECT `nom`,`scenario` FROM `quetes` as a ,`scenarios` as b WHERE a.id_scenario = b.id_scenario ORDER BY a.id_scenario ";
+    $R_sql = "SELECT `scenario` FROM `scenarios` as a  ORDER BY a.id_scenario ";
 }
 
 
