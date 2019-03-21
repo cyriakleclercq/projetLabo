@@ -122,6 +122,8 @@ function ajaxRequest0(params)
                         if (table2.length === 3) {
                             document.getElementById('second_page').style.display = "none";
                             document.getElementById('credits').style.display = "block";
+                            document.body.style.backgroundImage = "url('../image/Wall_end.jpg')";
+                            document.body.style.backgroundSize = 'cover';
                         }
 
                     })

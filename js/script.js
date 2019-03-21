@@ -101,3 +101,5 @@ function kExec(){
 
 secret();
 
+
+document.body.style.backgroundImage = "url('../image/Background_map.jpg')";

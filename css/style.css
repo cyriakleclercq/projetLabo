@@ -1,8 +1,8 @@
-
 body {
     padding: 0;
     margin: 0;
     background: beige;
+    background-size: cover;
 }
 
 h1 {
@@ -227,6 +227,7 @@ input {
 
 #credits {
     display: none;
+    font-size: x-large;
 }
 
 .nom_credit{

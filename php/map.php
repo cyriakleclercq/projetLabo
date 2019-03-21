@@ -114,9 +114,6 @@
 
     <h1>Crédits</h1>
 
-    <h2>Responsable:</h2>
-    <p class="nom_credit">Grevin Michael</p>
-
     <h2>Développeurs:</h2>
     <p class="nom_credit">Leclerc Cyriak</p>
     <p class="nom_credit">Dohen Geoffrey</p>
@@ -126,10 +123,13 @@
     <p class="nom_credit">Malcolm</p>
     <p class="nom_credit">Dylan</p>
 
-    <h2>Tilleset made by:</h2>
-    <p class="nom_credit">ArMM1998</p>
-    <p  class="nom_credit"> "[LPC] Colonial Buildings" by bluecarrot16</p>
+    <h2>Tileset by:</h2>
+    <p class="nom_credit"><a href="https://opengameart.org/users/armm1998">ArMM1998</a></p>
+    <p  class="nom_credit"><a href="https://opengameart.org/users/bluecarrot16">"[LPC] Colonial Buildings" by bluecarrot16</a></p>
 
+    <h2>Fond d'écrans :</h2>
+    <p class="nom_credit">Mur : Tony Diaz </p>
+    <p class="nom_credit">Johannes Plenio</p>
 </div>
 
 <script src="../js/script.js"></script>
