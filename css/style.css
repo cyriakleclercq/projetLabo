@@ -254,3 +254,8 @@ input {
     text-align: center;
     font-size: x-large
 }
+
+#btn_koco {
+    left: 45%;
+    position: relative;
+}

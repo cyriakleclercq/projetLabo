@@ -15,9 +15,11 @@
 <h1></h1>
 
 <div id="ko_co">
+
     <h4 id="title0_ko">
         <h5 id="title1_ko"></h5>
     </h4>
+    <button id="btn_koco" type="button">Précédent</button>
     <div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/I8Jb9DeQUU3Qs" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/black-and-white-dance-superheroes-I8Jb9DeQUU3Qs">via GIPHY</a></p>
     <audio id="audio_ko" style="display: none" loop preload="metadata">
         <source id="src_ko" src="">
@@ -128,8 +130,12 @@
     <p  class="nom_credit"><a href="https://opengameart.org/users/bluecarrot16">"[LPC] Colonial Buildings" by bluecarrot16</a></p>
 
     <h2>Fond d'écrans :</h2>
-    <p class="nom_credit">Mur : Tony Diaz </p>
-    <p class="nom_credit">Johannes Plenio</p>
+    <p class="nom_credit">Photo Mur : Tony Diaz </p>
+    <p class="nom_credit">Photo Forêt : Johannes Plenio</p>
+
+    <h2>Musique :</h2>
+    <p class="nom_credit"><a href="http://freemusicarchive.org/music/Komiku">Komiku</a></p>
+    <p class="nom_credit"><a href="http://freemusicarchive.org/music/Rolemusic/">RoleMusic</a></p>
 </div>
 
 <script src="../js/script.js"></script>
