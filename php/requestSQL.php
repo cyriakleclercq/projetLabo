@@ -59,7 +59,7 @@ if(!empty($id_story) && empty($id_event))
 //execute request for display avatar/dialogues/background/description on map.php
 else if(!empty($id_event))
 {
-    $R_sql = "SELECT * FROM `presentations` as a, `dialogues` as b, `images` as c, `pieces_labo` as d WHERE a.id_presentations = $id_event and b.id_scenario = $id_story and c.id_images = $id_event and d.id_piece_labo = b.id_select";
+    $R_sql = "SELECT * FROM `presentations` as a, `dialogues` as b, `images` as c, `pieces_labo` as d,`scenarios` as e WHERE a.id_presentations = $id_event and b.id_scenario = $id_story and c.id_images = $id_event and d.id_piece_labo = b.id_select and  e.id_scenario = b.id_scenario";
 
 }
 

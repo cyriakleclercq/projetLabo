@@ -29,10 +29,9 @@ function ajaxRequest0(params)
             document.getElementById('id_story').innerHTML = id_story;
             var id_story = id_story;
 
-
-
-
     }
+
+
 
     RequestURL+="?id_story="+id_story+"&id_event="+id_event;
 
@@ -116,13 +115,17 @@ function ajaxRequest0(params)
                     console.log(table2);
 
 
-                    // affichage de la page credits
+                    // affichage de la page felicitations
+
                     document.getElementById('bouton_dialogue').addEventListener("click", function () {
 
                         if (table2.length === 3) {
                             document.getElementById('second_page').style.display = "none";
-                            document.getElementById('credits').style.display = "block";
+                            document.getElementById('felicitations').style.display = "block";
+                            document.getElementById('quote').innerHTML = quetes[0].scenario;
+
                         }
+
 
                     })
 
@@ -168,6 +171,5 @@ function ajaxRequest0(params)
             'id_story' : document.getElementById('id_story').innerHTML,
             'id_event' : document.getElementById('id_event').innerHTML,
             'affichage' : 'quetes',
-            'musique_map' : '../audio/Loyalty_Freak_Music_-_03_-_IM_ON_FIRE.mp3',
 
         });
