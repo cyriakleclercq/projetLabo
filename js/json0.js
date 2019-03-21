@@ -124,6 +124,9 @@ function ajaxRequest0(params)
                             document.getElementById('felicitations').style.display = "block";
                             document.getElementById('quote').innerHTML = quetes[0].scenario;
 
+                            document.getElementById('credits').style.display = "block";
+                            document.body.style.backgroundImage = "url('../image/Wall_end.jpg')";
+                            document.body.style.backgroundSize = 'cover';
                         }
 
 

@@ -294,6 +294,7 @@ function move(i) {
 
     $('#map_page').hide();
     $('#dialogue_page').show();
+    document.body.style.background = 'black';
 
     $('#perso').removeClass("LToM");
     $('#perso').removeClass("METoM");
@@ -370,6 +371,7 @@ function move(i) {
         source.src = table_musique[5];
         lecteur.load();
         lecteur.play();
+        document.body.style.backgroundImage = "url('../image/Background_map.jpg')";
     });
 
 

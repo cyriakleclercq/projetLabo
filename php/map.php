@@ -15,9 +15,11 @@
 <h1></h1>
 
 <div id="ko_co">
+
     <h4 id="title0_ko">
         <h5 id="title1_ko"></h5>
     </h4>
+    <button id="btn_koco" type="button">Précédent</button>
     <div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/I8Jb9DeQUU3Qs" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/black-and-white-dance-superheroes-I8Jb9DeQUU3Qs">via GIPHY</a></p>
     <audio id="audio_ko" style="display: none" loop preload="metadata">
         <source id="src_ko" src="">
@@ -114,9 +116,6 @@
 
     <h1>Crédits</h1>
 
-    <h2>Responsable:</h2>
-    <p class="nom_credit">Grevin Michael</p>
-
     <h2>Développeurs:</h2>
     <p class="nom_credit">Leclerc Cyriak</p>
     <p class="nom_credit">Dohen Geoffrey</p>
@@ -126,10 +125,17 @@
     <p class="nom_credit">Malcolm</p>
     <p class="nom_credit">Dylan</p>
 
-    <h2>Tilleset made by:</h2>
-    <p class="nom_credit">ArMM1998</p>
-    <p  class="nom_credit"> "[LPC] Colonial Buildings" by bluecarrot16</p>
+    <h2>Tileset by:</h2>
+    <p class="nom_credit"><a href="https://opengameart.org/users/armm1998">ArMM1998</a></p>
+    <p  class="nom_credit"><a href="https://opengameart.org/users/bluecarrot16">"[LPC] Colonial Buildings" by bluecarrot16</a></p>
 
+    <h2>Fond d'écrans :</h2>
+    <p class="nom_credit">Photo Mur : Tony Diaz </p>
+    <p class="nom_credit">Photo Forêt : Johannes Plenio</p>
+
+    <h2>Musique :</h2>
+    <p class="nom_credit"><a href="http://freemusicarchive.org/music/Komiku">Komiku</a></p>
+    <p class="nom_credit"><a href="http://freemusicarchive.org/music/Rolemusic/">RoleMusic</a></p>
 </div>
 
 <script src="../js/script.js"></script>

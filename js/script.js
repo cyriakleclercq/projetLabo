@@ -95,9 +95,15 @@ function kExec(){
     var title0_ko = document.getElementById('title0_ko');
     var title1_ko = document.getElementById('title1_ko');
     title0_ko.innerHTML = "Bien joué , Profite du bonus !";
-    title1_ko.innerHTML = "By G.D UpTo";
+    title1_ko.innerHTML = "By Sakai";
+    document.body.style.background = 'black';
+    document.getElementById('btn_koco').addEventListener('click',function () {
+        document.location.href=  "../php/index.php";
+    })
 
 }
 
 secret();
 
+
+document.body.style.backgroundImage = "url('../image/Background_map.jpg')";
