@@ -1,5 +1,7 @@
 var source = document.getElementById('src_ko');
 var lecteur = document.getElementById('audio_ko');
+table_musique = ['../audio/mairie.mp3','../audio/labo.mp3','../audio/mediatheque.mp3','../audio/ecomusee.mp3','../audio/mde.mp3','../audio/map.mp3'];
+
 
 // 'For' mouvements perso
 
@@ -275,21 +277,14 @@ document.getElementById('btn_labo').style.display = 'none';
             }
 
             setTimeout( function () {
+                source.src = table_musique[i];
+                lecteur.load();
+                lecteur.play();
                 move(i)
-            }, 5000);
+            }, 6000);
 
 
         })
-
-    }
-
-    table_musique = ['../audio/Komiku_-_06_-_School.mp3','../audio/Komiku_-_59_-_Together_we_are_stronger.mp3',];
-
-    function  play() {
-
-        lecteur.load();
-        lecteur.play();
-
 
     }
 
@@ -327,8 +322,6 @@ function move(i) {
 
         $('#perso').removeClass("dep_mairie");
         $('#perso').addClass("mairie_init");
-        source.src = table_musique[1];
-        play();
 
     }
 
@@ -374,8 +367,9 @@ function move(i) {
 
         $('#map_page').show();
         $('#dialogue_page').hide();
-        source.src = table_musique[0] ;
-        play();
+        source.src = table_musique[5];
+        lecteur.load();
+        lecteur.play();
     });
 
 

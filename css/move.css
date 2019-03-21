@@ -61,35 +61,35 @@
 
 
 .dep_mairie{
-        animation-duration: 5s;
+        animation-duration: 6s;
         animation-name: movepersoM;
         animation-fill-mode: both;
     }
 
 
 .dep_labo{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoL;
     animation-fill-mode: both;
 }
 
 
 .dep_MDE{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoMDE;
     animation-fill-mode: both;
 }
 
 
 .dep_mediatheque{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoME;
     animation-fill-mode: both;
 }
 
 
 .dep_Ecomusée{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoEM;
     animation-fill-mode: both;
 }
@@ -278,7 +278,7 @@
 /* classe anim Ecomusée to Maison de l'europe*/
 
 .EMToMDE {
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoEtoMDE;
     animation-fill-mode: both;
 }
@@ -286,7 +286,7 @@
 /*classe anim Ecomusée to Mairie*/
 
 .EMToM {
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoEtoM;
     animation-fill-mode: both;
 }
@@ -294,7 +294,7 @@
 /*classe anim Ecomusée to Labo*/
 
 .EMToL {
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoEtoL;
     animation-fill-mode: both;
 }
@@ -304,7 +304,7 @@
 
 
 .EMToME {
-     animation-duration: 5s;
+     animation-duration: 6s;
      animation-name: movepersoEtoME;
      animation-fill-mode: both;
  }
@@ -501,7 +501,7 @@
     /*anim Maison de l'europe to Labo*/
 
 .MDEToL {
-        animation-duration: 5s;
+        animation-duration: 6s;
         animation-name: movepersoMDEtoL;
         animation-fill-mode: both;
     }
@@ -510,7 +510,7 @@
 
 
 .MDEToME {
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoMDEtoME;
     animation-fill-mode: both;
 }
@@ -518,7 +518,7 @@
 /*anim Maison de l'europe to Ecomusee*/
 
 .MDEToEM {
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoMDEtoEM;
     animation-fill-mode: both;
 }
@@ -526,7 +526,7 @@
 /*anim Maison de l'europe to Mairie*/
 
 .MDEToM{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoMDEtoM;
     animation-fill-mode: both;
 }
@@ -722,28 +722,28 @@
 
 /*class anim Labo to Mediatheque*/
 .LToME {
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoLtoME;
     animation-fill-mode: both;
 }
 
 /*class anim Labo to Maison de l'europe*/
 .LToMDE{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoLtoMDE;
     animation-fill-mode: both;
 }
 
 /*class anim Labo to Ecomusée*/
 .LToEM{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoLtoEM;
     animation-fill-mode: both;
 }
 
 /*class anim Labo to Mairie*/
 .LToM{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoLtoM;
     animation-fill-mode: both;
 }
@@ -916,28 +916,28 @@
 
 /*class anim Médiathèque to Labo*/
 .METoL{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoMEtoL;
     animation-fill-mode: both;
 }
 
 /*class anim Médiathèque to Mairie*/
 .METoM{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoMEtoM;
     animation-fill-mode: both;
 }
 
 /*class anim Médiathèque to Maison de l'europe*/
 .METoMDE{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoMEtoMDE;
     animation-fill-mode: both;
 }
 
 /*class anim Médiathèque to Ecomusée*/
 .METoEM{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoMEtoEM;
     animation-fill-mode: both;
 }
@@ -1121,28 +1121,28 @@
 
 /*anim Mairie to Eco-musée*/
 .MToEM{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoMtoEM;
     animation-fill-mode: both;
 }
 
 /*anim Mairie to Labo*/
 .MToL{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoMtoL;
     animation-fill-mode: both;
 }
 
 /*anim Mairie to Maison de l'europe*/
 .MToMDE{
-     animation-duration: 5s;
+     animation-duration: 6s;
      animation-name: movepersoMtoMDE;
      animation-fill-mode: both;
  }
 
 /*anim Mairie to Médiathèque*/
 .MToME{
-    animation-duration: 5s;
+    animation-duration: 6s;
     animation-name: movepersoMtoME;
     animation-fill-mode: both;
 }

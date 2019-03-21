@@ -58,7 +58,7 @@ function ajaxRequest0(params)
             // condition qui permets d'afficher le resume du scenario a droite de la map
             if (params.affichage == 'quetes') {
 
-                source.src = '../audio/Komiku_-_06_-_School.mp3';
+                source.src = '../audio/map.mp3';
                 lecteur.load();
                 lecteur.play();
 
