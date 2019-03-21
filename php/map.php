@@ -14,7 +14,15 @@
 
 <h1></h1>
 
-<div id="ko_co"></div>
+<div id="ko_co">
+    <h4 id="title0_ko">
+        <h5 id="title1_ko"></h5>
+    </h4>
+    <div style="width:100%;height:0;padding-bottom:80%;position:relative;"><iframe src="https://giphy.com/embed/I8Jb9DeQUU3Qs" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/black-and-white-dance-superheroes-I8Jb9DeQUU3Qs">via GIPHY</a></p>
+    <audio id="audio_ko" style="display: none">
+        <source id="src_ko" src="">
+    </audio>
+</div>
 
                 <!--div 'second_page' contains the map and dialogues display-->
 <div id="second_page">
@@ -127,8 +135,31 @@
 <script src="../js/script.js"></script>
 <script src="../js/json0.js"></script>
 <script src="../js/interaction.js"></script>
-<span id="txt_koco"></span>
+
 
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
