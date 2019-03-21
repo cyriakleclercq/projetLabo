@@ -138,6 +138,17 @@
     <p class="nom_credit"><a href="http://freemusicarchive.org/music/Rolemusic/">RoleMusic</a></p>
 </div>
 
+<div id="felicitations" style="display: none" class="first_page">
+
+    <h1> Bravo, vous venez de terminer le scénario "<span id="quote"></span>", toutes nos félicitations </h1>
+
+    <div>
+        <input type="button" id="bt" name="bt" value="suivant">
+
+    </div>
+
+</div>
+
 <script src="../js/script.js"></script>
 <script src="../js/json0.js"></script>
 <script src="../js/interaction.js"></script>

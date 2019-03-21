@@ -1,6 +1,8 @@
 var source = document.getElementById('src_ko');
 var lecteur = document.getElementById('audio_ko');
 table_musique = ['../audio/mairie.mp3','../audio/labo.mp3','../audio/mediatheque.mp3','../audio/ecomusee.mp3','../audio/mde.mp3','../audio/map.mp3'];
+document.getElementById('credits').style.display = "none";
+
 
 
 // 'For' mouvements perso
@@ -373,6 +375,12 @@ function move(i) {
         lecteur.play();
         document.body.style.backgroundImage = "url('../image/Background_map.jpg')";
     });
+
+$('#bt').click(function () {
+
+    $('#felicitations').hide();
+    $('#credits').show();
+});
 
 
 
