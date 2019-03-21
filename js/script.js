@@ -12,7 +12,7 @@ $('#btStart').click(function ()
 function scene () {
 
 
-        for (let i = 0; i < 15; i=i+3) {
+        for (let i = 0; i <= 4; i++) {
 
                 // Affiche en fonction de i le scenario selectionné
                 $ ("#title_story" + [i]).click (function () {
@@ -23,22 +23,22 @@ function scene () {
 
                         }
 
-                        if (i == 3) {
+                        if (i == 1) {
                                 document.location.href = '../php/map.php?id_story=2';
 
                         }
 
-                        if (i == 6) {
+                        if (i == 2) {
                                 document.location.href = '../php/map.php?id_story=3';
 
                         }
 
-                        if (i == 9) {
+                        if (i == 3) {
                                 document.location.href = '../php/map.php?id_story=4';
 
                         }
 
-                        if (i == 12) {
+                        if (i == 4) {
                                 document.location.href = '../php/map.php?id_story=5';
 
                         }
