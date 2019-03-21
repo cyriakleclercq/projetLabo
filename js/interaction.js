@@ -276,7 +276,7 @@ document.getElementById('btn_labo').style.display = 'none';
 
             setTimeout( function () {
                 move(i)
-            }, 10000);
+            }, 5000);
 
 
         })
@@ -304,15 +304,28 @@ function move(i) {
     $('#perso').removeClass("METoM");
     $('#perso').removeClass("EMToM");
     $('#perso').removeClass("MDEToM");
-    $('#perso').removeClass("dep_mairie");
-    $('#perso').removeClass("dep_labo");
-    $('#perso').removeClass("dep_mediatheque");
-    $('#perso').removeClass("dep_Ecomusée")
-    $('#perso').removeClass("dep_MDE");
+    $('#perso').removeClass("MToL");
+    $('#perso').removeClass("METoL");
+    $('#perso').removeClass("EMToL");
+    $('#perso').removeClass("MDEToL");
+    $('#perso').removeClass("MToME");
+    $('#perso').removeClass("LToME");
+    $('#perso').removeClass("EMToME");
+    $('#perso').removeClass("MDEToME");
+    $('#perso').removeClass("MToEM");
+    $('#perso').removeClass("LToEM");
+    $('#perso').removeClass("METoEM");
+    $('#perso').removeClass("MDEToEM");
+    $('#perso').removeClass("MToMDE");
+    $('#perso').removeClass("LToMDE");
+    $('#perso').removeClass("METoMDE");
+    $('#perso').removeClass("EMToMDE");
+
 
 // click on mairie
     if (i == 0) {
 
+        $('#perso').removeClass("dep_mairie");
         $('#perso').addClass("mairie_init");
         source.src = table_musique[1];
         play();
@@ -322,6 +335,7 @@ function move(i) {
     //click on labo
     else  if (i == 1) {
 
+        $('#perso').removeClass("dep_labo");
         $('#perso').addClass("labo_init");
 
     }
@@ -329,6 +343,8 @@ function move(i) {
     //click on mediatheque
     else  if (i == 2) {
 
+
+        $('#perso').removeClass("dep_mediatheque");
         $('#perso').addClass("mediatheque_init");
 
     }
@@ -336,6 +352,7 @@ function move(i) {
     //click on ecomusee
     else  if (i == 3) {
 
+           $('#perso').removeClass("dep_Ecomusée");
         $('#perso').addClass("ecomusee_init");
 
     }
@@ -343,6 +360,7 @@ function move(i) {
     //click on maison de l'europe
     else  if (i == 4) {
 
+               $('#perso').removeClass("dep_MDE");
         $('#perso').addClass("mde_init");
 
     }
