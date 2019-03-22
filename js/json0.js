@@ -123,8 +123,7 @@ function ajaxRequest0(params)
                             document.getElementById('second_page').style.display = "none";
                             document.getElementById('felicitations').style.display = "block";
                             document.getElementById('quote').innerHTML = quetes[0].scenario;
-                            document.body.style.backgroundImage = "url('../image/Wall_end.jpg')";
-                            document.body.style.backgroundSize = 'cover';
+                            document.body.style.background = "beige";
                         }
 
 

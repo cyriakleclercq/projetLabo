@@ -260,3 +260,20 @@ input {
     left: 45%;
     position: relative;
 }
+
+#game{
+    display: none;
+}
+
+.title_game {
+    font-size: 33px;
+    padding: 11%;
+    list-style: none;
+    color: white;
+}
+
+.title_game:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}

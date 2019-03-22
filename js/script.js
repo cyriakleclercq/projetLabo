@@ -38,10 +38,10 @@ function scene () {
 
                         }
 
-                        if (i == 4) {
-                                document.location.href = '../php/map.php?id_story=5';
+                     //   if (i == 4) {
+                     //           document.location.href = '../php/map.php?id_story=5';
 
-                        }
+                     //   }
                 })
         }
 }

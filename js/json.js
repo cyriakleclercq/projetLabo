@@ -27,6 +27,7 @@ function ajaxRequest()
             var scenario_resume = document.createElement('div');
             title_story.appendChild(scenario_resume);
             scenario_resume.className = 'scenario_sum';
+            scenario_resume.id = 'scenario_id' + i;
 
 
             // Div pour afficher chaque titre de scenario
@@ -39,6 +40,7 @@ function ajaxRequest()
 
 
         scene();
+        display_game();
 
     };
 

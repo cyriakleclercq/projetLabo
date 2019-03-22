@@ -29,12 +29,18 @@
 
         </div>
 
-        <div id="quest" class="macro"> </div>
+        <div id="quest" class="macro"></div>
+        <div id="game" class="macro">
+            <p id="game1" class="title_game"></p>
+            <p id="game2" class="title_game"></p>
+            <p id="game3" class="title_game"></p>
+        </div>
 
     </div>
 
 <script src="../js/script.js"></script>
 <script src="../js/json.js"></script>
+<script src="../js/game.js"></script>
 
 
 </body>
