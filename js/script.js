@@ -6,6 +6,9 @@ $('#btStart').click(function ()
 
         $('#quest').show();
         $('#start').hide();
+        $('#logos').hide();
+
+
 
 });
 // Fonction qui gere le scenario

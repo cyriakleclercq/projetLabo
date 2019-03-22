@@ -13,9 +13,10 @@
 
 /*div utiliser dans les batiments pour dialogue */
 #dialogue{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     position: absolute;
+    font-size: 18px;
     width: 48%;
     height: 13%;
     top: 67%;
@@ -204,37 +205,37 @@
 /*mouvement médiatheque*/
 @keyframes movepersoME {
     0% {
-        left: 63%;
+        left: 62%;
         top: 30%;
     }
 
     15%{
-        left: 85%;
+        left: 84%;
         top: 30%;
     }
 
     30%{
-        left: 85%;
+        left: 84%;
         top: 76%;
     }
 
     45%{
-        left: 89.6%;
+        left: 88.6%;
         top: 76%;
     }
 
     60%{
-        left: 89.6%;
+        left: 88.6%;
         top: 90%;
     }
 
     75%{
-        left: 78%;
+        left: 77%;
         top: 90%;
     }
 
     100%{
-        left: 78%;
+        left: 77%;
         top: 85%;
     }
 }
@@ -976,40 +977,40 @@
 /*anim Médiathèque to Mairie*/
 @keyframes movepersoMEtoM {
     0% {
-        left: 78%;
+        left: 77%;
         top: 85%
     }
 
     15% {
-        left: 78%;
+        left: 77%;
         top: 90%
     }
 
     30% {
-        left: 89.5%;
+        left: 88.5%;
         top: 90%
     }
 
     45% {
-        left: 89.5%;
+        left: 88.5%;
         top: 77%
     }
 
     60% {
-        left: 85%;
+        left: 84%;
         top: 77%
     }
 
     75% {
-        left: 85%;
+        left: 84%;
         top: 31%
     }
     90% {
-        left: 63%;
+        left: 62%;
         top: 31%
     }
     100% {
-        left: 63%;
+        left: 62%;
         top: 25%
     }
 }
@@ -1151,34 +1152,34 @@
 /*anim Mairie to Eco-musée*/
 @keyframes movepersoMtoEM {
     0% {
-        left: 63%;
+        left: 62%;
         top: 25%
 
     }
 
     20% {
-        left: 63%;
+        left: 62%;
         top: 30%
 
     }
 
     40% {
-        left: 41.5%;
+        left: 40.5%;
         top: 30%
     }
 
     60% {
-        left: 41.5%;
+        left: 40.5%;
         top: 48.5%
     }
 
     80% {
-        left: 20.5%;
+        left: 19.5%;
         top: 48.5%
     }
 
     100% {
-        left: 20.5%;
+        left: 19.5%;
         top: 42%
     }
 }
@@ -1297,32 +1298,32 @@
     }
 
     30% {
-        left: 85%;
+        left: 84%;
         top: 30%
     }
 
     45% {
-        left: 85%;
+        left: 84%;
         top: 76.5%
     }
 
     60% {
-        left: 89.5%;
+        left: 88.5%;
         top: 76.5%
     }
 
     75% {
-        left: 89.5%;
+        left: 88.5%;
         top: 90.5%
     }
 
     90% {
-        left: 78%;
+        left: 77%;
         top: 90.5%
     }
 
     100% {
-        left: 78%;
+        left: 77%;
         top: 85%
     }
 }

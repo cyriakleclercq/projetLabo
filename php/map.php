@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title> Map </title>
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     <script src="../js/jquery.js"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/move.css">
@@ -144,9 +145,13 @@
 
 <div id="felicitations" style="display: none" class="first_page">
 
-    <h1> Bravo, vous venez de terminer le scénario "<span id="quote"></span>", toutes nos félicitations </h1>
+    <h1 id="titre_fin"> Bravo, vous venez de terminer le scénario </h1>
 
-    <div>
+    <h1> <span id="quote"></span> </h1>
+
+    <h1> Toutes nos félicitations ! </h1>
+
+    <div id="bouton_felicitation">
 
         <input type="button" id="bt" name="bt" value="suivant">
 

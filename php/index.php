@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title> page d'accueil </title>
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
     <script src="../js/jquery.js"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/move.css">
@@ -14,7 +15,7 @@
 
 <body>
 
-<h1>   </h1>
+<h1> Adventure L@b  </h1>
 
                 <!-- Screen where player start and select scenario -->
     <div class="first_page">
@@ -23,9 +24,18 @@
 
             <div>
 
-                    <input type="submit" name="btStart" id="btStart" value="START">
+                <div id="btStart"> Partez pour l'aventure </div>
 
             </div>
+
+
+        </div>
+
+        <div id="logos">
+
+            <img class="logo" src="../image/ville_de_fourmies_logo.png" alt="logo ville fourmies">
+
+            <img src="../image/Logo2.png" alt="logo l@bo" height="200">
 
         </div>
 

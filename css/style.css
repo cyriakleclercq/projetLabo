@@ -3,12 +3,16 @@ body {
     margin: 0;
     background: beige;
     background-size: cover;
+    font-family: 'Acme', sans-serif;
+    font-size: 12px;
 }
 
 h1 {
     text-align: center;
-    color: blueviolet;
-    padding-top: 2%;
+    color: darkblue;
+    margin-right: 30%;
+    margin-left: 30%;
+    font-size: 60px;
 }
 
 h2 {
@@ -23,8 +27,8 @@ li {
 input {
     border-radius: 15px;
     padding: 5px 5px 5px 5px;
-    margin-top: 3%;
     position: absolute;
+
 }
 
 #start {
@@ -36,6 +40,7 @@ input {
 #quest {
     margin-top: 150px;
     height: 500px;
+    font-size: 19px;
     color: ghostwhite;
 
 }
@@ -214,10 +219,19 @@ input {
 }
 
 #btStart {
-    border-radius: 15px;
-    padding: 5px 5px 5px 5px;
-    margin-top: -1%;
-    position: absolute;
+
+    border: solid;
+    border-radius: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+#btStart:hover {
+    cursor:pointer;
 }
 
 #bouton_dialogue {
@@ -276,4 +290,40 @@ input {
     background-color: white;
     color:black;
     cursor: pointer;
+}
+
+#logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+        width: 40%;
+}
+
+#titre_fin {
+    font-size: 42px;
+}
+
+#quote {
+    color: darkgreen;
+}
+
+#bouton_felicitation {
+    position: relative;
+    text-align: center;
+}
+
+#bt {
+    position: relative;
+}
+
+#bt_credits {
+    position: relative;
 }
