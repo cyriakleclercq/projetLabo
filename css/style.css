@@ -228,6 +228,7 @@ input {
 #credits {
     display: none;
     font-size: x-large;
+    text-align: center;
 }
 
 .nom_credit{

@@ -382,6 +382,12 @@ $('#bt').click(function () {
     $('#credits').show();
 });
 
+$('#bt_credits').click(function () {
+
+    document.location.href = '../php/index.php';
+
+});
+
 
 
 
