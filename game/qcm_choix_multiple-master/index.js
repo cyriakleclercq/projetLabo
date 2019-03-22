@@ -1,10 +1,10 @@
-var quizz=[{question:"Qui désigne le prénom 'Zelda' dans le jeu du même nom ?" ,value:"La reine",rep1:"Le personnage Principal",rep2:"La reine"},
+var quizz=[{question:"Qui désigne le prénom 'Zelda' dans le jeu du même nom ?" ,value:"La princesse",rep1:"Le personnage Principal",rep2:"La princesse"},
 
 
     {question:"Quelle est la couleur du cheval Blanc D'Henri IV",value:"Noir",rep1:"Blanc",rep2:"Noir"},
 
 
-    {question:"Qui est le père de la musique électronique ?",value:"Jean-michel Jarr",rep1:"Jean-michel Jarre",rep2:"David Guetta"},
+    {question:"Qui est le père de la musique électronique ?",value:"Jean-michel Jarre",rep1:"Jean-michel Jarre",rep2:"David Guetta"},
 
 
     {question:"Qui a gagné la coupe du monde de foot en 2018 ?",value:"la France",rep1:"La belgique",rep2:"La France"},
@@ -16,13 +16,13 @@ var quizz=[{question:"Qui désigne le prénom 'Zelda' dans le jeu du même nom ?
     {question:"Quel logiciel utilise-t-on pour débuter la modélisation 3D ?",value:"Tinkercad",rep1:"Fusion 360",rep2:"Tinkercad"},
 
 
-    {question:"Qu'est-ce que l'open source ?",value:"Une ressource libre d'accès et de droits(image,musique,video,etc...)",rep1:"une eau minérale ouverte à tous",rep2:"Une ressource libre d'accès et de droits(image,musique,video,etc...)"},
+    {question:"Qu'est-ce qu'un logiciel open source ?",value:"Un logiciel libre d'accès et de droits, gratuit",rep1:"une eau minérale ouverte à tous",rep2:"Un logiciel libre d'accès et de droits, gratuit"},
 
 
     {question:"Il est bénéfique au labo de...",value:"Réaliser et partager des projets en commun",rep1:"Réaliser des projets seuls et sans les partager",rep2:"Réaliser et partager des projets en commun"},
 
 
-    {question:"Au labo, nous pouvons ...",value:"Matérialiser des idées et créer des prototypes",rep1:"Matérialiser des idées et créer des prototypes",rep2:"Créer et matérialiser des projets seul sans partage"},
+    {question:"Au labo, nous pouvons ...",value:"Matérialiser des idées et créer des prototypes",rep1:"Matérialiser des idées et créer des prototypes",rep2:"Prendre la salle de co-working pour une salle de jeux"},
 
 
     {question:"Si je propose du thé à quelqu'un et qu'il est hésitant :",value:"Je ne lui sers pas de thé",rep1:"Je lui sers quand même le thé",rep2:"Je ne lui sers pas de thé"}];
