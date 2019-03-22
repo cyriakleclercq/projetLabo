@@ -1,0 +1,60 @@
+
+body {
+
+    color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    background-image: url("image_fond_uni_gris.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+
+}
+#section {
+    border: solid;
+    border-radius: 30px;
+}
+
+#reponse_a {
+    border: solid;
+    border-radius: 30px;
+}
+
+#reponse_b {
+    border: solid;
+    border-radius: 30px;
+
+}
+
+#replay {
+    text-align: center;
+    width: 5%;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+#breponse {
+    color: greenyellow;
+}
+
+dd {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+ee {
+    color: red;
+}
+
+ff {
+    color: aqua;
+}
+
+gg {
+    color: #DAECFF;
+}
+
+
+

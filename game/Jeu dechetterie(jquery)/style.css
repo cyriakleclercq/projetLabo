@@ -1,0 +1,78 @@
+body {
+    margin : 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #7AAC73;
+    color : white;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 200px;
+}
+
+
+#dechet {
+    margin-top: 300px;
+    margin-left: 460px;
+    border: outset 3px black;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#game {
+    width : 70%;
+    height: 100%;
+    float : left;
+    background-image: linear-gradient(to right top, #024f1d, #32743b, #5a9b5c, #82c47e, #aceea2);
+
+}
+
+#resultat {
+    width: 30%;
+    height: 100%;
+    float: right;
+    background-image: linear-gradient(to left top, #024f1d, #32743b, #5a9b5c, #82c47e, #aceea2);
+
+
+}
+
+#mauvais, #bon {
+    text-align: center;
+    font-size:  larger;
+    margin-top: 100px;
+}
+
+#false {
+    font-size: x-large;
+    color: red;
+    text-align: center;
+}
+
+#true {
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+
+

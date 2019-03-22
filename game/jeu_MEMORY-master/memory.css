@@ -1,0 +1,114 @@
+
+
+body {
+    background: #1c7430;
+    width: auto;
+    color: #0DFF5F;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+header {
+    background: #E8B60C ;
+}
+
+#titre {
+    font-weight: bold;
+    color: #B00CE8;
+
+}
+
+#time {
+    font-size: 2vw;
+}
+
+#replay {
+    width: 6vw !important;
+}
+
+#section1G {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#section1G2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#section1D {
+    border: solid #FF0000;
+    border-radius:  3vw;
+}
+
+#choix_joueur {
+    display: flex;
+    justify-content: center;
+}
+
+#section_timer {
+    border: solid #FF0000;
+    border-radius: 3vw;
+}
+
+#victoire {
+    font-size:  3vw;
+    font-weight: bold;
+}
+
+section img {
+    width: 8%;
+    height: 90%;
+}
+
+#aa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:  3vw;
+}
+
+#resu {
+    font-size: 2.125vw;
+}
+
+#replay {
+    width: 5%;
+}
+
+#div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    #bb img {
+        width: 18%;
+    }
+}
+
+
+@media (max-device-width: 800px) and (orientation: landscape) {
+    html {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+
+        }
+    #bb img {
+        width: 12%;
+    }
+}
+
+
