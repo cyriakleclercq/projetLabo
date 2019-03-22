@@ -13,19 +13,19 @@ var quizz=[{question:"Qui désigne le prénom 'Zelda' dans le jeu du même nom ?
     {question:"Quel mode de jeux vidéos est en plein essort depuis un moment ?",value:"Battle Royale",rep1:"MOBA",rep2:"Battle Royale"},
 
 
-    {question:"",value:"",rep1:"",rep2:""},
+    {question:"Quel logiciel utilise-t-on pour débuter la modélisation 3D ?",value:"Tinkercad",rep1:"Fusion 360",rep2:"Tinkercad"},
 
 
-    {question:"",value:"",rep1:"",rep2:""},
+    {question:"Qu'est-ce que l'open source ?",value:"Une ressource libre d'accès et de droits(image,musique,video,etc...)",rep1:"une eau minérale ouverte à tous",rep2:"Une ressource libre d'accès et de droits(image,musique,video,etc...)"},
 
 
-    {question:"",value:"",rep1:"",rep2:""},
+    {question:"Il est bénéfique au labo de...",value:"Réaliser et partager des projets en commun",rep1:"Réaliser des projets seuls et sans les partager",rep2:"Réaliser et partager des projets en commun"},
 
 
-    {question:"",value:"",rep1:"",rep2:""},
+    {question:"Au labo, nous pouvons ...",value:"Matérialiser des idées et créer des prototypes",rep1:"Matérialiser des idées et créer des prototypes",rep2:"Créer et matérialiser des projets seul sans partage"},
 
 
-    {question:"",value:"",rep1:"",rep2:""}];
+    {question:"Si je propose du thé à quelqu'un et qu'il est hésitant :",value:"Je ne lui sers pas de thé",rep1:"Je lui sers quand même le thé",rep2:"Je ne lui sers pas de thé"}];
 
 
 
@@ -106,6 +106,11 @@ for (let s=1;s<=2;s++){
     }
 
     )}
+
+document.getElementById('btn_quit').addEventListener('click',function () {
+    document.location.href= '../../php/index.php' ;
+});
+
 
     $("#replay").click(function () {
 
