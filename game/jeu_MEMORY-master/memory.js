@@ -225,5 +225,9 @@ function rejouer(){
 
 }
 
+document.getElementById('btn_quit').addEventListener('click',function () {
+    document.location.href= '../../php/index.php' ;
+});
+
 
 
